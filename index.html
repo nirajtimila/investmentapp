@@ -512,8 +512,8 @@
 
         .comparison-list {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 20px;
+            grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+            gap: 16px;
         }
 
         .comparison-item {
@@ -1405,8 +1405,8 @@
             // Sort all rates descending
             alternatives.sort((a, b) => b.rate_percentage - a.rate_percentage);
 
-            // Get top 3 highest alternative options
-            const topAlternatives = alternatives.slice(0, 3);
+            // Get top 5 highest alternative options
+            const topAlternatives = alternatives.slice(0, 5);
 
             // Calculate current projected total interest
             const t = (termUnit === 'years') ? currentTerm : (currentTerm / 12);
