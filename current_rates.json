@@ -135,16 +135,6 @@
         "rate_percentage": 1.5
     },
     {
-        "bank": "Greater Bank Limited",
-        "product": "Bonus Saver",
-        "rate_percentage": 4.0
-    },
-    {
-        "bank": "Greater Bank Limited",
-        "product": "Life Saver",
-        "rate_percentage": 5.25
-    },
-    {
         "bank": "Judo Bank",
         "product": "Personal Savings Account",
         "rate_percentage": 5.35
