@@ -483,6 +483,12 @@
             position: relative;
         }
 
+        .chart-box canvas {
+            display: block;
+            width: 100% !important;
+            height: 100% !important;
+        }
+
         /* Comparison Panel Styling */
         .comparison-panel {
             grid-column: 1 / -1;
@@ -631,7 +637,7 @@
             }
         }
 
-        /* Responsive comparison grid collapse to row list */
+        /* Responsive comparison grid collapse to row list on tablets */
         @media (max-width: 768px) {
             .comparison-list {
                 grid-template-columns: 1fr;
@@ -643,6 +649,7 @@
                 align-items: center;
                 text-align: left;
                 padding: 14px 18px;
+                min-width: 0;
             }
             .comparison-item:hover {
                 transform: none;
@@ -650,6 +657,21 @@
             .comparison-info {
                 align-items: flex-start;
                 margin-bottom: 0;
+                min-width: 0;
+                flex: 1;
+                margin-right: 16px;
+            }
+            .comparison-bank {
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                width: 100%;
+            }
+            .comparison-product {
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                width: 100%;
             }
             .comparison-yield {
                 flex-direction: row;
@@ -657,6 +679,8 @@
                 margin-bottom: 0;
                 width: auto;
                 gap: 12px;
+                flex-shrink: 0;
+                margin-right: 16px;
             }
             .comparison-rate {
                 font-size: 18px;
@@ -665,6 +689,104 @@
             .btn-apply {
                 width: auto;
                 padding: 6px 12px;
+                flex-shrink: 0;
+            }
+        }
+
+        /* Responsive grid cards for comparison items on mobile */
+        @media (max-width: 550px) {
+            .comparison-item {
+                display: grid;
+                grid-template-columns: 1fr auto;
+                gap: 12px;
+                align-items: center;
+                text-align: left;
+                padding: 16px;
+            }
+            .comparison-info {
+                grid-column: 1;
+                align-items: flex-start;
+                margin-bottom: 0;
+                min-width: 0;
+                width: 100%;
+            }
+            .comparison-bank {
+                font-size: 14px;
+                white-space: normal;
+                word-break: break-word;
+                overflow: visible;
+                text-overflow: clip;
+            }
+            .comparison-product {
+                font-size: 11px;
+                white-space: normal;
+                word-break: break-word;
+                overflow: visible;
+                text-overflow: clip;
+            }
+            .comparison-yield {
+                grid-column: 2;
+                flex-direction: column;
+                align-items: flex-end;
+                text-align: right;
+                margin-bottom: 0;
+                width: auto;
+                gap: 4px;
+                flex-shrink: 0;
+            }
+            .comparison-rate {
+                font-size: 18px;
+                margin-bottom: 0;
+            }
+            .gain-badge {
+                font-size: 9px;
+                padding: 2px 6px;
+            }
+            .btn-apply {
+                grid-column: 1 / span 2;
+                width: 100%;
+                margin-top: 8px;
+                padding: 10px;
+                font-size: 12px;
+                text-align: center;
+            }
+        }
+
+        /* Smaller mobile displays optimized layout */
+        @media (max-width: 480px) {
+            body {
+                padding: 12px 8px;
+            }
+            .calculator-widget {
+                padding: 24px 14px;
+                gap: 24px;
+            }
+            .results-container {
+                padding: 20px 12px;
+            }
+            .widget-header h1 {
+                font-size: 22px;
+            }
+            .widget-header p {
+                font-size: 13px;
+            }
+            .metrics-grid {
+                grid-template-columns: 1fr;
+                gap: 10px;
+                margin-bottom: 20px;
+            }
+            .metric-card {
+                padding: 10px 12px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                text-align: left;
+            }
+            .metric-card .title {
+                margin-bottom: 0;
+            }
+            .metric-card .value {
+                font-size: 16px;
             }
         }
     </style>
