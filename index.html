@@ -1,0 +1,1399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YieldWise - Premium Interest & Wealth Calculator</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <style>
+        :root {
+            --bg-dark: #070a13;
+            --card-bg: rgba(15, 23, 42, 0.45);
+            --card-border: rgba(255, 255, 255, 0.08);
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --primary-glow: rgba(6, 182, 212, 0.15);
+            
+            /* Harmonic color palette */
+            --color-principal: #06b6d4; /* Cyan */
+            --color-interest: #10b981;  /* Emerald */
+            --color-accent: #8b5cf6;    /* Violet */
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            color: var(--text-primary);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
+            overflow-x: hidden;
+            position: relative;
+            padding: 40px 20px;
+        }
+
+        /* Ambient Animated Background Blobs */
+        .bg-blobs {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        .blob {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(120px);
+            opacity: 0.25;
+            animation: float 20s infinite ease-in-out;
+        }
+
+        .blob-1 {
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, var(--color-principal) 0%, transparent 70%);
+            top: -10%;
+            left: -10%;
+            animation-duration: 25s;
+        }
+
+        .blob-2 {
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, var(--color-interest) 0%, transparent 70%);
+            bottom: -15%;
+            right: -10%;
+            animation-duration: 30s;
+        }
+
+        .blob-3 {
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, var(--color-accent) 0%, transparent 70%);
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            animation-duration: 22s;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translate(0, 0) scale(1);
+            }
+            33% {
+                transform: translate(30px, -50px) scale(1.1);
+            }
+            66% {
+                transform: translate(-20px, 40px) scale(0.95);
+            }
+        }
+
+        /* Calculator Outer Wrapper with Glow Border */
+        .calculator-wrapper {
+            position: relative;
+            width: 100%;
+            max-width: 1024px;
+            border-radius: 28px;
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.02));
+            padding: 1px;
+            box-shadow: 0 30px 60px -15px rgba(0, 0, 0, 0.6), 
+                        0 0 50px -10px var(--primary-glow);
+            margin: 20px 0;
+        }
+
+        /* Frosted Glass Container */
+        .calculator-widget {
+            background: var(--card-bg);
+            backdrop-filter: blur(24px) saturate(180%);
+            -webkit-backdrop-filter: blur(24px) saturate(180%);
+            border-radius: 27px;
+            padding: 44px 40px;
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1.2fr 1fr;
+            gap: 40px;
+        }
+
+        .widget-header {
+            grid-column: 1 / -1;
+            text-align: center;
+            margin-bottom: 12px;
+        }
+
+        .widget-header h1 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 32px;
+            font-weight: 800;
+            background: linear-gradient(to right, #00f2fe, #4facfe, #10b981);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: -0.5px;
+            margin-bottom: 6px;
+        }
+
+        .widget-header p {
+            font-size: 15px;
+            color: var(--text-secondary);
+            font-weight: 400;
+        }
+
+        .settings-column {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .results-column {
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Input Controls Setup */
+        .input-group {
+            margin-bottom: 24px;
+            position: relative;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .input-group.collapsed {
+            max-height: 0;
+            margin-bottom: 0;
+            opacity: 0;
+            overflow: hidden;
+            pointer-events: none;
+        }
+
+        .input-group.expanded {
+            max-height: 100px;
+            margin-bottom: 24px;
+            opacity: 1;
+        }
+
+        .label-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+
+        label {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+        }
+
+        .badge {
+            background: rgba(6, 182, 212, 0.15);
+            color: var(--color-principal);
+            border: 1px solid rgba(6, 182, 212, 0.3);
+            font-size: 11px;
+            padding: 2px 8px;
+            border-radius: 20px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .badge.manual {
+            background: rgba(139, 92, 246, 0.15);
+            color: #a78bfa;
+            border-color: rgba(139, 92, 246, 0.3);
+        }
+
+        /* Styled Dropdown */
+        select {
+            width: 100%;
+            padding: 14px 16px;
+            border: 1px solid var(--card-border);
+            border-radius: 12px;
+            font-size: 15px;
+            color: var(--text-primary);
+            background-color: rgba(15, 23, 42, 0.6);
+            appearance: none;
+            -webkit-appearance: none;
+            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="%2394a3b8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>');
+            background-repeat: no-repeat;
+            background-position: right 16px center;
+            cursor: pointer;
+            outline: none;
+            transition: all 0.3s ease;
+        }
+
+        select:hover {
+            border-color: rgba(255, 255, 255, 0.2);
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.05);
+        }
+
+        select:focus {
+            border-color: var(--color-principal);
+            box-shadow: 0 0 15px rgba(6, 182, 212, 0.2);
+        }
+
+        /* Input Controls with Slider Sync */
+        .numeric-display {
+            display: flex;
+            align-items: center;
+            background: rgba(15, 23, 42, 0.65);
+            border: 1px solid var(--card-border);
+            border-radius: 12px;
+            padding: 12px 16px;
+            transition: all 0.3s ease;
+        }
+
+        .numeric-display:focus-within {
+            border-color: var(--color-principal);
+            box-shadow: 0 0 15px rgba(6, 182, 212, 0.2);
+        }
+
+        .prefix, .suffix {
+            color: var(--text-secondary);
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        .prefix { margin-right: 8px; }
+        .suffix { margin-left: 8px; }
+
+        .numeric-display input[type="number"] {
+            border: none;
+            background: transparent;
+            color: var(--text-primary);
+            font-size: 18px;
+            font-weight: 700;
+            width: 100%;
+            outline: none;
+            font-family: 'Outfit', sans-serif;
+        }
+
+        /* Remove spin buttons */
+        .numeric-display input[type="number"]::-webkit-outer-spin-button,
+        .numeric-display input[type="number"]::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        /* Range Slider Styling */
+        .slider-wrapper {
+            margin-top: 10px;
+        }
+
+        input[type="range"] {
+            -webkit-appearance: none;
+            width: 100%;
+            height: 6px;
+            border-radius: 3px;
+            background: rgba(255, 255, 255, 0.1);
+            outline: none;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            background: #ffffff;
+            border: 2px solid var(--color-principal);
+            box-shadow: 0 0 10px var(--color-principal);
+            cursor: pointer;
+            transition: transform 0.1s ease, background-color 0.2s;
+        }
+
+        input[type="range"]::-webkit-slider-thumb:hover {
+            transform: scale(1.2);
+            background: var(--color-principal);
+        }
+
+        /* Segmented Button Control */
+        .segmented-control {
+            display: flex;
+            background: rgba(15, 23, 42, 0.6);
+            padding: 4px;
+            border-radius: 10px;
+            border: 1px solid var(--card-border);
+        }
+
+        .segment-btn {
+            flex: 1;
+            background: transparent;
+            border: none;
+            color: var(--text-secondary);
+            font-size: 12px;
+            font-weight: 600;
+            padding: 8px 14px;
+            border-radius: 7px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .segment-btn.active {
+            background: rgba(255, 255, 255, 0.08);
+            color: var(--text-primary);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        /* Results & SVG Donut Chart Section */
+        .results-container {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 24px;
+            padding: 32px 28px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            height: 100%;
+        }
+
+        .visualizer {
+            position: relative;
+            width: 170px;
+            height: 170px;
+            margin-bottom: 24px;
+        }
+
+        .visualizer svg {
+            transform: rotate(-90deg);
+        }
+
+        .visualizer circle {
+            fill: none;
+            stroke-width: 13;
+            stroke-linecap: round;
+            transform-origin: center;
+        }
+
+        .visualizer .track {
+            stroke: rgba(255, 255, 255, 0.04);
+        }
+
+        .visualizer .principal-arc {
+            stroke: var(--color-principal);
+            transition: stroke-dashoffset 0.4s ease;
+        }
+
+        .visualizer .interest-arc {
+            stroke: var(--color-interest);
+            transition: stroke-dashoffset 0.4s ease;
+        }
+
+        /* Overlay Text inside Donut */
+        .donut-overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            width: 100%;
+        }
+
+        .donut-overlay .label {
+            font-size: 11px;
+            font-weight: 600;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 2px;
+        }
+
+        .donut-overlay .value {
+            font-family: 'Outfit', sans-serif;
+            font-size: 22px;
+            font-weight: 800;
+            color: var(--text-primary);
+        }
+
+        /* Numerical Results display */
+        .metrics-grid {
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin-bottom: 28px;
+        }
+
+        .metric-card {
+            padding: 14px 16px;
+            border-radius: 12px;
+            background: rgba(15, 23, 42, 0.4);
+            border: 1px solid rgba(255, 255, 255, 0.03);
+            text-align: center;
+        }
+
+        .metric-card .title {
+            font-size: 10px;
+            font-weight: 700;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+        }
+
+        .metric-card .dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+        }
+
+        .metric-card .dot.principal { background-color: var(--color-principal); box-shadow: 0 0 6px var(--color-principal); }
+        .metric-card .dot.interest { background-color: var(--color-interest); box-shadow: 0 0 6px var(--color-interest); }
+
+        .metric-card .value {
+            font-family: 'Outfit', sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+
+        /* Chart Canvas styling */
+        .chart-box {
+            width: 100%;
+            height: 220px;
+            margin-top: 10px;
+            position: relative;
+        }
+
+        /* Comparison Panel Styling */
+        .comparison-panel {
+            grid-column: 1 / -1;
+            width: 100%;
+            margin-top: 16px;
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+            padding-top: 28px;
+        }
+
+        .comparison-title {
+            font-size: 12px;
+            font-weight: 700;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .comparison-list {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .comparison-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            background: rgba(15, 23, 42, 0.4);
+            border: 1px solid rgba(255, 255, 255, 0.03);
+            border-radius: 16px;
+            padding: 20px;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .comparison-item:hover {
+            border-color: rgba(6, 182, 212, 0.3);
+            background: rgba(15, 23, 42, 0.55);
+            box-shadow: 0 10px 30px -10px rgba(6, 182, 212, 0.15);
+            transform: translateY(-4px);
+        }
+
+        .comparison-info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+
+        .comparison-bank {
+            font-family: 'Outfit', sans-serif;
+            font-size: 15px;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 4px;
+        }
+
+        .comparison-product {
+            font-size: 11px;
+            color: var(--text-secondary);
+            max-width: 160px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .comparison-yield {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 16px;
+            width: 100%;
+        }
+
+        .comparison-rate {
+            font-family: 'Outfit', sans-serif;
+            font-size: 22px;
+            font-weight: 800;
+            color: var(--color-interest);
+            margin-bottom: 4px;
+        }
+
+        .gain-badge {
+            background: rgba(16, 185, 129, 0.12);
+            color: var(--color-interest);
+            border: 1px solid rgba(16, 185, 129, 0.25);
+            font-size: 10px;
+            font-weight: 700;
+            padding: 2px 8px;
+            border-radius: 20px;
+        }
+
+        .btn-apply {
+            width: 100%;
+            background: rgba(6, 182, 212, 0.12);
+            color: var(--color-principal);
+            border: 1px solid rgba(6, 182, 212, 0.25);
+            font-size: 11px;
+            font-weight: 700;
+            padding: 8px 16px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .btn-apply:hover {
+            background: var(--color-principal);
+            color: #fff;
+            box-shadow: 0 0 10px var(--color-principal);
+            border-color: var(--color-principal);
+        }
+
+        /* Smooth update pulse highlight */
+        .pulse-effect {
+            animation: textPulse 0.4s ease-out;
+        }
+
+        @keyframes textPulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); color: #00f2fe; }
+            100% { transform: scale(1); }
+        }
+
+        /* Responsive Dashboard layout collapse */
+        @media (max-width: 850px) {
+            body {
+                padding: 20px 10px;
+            }
+            .calculator-widget {
+                grid-template-columns: 1fr;
+                gap: 32px;
+                padding: 32px 24px;
+            }
+            .widget-header h1 {
+                font-size: 26px;
+            }
+            .comparison-panel {
+                margin-top: 8px;
+            }
+        }
+
+        /* Responsive comparison grid collapse to row list */
+        @media (max-width: 768px) {
+            .comparison-list {
+                grid-template-columns: 1fr;
+                gap: 12px;
+            }
+            .comparison-item {
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                text-align: left;
+                padding: 14px 18px;
+            }
+            .comparison-item:hover {
+                transform: none;
+            }
+            .comparison-info {
+                align-items: flex-start;
+                margin-bottom: 0;
+            }
+            .comparison-yield {
+                flex-direction: row;
+                align-items: center;
+                margin-bottom: 0;
+                width: auto;
+                gap: 12px;
+            }
+            .comparison-rate {
+                font-size: 18px;
+                margin-bottom: 0;
+            }
+            .btn-apply {
+                width: auto;
+                padding: 6px 12px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Ambient Glowing Blobs -->
+    <div class="bg-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <!-- Main Widget UI Card -->
+    <main class="calculator-wrapper">
+        <div class="calculator-widget">
+            
+            <header class="widget-header">
+                <h1>YieldWise</h1>
+                <p>Advanced Wealth & Interest Dashboard</p>
+            </header>
+
+            <!-- Left Column: Settings and inputs -->
+            <div class="settings-column">
+                
+                <!-- Compound vs. Simple Selector -->
+                <section class="input-group">
+                    <div class="label-row">
+                        <label>Interest Formula</label>
+                    </div>
+                    <div class="segmented-control">
+                        <button id="btnCompound" class="segment-btn active" onclick="setInterestMode('compound')">Compound</button>
+                        <button id="btnSimple" class="segment-btn" onclick="setInterestMode('simple')">Simple</button>
+                    </div>
+                </section>
+
+                <!-- Compare Live Rates -->
+                <section class="input-group">
+                    <div class="label-row">
+                        <label for="bankSelect">Compare Live Rates</label>
+                        <span id="rateBadge" class="badge">Custom Rate</span>
+                    </div>
+                    <select id="bankSelect" onchange="handleBankChange()">
+                        <option value="manual">Enter custom rate manually</option>
+                        <!-- Injected live bank rates -->
+                    </select>
+                </section>
+
+                <!-- Principal Amount Input & Slider -->
+                <section class="input-group">
+                    <div class="label-row">
+                        <label for="principal">Principal Deposit</label>
+                    </div>
+                    <div class="numeric-display">
+                        <span class="prefix">$</span>
+                        <input type="number" id="principal" value="10000" min="0" max="10000000" step="100" oninput="syncSlider('principal')">
+                    </div>
+                    <div class="slider-wrapper">
+                        <input type="range" id="principalSlider" value="10000" min="500" max="500000" step="500" oninput="syncInput('principal')">
+                    </div>
+                </section>
+
+                <!-- Interest Rate Input & Slider -->
+                <section class="input-group">
+                    <div class="label-row">
+                        <label for="rate">Annual Interest Rate</label>
+                    </div>
+                    <div class="numeric-display">
+                        <input type="number" id="rate" value="5.50" min="0" max="30" step="0.01" oninput="syncSlider('rate')">
+                        <span class="suffix">%</span>
+                    </div>
+                    <div class="slider-wrapper">
+                        <input type="range" id="rateSlider" value="5.50" min="0.1" max="15" step="0.05" oninput="syncInput('rate')">
+                    </div>
+                </section>
+
+                <!-- Term Duration Control -->
+                <section class="input-group">
+                    <div class="label-row">
+                        <label for="term">Investment Duration</label>
+                        <div class="segmented-control">
+                            <button id="btnYears" class="segment-btn active" onclick="setTermUnit('years')">Years</button>
+                            <button id="btnMonths" class="segment-btn" onclick="setTermUnit('months')">Months</button>
+                        </div>
+                    </div>
+                    <div class="numeric-display">
+                        <input type="number" id="term" value="5" min="1" max="360" step="1" oninput="syncSlider('term')">
+                        <span id="termSuffix" class="suffix">Years</span>
+                    </div>
+                    <div class="slider-wrapper">
+                        <input type="range" id="termSlider" value="5" min="1" max="30" step="1" oninput="syncInput('term')">
+                    </div>
+                </section>
+
+                <!-- Compounding Frequency -->
+                <section id="compoundGroup" class="input-group expanded">
+                    <div class="label-row">
+                        <label for="compound">Compounding Frequency</label>
+                    </div>
+                    <select id="compound" onchange="runCalculations()">
+                        <option value="12" selected>Compounded Monthly (Standard)</option>
+                        <option value="365">Compounded Daily</option>
+                        <option value="4">Compounded Quarterly</option>
+                        <option value="1">Compounded Annually</option>
+                    </select>
+                </section>
+
+            </div>
+
+            <!-- Right Column: Visualizations & Graph -->
+            <div class="results-column">
+                <div class="results-container">
+                    <div class="visualizer">
+                        <svg width="170" height="170" viewBox="0 0 170 170">
+                            <circle class="track" cx="85" cy="85" r="72" />
+                            <circle id="principalArc" class="principal-arc" cx="85" cy="85" r="72" stroke-dasharray="452" stroke-dashoffset="0" />
+                            <circle id="interestArc" class="interest-arc" cx="85" cy="85" r="72" stroke-dasharray="452" stroke-dashoffset="452" />
+                        </svg>
+                        <div class="donut-overlay">
+                            <div class="label">Total Wealth</div>
+                            <div id="outTotal" class="value">$13,157</div>
+                        </div>
+                    </div>
+
+                    <!-- Secondary Indicators -->
+                    <div class="metrics-grid">
+                        <div class="metric-card">
+                            <div class="title">
+                                <span class="dot principal"></span>
+                                Principal
+                            </div>
+                            <div id="outPrincipal" class="value">$10,000</div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="title">
+                                <span class="dot interest"></span>
+                                Est. Interest
+                            </div>
+                            <div id="outInterest" class="value">$3,157</div>
+                        </div>
+                    </div>
+
+                    <!-- Monthly Progression Graph -->
+                    <label style="align-self: flex-start; margin-bottom: 8px;">Wealth Progression</label>
+                    <div class="chart-box">
+                        <canvas id="growthChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Row: Dynamic Yield Comparisons Section -->
+            <section class="comparison-panel">
+                <div class="comparison-title">
+                    <span>Alternative High-Yield Options</span>
+                    <span style="font-size: 10px; color: var(--text-secondary); text-transform: none;">Ongoing Constant Rates</span>
+                </div>
+                <div id="comparisonList" class="comparison-list">
+                    <!-- Injected alternative recommendation cards -->
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Calculation Engine and Live Rates Handler -->
+    <script>
+        let termUnit = 'years';      // State: 'years' or 'months'
+        let interestMode = 'compound'; // State: 'compound' or 'simple'
+        let growthChart = null;        // Global Chart.js reference
+        let globalRatesData = [];      // Global bank rates storage for bottom comparisons
+
+        // Toggle simple / compound interest mode
+        function setInterestMode(mode) {
+            interestMode = mode;
+            const btnCompound = document.getElementById('btnCompound');
+            const btnSimple = document.getElementById('btnSimple');
+            const compoundGroup = document.getElementById('compoundGroup');
+
+            if (mode === 'compound') {
+                btnCompound.classList.add('active');
+                btnSimple.classList.remove('active');
+                compoundGroup.classList.remove('collapsed');
+                compoundGroup.classList.add('expanded');
+            } else {
+                btnCompound.classList.remove('active');
+                btnSimple.classList.add('active');
+                compoundGroup.classList.remove('expanded');
+                compoundGroup.classList.add('collapsed');
+            }
+            runCalculations();
+        }
+
+        // Synchronize HTML Input to Slider
+        function syncSlider(field) {
+            const inputVal = parseFloat(document.getElementById(field).value) || 0;
+            const slider = document.getElementById(field + 'Slider');
+            
+            // Adjust slider range dynamically if keyboard input exceeds maximum slider value
+            if (inputVal > parseFloat(slider.max)) {
+                slider.max = inputVal * 1.5;
+            } else if (inputVal < parseFloat(slider.min) && inputVal > 0) {
+                slider.min = inputVal * 0.5;
+            }
+
+            slider.value = inputVal;
+            
+            if (field === 'rate') {
+                resetRateBadgeAndDropdown();
+            }
+            runCalculations();
+        }
+
+        // Synchronize Slider to HTML Input
+        function syncInput(field) {
+            const sliderVal = document.getElementById(field + 'Slider').value;
+            document.getElementById(field).value = sliderVal;
+            
+            if (field === 'rate') {
+                resetRateBadgeAndDropdown();
+            }
+            runCalculations();
+        }
+
+        // Reset badge when manual rate is adjusted
+        function resetRateBadgeAndDropdown() {
+            document.getElementById('bankSelect').value = 'manual';
+            const badge = document.getElementById('rateBadge');
+            badge.textContent = 'Custom Rate';
+            badge.className = 'badge manual';
+        }
+
+        // Segmented Term Toggle (Years vs Months)
+        function setTermUnit(unit) {
+            termUnit = unit;
+            
+            const btnYears = document.getElementById('btnYears');
+            const btnMonths = document.getElementById('btnMonths');
+            const suffix = document.getElementById('termSuffix');
+            const input = document.getElementById('term');
+            const slider = document.getElementById('termSlider');
+
+            if (unit === 'years') {
+                btnYears.classList.add('active');
+                btnMonths.classList.remove('active');
+                suffix.textContent = 'Years';
+                
+                // Convert value (Months -> Years)
+                let currentVal = parseFloat(input.value) || 12;
+                let yearsVal = Math.round(currentVal / 12);
+                if (yearsVal < 1) yearsVal = 1;
+
+                slider.min = 1;
+                slider.max = 30;
+                slider.step = 1;
+                
+                input.value = yearsVal;
+                slider.value = yearsVal;
+            } else {
+                btnYears.classList.remove('active');
+                btnMonths.classList.add('active');
+                suffix.textContent = 'Months';
+
+                // Convert value (Years -> Months)
+                let currentVal = parseFloat(input.value) || 1;
+                let monthsVal = currentVal * 12;
+
+                slider.min = 1;
+                slider.max = 360;
+                slider.step = 1;
+
+                input.value = monthsVal;
+                slider.value = monthsVal;
+            }
+            runCalculations();
+        }
+
+        // Apply dynamic rates from select options
+        function handleBankChange() {
+            const select = document.getElementById('bankSelect');
+            const rateInput = document.getElementById('rate');
+            const rateSlider = document.getElementById('rateSlider');
+            const badge = document.getElementById('rateBadge');
+
+            if (select.value !== 'manual') {
+                const selectedOption = select.options[select.selectedIndex];
+                const selectedRate = parseFloat(select.value);
+
+                rateInput.value = selectedRate.toFixed(2);
+                rateSlider.value = selectedRate;
+
+                // Extract short bank name
+                const bankName = selectedOption.textContent.split(' - ')[0];
+                badge.textContent = bankName;
+                badge.className = 'badge';
+
+                // Add visual pulse feedback
+                rateInput.parentElement.classList.remove('pulse-effect');
+                void rateInput.offsetWidth; // DOM reflow
+                rateInput.parentElement.classList.add('pulse-effect');
+
+                runCalculations();
+            } else {
+                resetRateBadgeAndDropdown();
+            }
+        }
+
+        // Live Rate Fetching
+        async function fetchLiveRates() {
+            const selectElement = document.getElementById('bankSelect');
+            try {
+                const response = await fetch('current_rates.json');
+                if (!response.ok) throw new Error('Not found');
+                const data = await response.json();
+                
+                globalRatesData = data; // Save to global variable for bottom comparisons
+                
+                data.forEach(bank => {
+                    const option = document.createElement('option');
+                    option.value = bank.rate_percentage;
+                    option.textContent = `${bank.bank} - ${bank.product} (${bank.rate_percentage.toFixed(2)}%)`;
+                    selectElement.appendChild(option);
+                });
+            } catch (err) {
+                console.warn("Fallback to mock data", err);
+                const mockData = [
+                    { bank: "ING BANK (Australia) Ltd", product: "Savings Maximiser", rate_percentage: 5.50 },
+                    { bank: "Judo Bank", product: "Personal Savings Account", rate_percentage: 5.35 },
+                    { bank: "CommBank", product: "GoalSaver", rate_percentage: 5.00 },
+                    { bank: "Macquarie Bank Limited", product: "Macquarie Savings Account", rate_percentage: 5.00 }
+                ];
+                globalRatesData = mockData;
+                mockData.forEach(bank => {
+                    const option = document.createElement('option');
+                    option.value = bank.rate_percentage;
+                    option.textContent = `${bank.bank} - ${bank.product} (${bank.rate_percentage.toFixed(2)}%)`;
+                    selectElement.appendChild(option);
+                });
+            }
+        }
+
+        // Core Calculation Engine
+        function runCalculations() {
+            const principal = parseFloat(document.getElementById('principal').value) || 0;
+            const rate = (parseFloat(document.getElementById('rate').value) || 0) / 100;
+            const rawTerm = parseFloat(document.getElementById('term').value) || 0;
+            const compoundFreq = parseFloat(document.getElementById('compound').value) || 12;
+
+            // Normalize time variable 't' to standard years
+            const t = (termUnit === 'years') ? rawTerm : (rawTerm / 12);
+
+            let total = 0;
+            if (rate === 0) {
+                total = principal;
+            } else {
+                if (interestMode === 'simple') {
+                    // Simple Interest Formula: A = P * (1 + r * t)
+                    total = principal * (1 + rate * t);
+                } else {
+                    // Compound Interest Formula: A = P * (1 + r/n)^(n*t)
+                    total = principal * Math.pow((1 + (rate / compoundFreq)), (compoundFreq * t));
+                }
+            }
+
+            const interest = Math.max(0, total - principal);
+            
+            // Format numbers
+            const formatter = new Intl.NumberFormat('en-US', {
+                style: 'currency',
+                currency: 'USD',
+                maximumFractionDigits: 0
+            });
+
+            // Update UI Elements
+            document.getElementById('outTotal').textContent = formatter.format(total);
+            document.getElementById('outPrincipal').textContent = formatter.format(principal);
+            document.getElementById('outInterest').textContent = formatter.format(interest);
+
+            // Update SVG Visualizer (Arc lengths)
+            updateDonutChart(principal, interest);
+
+            // Update Progression Bar Chart
+            renderProgressionChart(principal, rate, rawTerm, compoundFreq);
+
+            // Update Dynamic Comparisons Panel at the bottom
+            updateComparisons(principal, rate * 100, rawTerm, compoundFreq);
+        }
+
+        // Dynamic Donut Update
+        function updateDonutChart(principal, interest) {
+            const principalArc = document.getElementById('principalArc');
+            const interestArc = document.getElementById('interestArc');
+            
+            const total = principal + interest;
+            const radius = 72;
+            const circumference = 2 * Math.PI * radius; // Approx 452.38
+            
+            if (total === 0) {
+                principalArc.style.strokeDashoffset = circumference;
+                interestArc.style.strokeDashoffset = circumference;
+                return;
+            }
+
+            const principalRatio = principal / total;
+            const interestRatio = interest / total;
+
+            // Principal arc offset
+            const principalDash = circumference * principalRatio;
+            principalArc.style.strokeDasharray = `${circumference}`;
+            principalArc.style.strokeDashoffset = `${circumference - principalDash}`;
+
+            // Interest arc offset starts where Principal ends (rotation of stroke)
+            const interestDash = circumference * interestRatio;
+            interestArc.style.strokeDasharray = `${circumference}`;
+            interestArc.style.strokeDashoffset = `${circumference - interestDash}`;
+            interestArc.style.transform = `rotate(${(principalRatio * 360) - 90}deg)`;
+        }
+
+        // Dynamic Chart.js Progression Graph Update
+        function renderProgressionChart(principal, rate, rawTerm, compoundFreq) {
+            let labels = [];
+            let principalData = [];
+            let interestData = [];
+            
+            // Determine sampling interval based on length to keep the chart beautiful
+            let sampleInterval = 1;
+            if (termUnit === 'months') {
+                if (rawTerm > 120) sampleInterval = 12; // Draw annually
+                else if (rawTerm > 60) sampleInterval = 6;
+                else if (rawTerm > 24) sampleInterval = 3;
+            }
+
+            // Loop to calculate progress data
+            for (let i = sampleInterval; i <= rawTerm; i += sampleInterval) {
+                const stepT = (termUnit === 'years') ? i : (i / 12);
+                let stepTotal = 0;
+                
+                if (rate === 0) {
+                    stepTotal = principal;
+                } else {
+                    if (interestMode === 'simple') {
+                        stepTotal = principal * (1 + rate * stepT);
+                    } else {
+                        stepTotal = principal * Math.pow((1 + (rate / compoundFreq)), (compoundFreq * stepT));
+                    }
+                }
+                
+                const stepInterest = Math.max(0, stepTotal - principal);
+                labels.push((termUnit === 'years') ? `Yr ${i}` : `Mo ${i}`);
+                principalData.push(Math.round(principal));
+                interestData.push(Math.round(stepInterest));
+            }
+
+            // Force add final term data point if it was omitted by the sampling interval
+            if (rawTerm % sampleInterval !== 0) {
+                const stepT = (termUnit === 'years') ? rawTerm : (rawTerm / 12);
+                let stepTotal = 0;
+                
+                if (rate === 0) {
+                    stepTotal = principal;
+                } else {
+                    if (interestMode === 'simple') {
+                        stepTotal = principal * (1 + rate * stepT);
+                    } else {
+                        stepTotal = principal * Math.pow((1 + (rate / compoundFreq)), (compoundFreq * stepT));
+                    }
+                }
+                
+                const stepInterest = Math.max(0, stepTotal - principal);
+                labels.push((termUnit === 'years') ? `Yr ${rawTerm}` : `Mo ${rawTerm}`);
+                principalData.push(Math.round(principal));
+                interestData.push(Math.round(stepInterest));
+            }
+
+            const ctx = document.getElementById('growthChart').getContext('2d');
+
+            // If chart exists, update in-place for fluid transition animation
+            if (growthChart) {
+                growthChart.data.labels = labels;
+                growthChart.data.datasets[0].data = principalData;
+                growthChart.data.datasets[1].data = interestData;
+                growthChart.update();
+            } else {
+                growthChart = new Chart(ctx, {
+                    type: 'bar',
+                    data: {
+                        labels: labels,
+                        datasets: [
+                            {
+                                label: 'Principal',
+                                data: principalData,
+                                backgroundColor: 'rgba(6, 182, 212, 0.65)',
+                                borderColor: '#06b6d4',
+                                borderWidth: 1,
+                                borderRadius: 4,
+                                barPercentage: 0.85
+                            },
+                            {
+                                label: 'Interest',
+                                data: interestData,
+                                backgroundColor: 'rgba(16, 185, 129, 0.65)',
+                                borderColor: '#10b981',
+                                borderWidth: 1,
+                                borderRadius: 4,
+                                barPercentage: 0.85
+                            }
+                        ]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            legend: {
+                                display: false // Hidden because colors match principal/interest dots
+                            },
+                            tooltip: {
+                                mode: 'index',
+                                intersect: false,
+                                backgroundColor: 'rgba(11, 15, 25, 0.95)',
+                                titleColor: '#f8fafc',
+                                bodyColor: '#e2e8f0',
+                                borderColor: 'rgba(255, 255, 255, 0.1)',
+                                borderWidth: 1,
+                                padding: 12,
+                                cornerRadius: 10,
+                                titleFont: {
+                                    family: 'Outfit',
+                                    size: 13,
+                                    weight: 'bold'
+                                },
+                                bodyFont: {
+                                    family: 'Plus Jakarta Sans',
+                                    size: 12
+                                },
+                                callbacks: {
+                                    label: function(context) {
+                                        let label = context.dataset.label || '';
+                                        if (label) {
+                                            label += ': ';
+                                        }
+                                        if (context.parsed.y !== null) {
+                                            label += new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 }).format(context.parsed.y);
+                                        }
+                                        return label;
+                                    }
+                                }
+                            }
+                        },
+                        scales: {
+                            x: {
+                                stacked: true,
+                                grid: {
+                                    color: 'rgba(255, 255, 255, 0.04)',
+                                    drawBorder: false
+                                },
+                                ticks: {
+                                    color: '#94a3b8',
+                                    font: {
+                                        family: 'Plus Jakarta Sans',
+                                        size: 10
+                                    }
+                                }
+                            },
+                            y: {
+                                stacked: true,
+                                grid: {
+                                    color: 'rgba(255, 255, 255, 0.04)',
+                                    drawBorder: false
+                                },
+                                ticks: {
+                                    color: '#94a3b8',
+                                    font: {
+                                        family: 'Plus Jakarta Sans',
+                                        size: 10
+                                    },
+                                    callback: function(value) {
+                                        if (value >= 1000000) return '$' + (value / 1000000).toFixed(1) + 'M';
+                                        if (value >= 1000) return '$' + (value / 1000).toFixed(0) + 'k';
+                                        return '$' + value;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                });
+            }
+        }
+
+        // Update Dynamic Comparisons Panel at the bottom
+        function updateComparisons(currentPrincipal, currentRateVal, currentTerm, currentCompound) {
+            const listElement = document.getElementById('comparisonList');
+            if (!listElement || globalRatesData.length === 0) return;
+
+            // Find current dropdown bank/product
+            const select = document.getElementById('bankSelect');
+            let currentBank = "";
+            let currentProduct = "";
+            if (select.value !== 'manual') {
+                const selectedOption = select.options[select.selectedIndex];
+                const parts = selectedOption.textContent.split(' - ');
+                currentBank = parts[0];
+                if (parts[1]) {
+                    currentProduct = parts[1].split(' (')[0];
+                }
+            }
+
+            // Filter out current selected bank/product
+            let alternatives = globalRatesData.filter(item => {
+                return !(item.bank === currentBank && item.product === currentProduct) && Math.abs(item.rate_percentage - currentRateVal) > 0.01;
+            });
+
+            if (alternatives.length === 0) {
+                alternatives = globalRatesData;
+            }
+
+            // Sort all rates descending
+            alternatives.sort((a, b) => b.rate_percentage - a.rate_percentage);
+
+            // Get top 3 highest alternative options
+            const topAlternatives = alternatives.slice(0, 3);
+
+            // Calculate current projected total interest
+            const t = (termUnit === 'years') ? currentTerm : (currentTerm / 12);
+            let currentInterest = 0;
+            const rCurrent = currentRateVal / 100;
+            
+            if (rCurrent > 0) {
+                if (interestMode === 'simple') {
+                    currentInterest = currentPrincipal * rCurrent * t;
+                } else {
+                    currentInterest = (currentPrincipal * Math.pow((1 + (rCurrent / currentCompound)), (currentCompound * t))) - currentPrincipal;
+                }
+            }
+
+            // Clear previous items
+            listElement.innerHTML = '';
+
+            const formatter = new Intl.NumberFormat('en-US', {
+                style: 'currency',
+                currency: 'USD',
+                maximumFractionDigits: 0
+            });
+
+            // Render items
+            topAlternatives.forEach(alt => {
+                const altRate = alt.rate_percentage / 100;
+                let altInterest = 0;
+
+                if (altRate > 0) {
+                    if (interestMode === 'simple') {
+                        altInterest = currentPrincipal * altRate * t;
+                    } else {
+                        altInterest = (currentPrincipal * Math.pow((1 + (altRate / currentCompound)), (currentCompound * t))) - currentPrincipal;
+                    }
+                }
+
+                const diff = altInterest - currentInterest;
+
+                const itemDiv = document.createElement('div');
+                itemDiv.className = 'comparison-item';
+
+                // Gain badge formatting
+                let gainHtml = '';
+                if (diff > 0.5) {
+                    gainHtml = `<span class="gain-badge">+${formatter.format(diff)} extra</span>`;
+                } else if (diff < -0.5) {
+                    gainHtml = `<span class="gain-badge" style="color: #ef4444; background: rgba(239, 68, 68, 0.12); border-color: rgba(239, 68, 68, 0.25);">${formatter.format(diff)}</span>`;
+                }
+
+                itemDiv.innerHTML = `
+                    <div class="comparison-info">
+                        <span class="comparison-bank">${alt.bank}</span>
+                        <span class="comparison-product">${alt.product}</span>
+                    </div>
+                    <div class="comparison-yield">
+                        <span class="comparison-rate">${alt.rate_percentage.toFixed(2)}%</span>
+                        ${gainHtml}
+                    </div>
+                    <button class="btn-apply" onclick="applyAlternativeRate('${alt.bank}', '${alt.product}', ${alt.rate_percentage})">Apply</button>
+                `;
+                listElement.appendChild(itemDiv);
+            });
+        }
+
+        // Apply alternative rate dynamically
+        function applyAlternativeRate(bank, product, rate) {
+            const select = document.getElementById('bankSelect');
+            let found = false;
+
+            for (let i = 0; i < select.options.length; i++) {
+                const opt = select.options[i];
+                if (opt.textContent.startsWith(bank) && opt.textContent.includes(product)) {
+                    select.selectedIndex = i;
+                    found = true;
+                    break;
+                }
+            }
+
+            if (!found) {
+                select.value = 'manual';
+                const badge = document.getElementById('rateBadge');
+                badge.textContent = bank;
+                badge.className = 'badge';
+            } else {
+                const badge = document.getElementById('rateBadge');
+                badge.textContent = bank;
+                badge.className = 'badge';
+            }
+
+            const rateInput = document.getElementById('rate');
+            const rateSlider = document.getElementById('rateSlider');
+
+            rateInput.value = rate.toFixed(2);
+            rateSlider.value = rate;
+
+            // Pulse animation
+            rateInput.parentElement.classList.remove('pulse-effect');
+            void rateInput.offsetWidth;
+            rateInput.parentElement.classList.add('pulse-effect');
+
+            runCalculations();
+        }
+
+        // Init routine
+        window.onload = async () => {
+            await fetchLiveRates();
+            runCalculations();
+        };
+    </script>
+</body>
+
+</html>
