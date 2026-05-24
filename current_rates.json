@@ -105,16 +105,6 @@
         "rate_percentage": 3.25
     },
     {
-        "bank": "Bank of Melbourne",
-        "product": "Incentive Saver",
-        "rate_percentage": 5.15
-    },
-    {
-        "bank": "Bank of Melbourne",
-        "product": "Maxi Saver",
-        "rate_percentage": 1.25
-    },
-    {
         "bank": "Bank of Queensland Limited",
         "product": "Kids Savings Account",
         "rate_percentage": 1.3
@@ -123,16 +113,6 @@
         "bank": "Bank of Queensland Limited",
         "product": "Simple Saver Account",
         "rate_percentage": 4.55
-    },
-    {
-        "bank": "BankSA",
-        "product": "Incentive Saver",
-        "rate_percentage": 5.15
-    },
-    {
-        "bank": "BankSA",
-        "product": "Maxi Saver",
-        "rate_percentage": 1.25
     },
     {
         "bank": "BankVic",
@@ -471,21 +451,6 @@
     },
     {
         "bank": "Geelong Bank",
-        "product": "Achieve Saver",
-        "rate_percentage": 1.3
-    },
-    {
-        "bank": "Geelong Bank",
-        "product": "Online Saver Account",
-        "rate_percentage": 1.25
-    },
-    {
-        "bank": "Geelong Bank",
-        "product": "Senior Savers",
-        "rate_percentage": 1.4
-    },
-    {
-        "bank": "Geelong Bank",
         "product": "Young Achiever Savings",
         "rate_percentage": 1.65
     },
@@ -705,6 +670,16 @@
         "rate_percentage": 3.65
     },
     {
+        "bank": "ORANGE CREDIT UNION LTD",
+        "product": "BONUS SAVER",
+        "rate_percentage": 3.75
+    },
+    {
+        "bank": "ORANGE CREDIT UNION LTD",
+        "product": "ONLINE SAVER",
+        "rate_percentage": 4.6
+    },
+    {
         "bank": "P&N Bank",
         "product": "Hi Saver Account",
         "rate_percentage": 0.05
@@ -900,16 +875,6 @@
         "rate_percentage": 2.35
     },
     {
-        "bank": "St.George Bank",
-        "product": "Incentive Saver",
-        "rate_percentage": 5.15
-    },
-    {
-        "bank": "St.George Bank",
-        "product": "Maxi Saver",
-        "rate_percentage": 1.25
-    },
-    {
         "bank": "Summerland Bank",
         "product": "Bonus Saver",
         "rate_percentage": 4.5
@@ -933,6 +898,16 @@
         "bank": "TMCU",
         "product": "PREMIUM SAVERS ACCOUNT",
         "rate_percentage": 2.25
+    },
+    {
+        "bank": "Teachers Mutual Bank",
+        "product": "Essential Saver account",
+        "rate_percentage": 4.75
+    },
+    {
+        "bank": "Teachers Mutual Bank",
+        "product": "MOMENTUM SAVER",
+        "rate_percentage": 4.85
     },
     {
         "bank": "The Capricornian",
@@ -993,21 +968,6 @@
         "bank": "Virgin Money",
         "product": "Virgin Money Grow Saver",
         "rate_percentage": 2.8
-    },
-    {
-        "bank": "Westpac",
-        "product": "Bump Savings",
-        "rate_percentage": 3.3
-    },
-    {
-        "bank": "Westpac",
-        "product": "Westpac Life",
-        "rate_percentage": 5.0
-    },
-    {
-        "bank": "Westpac",
-        "product": "Westpac eSaver",
-        "rate_percentage": 1.25
     },
     {
         "bank": "Woolworths Team Bank",
