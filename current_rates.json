@@ -1,11 +1,5 @@
 [
     {
-        "bank": "AMP - My AMP",
-        "product": "AMP Saver Account",
-        "rate_percentage": 4.7,
-        "conditions": "You don't need to maintain a specific minimum balance"
-    },
-    {
         "bank": "ANZ",
         "product": "ANZ Online Saver",
         "rate_percentage": 1.35,
@@ -230,7 +224,7 @@
     {
         "bank": "Cairns bank",
         "product": "Online Saver account",
-        "rate_percentage": 2.65,
+        "rate_percentage": 2.75,
         "conditions": "No specific prerequisites found."
     },
     {
@@ -532,36 +526,6 @@
         "product": "eMax Saver Account",
         "rate_percentage": 3.95,
         "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Geelong Bank",
-        "product": "Achieve Saver",
-        "rate_percentage": 1.3,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Geelong Bank",
-        "product": "Online Saver Account",
-        "rate_percentage": 1.25,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Geelong Bank",
-        "product": "Senior Savers",
-        "rate_percentage": 1.4,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Geelong Bank",
-        "product": "Young Achiever Savings",
-        "rate_percentage": 1.65,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Geelong Bank",
-        "product": "iSaver",
-        "rate_percentage": 1.36,
-        "conditions": "Bonus interest is not paid on amounts over $250,000"
     },
     {
         "bank": "Great Southern Bank",
@@ -884,7 +848,7 @@
     {
         "bank": "QBANK",
         "product": "Junior Saver",
-        "rate_percentage": 2.2,
+        "rate_percentage": 2.45,
         "conditions": "No specific prerequisites found."
     },
     {
@@ -1050,12 +1014,6 @@
         "conditions": "No specific prerequisites found."
     },
     {
-        "bank": "St.George Bank",
-        "product": "Incentive Saver",
-        "rate_percentage": 5.15,
-        "conditions": "To earn Bonus interest rates, grow your account by at least $50 a month (for customers 21 or over) or $0.01 a month (for customers under 21) and keep your balance above $0. Add money to your account (interest payments don?t count). Grow your balance before the last business day of the month"
-    },
-    {
         "bank": "Summerland Bank",
         "product": "Bonus Saver",
         "rate_percentage": 4.5,
@@ -1191,6 +1149,24 @@
         "bank": "bankWAW",
         "product": "WAW Youth Saver",
         "rate_percentage": 4.75,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "gmcu",
+        "product": "Advantage Saver",
+        "rate_percentage": 4.3,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "gmcu",
+        "product": "Christmas Saver",
+        "rate_percentage": 1.1,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "gmcu",
+        "product": "Online Saver",
+        "rate_percentage": 1.05,
         "conditions": "No specific prerequisites found."
     }
 ]
