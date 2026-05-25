@@ -111,7 +111,8 @@ def scan_single_bank(bank):
             try:
                 detail_res = requests.get(detail_url, headers=headers_detail, timeout=3)
                 if detail_res.status_code == 200:
-                    deposit_rates = detail_res.json().get("data", {}).get("depositRates", [])
+                    detailed_data = detail_res.json().get("data", {})
+                    deposit_rates = detailed_data.get("depositRates", [])
                     success_detail = True
                     break
                 elif detail_res.status_code in [400, 404, 405, 406]:
@@ -128,6 +129,7 @@ def scan_single_bank(bank):
         # Parse rates using our additive base + bonus rate logic (excluding introductory rates)
         base_rate = 0.0
         bonus_rate = 0.0
+        bonus_condition = ""
         
         for rate_info in deposit_rates:
             rate_type = rate_info.get("depositRateType")
@@ -140,6 +142,17 @@ def scan_single_bank(bank):
                 # Sum ongoing constant BONUS rates, completely EXCLUDE "INTRODUCTORY" rates
                 if rate_val > bonus_rate:
                     bonus_rate = rate_val
+                    if "additionalInfo" in rate_info:
+                        bonus_condition = rate_info["additionalInfo"]
+        
+        if not bonus_condition:
+            for c in detailed_data.get("constraints", []):
+                if "additionalInfo" in c:
+                    bonus_condition = c["additionalInfo"]
+                    break
+                    
+        if not bonus_condition:
+            bonus_condition = "No specific prerequisites found."
         
         if base_rate <= 1.0:
             total_rate = base_rate + bonus_rate
@@ -162,7 +175,8 @@ def scan_single_bank(bank):
             bank_rates.append({
                 "bank": brand_name,
                 "product": product_name,
-                "rate_percentage": total_rate
+                "rate_percentage": total_rate,
+                "conditions": bonus_condition
             })
             
     return bank_rates

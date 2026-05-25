@@ -789,6 +789,139 @@
                 font-size: 16px;
             }
         }
+        /* Modal Styles */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(0, 0, 0, 0.7);
+            backdrop-filter: blur(4px);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+        }
+        .modal-container {
+            background: #1e1e24;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            width: 90%;
+            max-width: 600px;
+            padding: 24px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+            position: relative;
+            animation: modalFadeIn 0.3s ease-out;
+        }
+        @keyframes modalFadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 24px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding-bottom: 16px;
+        }
+        .modal-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #fff;
+        }
+        .modal-close {
+            background: none;
+            border: none;
+            color: #a1a1aa;
+            font-size: 1.5rem;
+            cursor: pointer;
+            transition: color 0.2s;
+        }
+        .modal-close:hover {
+            color: #fff;
+        }
+        .vs-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 24px;
+        }
+        .bank-side {
+            flex: 1;
+            text-align: center;
+        }
+        .bank-side-title {
+            font-size: 0.85rem;
+            color: #a1a1aa;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 8px;
+        }
+        .bank-name {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #fff;
+            margin-bottom: 4px;
+        }
+        .bank-rate {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #60a5fa;
+        }
+        .vs-badge {
+            background: #3b82f6;
+            color: #fff;
+            font-weight: 700;
+            font-size: 0.85rem;
+            padding: 6px 12px;
+            border-radius: 20px;
+            margin: 0 16px;
+        }
+        .gain-highlight {
+            text-align: center;
+            padding: 16px;
+            background: rgba(34, 197, 94, 0.1);
+            border: 1px solid rgba(34, 197, 94, 0.2);
+            border-radius: 12px;
+            margin-bottom: 24px;
+        }
+        .conditions-section {
+            background: rgba(255, 255, 255, 0.02);
+            border-radius: 12px;
+            padding: 16px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        .conditions-title {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: #e2e8f0;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .conditions-text {
+            font-size: 0.9rem;
+            color: #94a3b8;
+            line-height: 1.5;
+        }
+        .btn-compare {
+            padding: 8px 16px;
+            border-radius: 6px;
+            font-weight: 500;
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: all 0.2s;
+            background: rgba(255, 255, 255, 0.05);
+            color: #fff;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .btn-compare:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: rgba(255, 255, 255, 0.2);
+        }
     </style>
 </head>
 
@@ -834,6 +967,7 @@
                         <option value="manual">Enter custom rate manually</option>
                         <!-- Injected live bank rates -->
                     </select>
+                    <div id="currentBankConditions" class="conditions-text" style="display: none; margin-top: 12px; background: rgba(255,255,255,0.02); padding: 12px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.05); font-size: 0.85rem;"></div>
                 </section>
 
                 <!-- Principal Amount Input & Slider -->
@@ -975,6 +1109,20 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Custom Comparison Section -->
+            <section class="comparison-panel" style="margin-bottom: 24px;">
+                <div class="comparison-title">
+                    <span>Custom Comparison</span>
+                </div>
+                <p style="color: #94a3b8; font-size: 0.9rem; margin-bottom: 16px;">Select any bank from the market to directly compare against your current selection.</p>
+                <div style="display: flex; gap: 12px; align-items: center;">
+                    <select id="customCompareSelect" style="flex: 1; padding: 12px; background: rgba(255,255,255,0.05); color: #fff; border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; appearance: menulist;">
+                        <option value="">Select a bank to compare...</option>
+                    </select>
+                    <button class="btn-compare" style="padding: 12px 24px; font-weight: 600; background: #3b82f6; border: none; border-radius: 8px;" onclick="launchCustomCompare()">Compare</button>
+                </div>
+            </section>
 
             <!-- Bottom Row: Dynamic Yield Comparisons Section -->
             <section class="comparison-panel">
@@ -1124,6 +1272,7 @@
             const rateInput = document.getElementById('rate');
             const rateSlider = document.getElementById('rateSlider');
             const badge = document.getElementById('rateBadge');
+            const conditionsDiv = document.getElementById('currentBankConditions');
 
             if (select.value !== 'manual') {
                 const selectedOption = select.options[select.selectedIndex];
@@ -1137,6 +1286,13 @@
                 badge.textContent = bankName;
                 badge.className = 'badge';
 
+                if (selectedOption.dataset.conditions) {
+                    conditionsDiv.innerHTML = `<strong style="color: #e2e8f0; display: block; margin-bottom: 4px;">Prerequisites & Conditions:</strong> ${selectedOption.dataset.conditions}`;
+                    conditionsDiv.style.display = 'block';
+                } else {
+                    conditionsDiv.style.display = 'none';
+                }
+
                 // Add visual pulse feedback
                 rateInput.parentElement.classList.remove('pulse-effect');
                 void rateInput.offsetWidth; // DOM reflow
@@ -1145,12 +1301,14 @@
                 runCalculations();
             } else {
                 resetRateBadgeAndDropdown();
+                conditionsDiv.style.display = 'none';
             }
         }
 
         // Live Rate Fetching
         async function fetchLiveRates() {
             const selectElement = document.getElementById('bankSelect');
+            const customSelect = document.getElementById('customCompareSelect');
             try {
                 const response = await fetch('current_rates.json');
                 if (!response.ok) throw new Error('Not found');
@@ -1161,8 +1319,14 @@
                 data.forEach(bank => {
                     const option = document.createElement('option');
                     option.value = bank.rate_percentage;
+                    option.dataset.bankName = bank.bank;
+                    option.dataset.productName = bank.product;
+                    option.dataset.conditions = bank.conditions || "No specific prerequisites found.";
                     option.textContent = `${bank.bank} - ${bank.product} (${bank.rate_percentage.toFixed(2)}%)`;
                     selectElement.appendChild(option);
+                    
+                    const clone = option.cloneNode(true);
+                    customSelect.appendChild(clone);
                 });
             } catch (err) {
                 console.warn("Fallback to mock data", err);
@@ -1176,8 +1340,14 @@
                 mockData.forEach(bank => {
                     const option = document.createElement('option');
                     option.value = bank.rate_percentage;
+                    option.dataset.bankName = bank.bank;
+                    option.dataset.productName = bank.product;
+                    option.dataset.conditions = "No specific prerequisites found.";
                     option.textContent = `${bank.bank} - ${bank.product} (${bank.rate_percentage.toFixed(2)}%)`;
                     selectElement.appendChild(option);
+                    
+                    const clone = option.cloneNode(true);
+                    customSelect.appendChild(clone);
                 });
             }
         }
@@ -1296,6 +1466,36 @@
         }
 
         // Dynamic Chart.js Progression Graph Update
+        // Modal Functions
+        function openComparisonModal(targetBank, targetProduct, targetRate, targetConditions, extraGain) {
+            const currentBankText = document.getElementById('bankSelect').options[document.getElementById('bankSelect').selectedIndex].text;
+            const currentRateText = document.getElementById('rate').value;
+            
+            document.getElementById('modalCurrentBank').innerText = currentBankText.split(' - ')[0] || "Your Bank";
+            document.getElementById('modalCurrentRate').innerText = currentRateText + "%";
+            
+            document.getElementById('modalTargetBank').innerText = targetBank;
+            document.getElementById('modalTargetProduct').innerText = targetProduct;
+            document.getElementById('modalTargetRate').innerText = targetRate.toFixed(2) + "%";
+            
+            const diffElem = document.getElementById('modalGain');
+            const formatter = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 });
+            
+            if (extraGain > 0) {
+                diffElem.innerHTML = `<div style="color: #22c55e; font-size: 1.5rem; font-weight: 700; margin-bottom: 0.5rem;">+${formatter.format(extraGain)}</div><div style="font-size: 0.85rem; color: #a1a1aa;">Extra Wealth</div>`;
+            } else {
+                diffElem.innerHTML = `<div style="color: #ef4444; font-size: 1.5rem; font-weight: 700; margin-bottom: 0.5rem;">${formatter.format(extraGain)}</div><div style="font-size: 0.85rem; color: #a1a1aa;">Loss in Wealth</div>`;
+            }
+            
+            document.getElementById('modalConditions').innerText = targetConditions || "No specific prerequisites found.";
+            
+            document.getElementById('comparisonModal').style.display = 'flex';
+        }
+
+        function closeComparisonModal() {
+            document.getElementById('comparisonModal').style.display = 'none';
+        }
+
         function renderProgressionChart(principal, deposit, depositFreq, rate, rawTerm, compoundFreq) {
             let labels = [];
             let principalData = [];
@@ -1522,18 +1722,25 @@
                     gainHtml = `<span class="gain-badge" style="color: #ef4444; background: rgba(239, 68, 68, 0.12); border-color: rgba(239, 68, 68, 0.25);">${formatter.format(diff)}</span>`;
                 }
 
-                itemDiv.innerHTML = `
-                    <div class="comparison-info">
-                        <span class="comparison-bank">${alt.bank}</span>
-                        <span class="comparison-product">${alt.product}</span>
-                    </div>
-                    <div class="comparison-yield">
-                        <span class="comparison-rate">${alt.rate_percentage.toFixed(2)}%</span>
-                        ${gainHtml}
-                    </div>
-                    <button class="btn-apply" onclick="applyAlternativeRate('${alt.bank}', '${alt.product}', ${alt.rate_percentage})">Apply</button>
-                `;
-                listElement.appendChild(itemDiv);
+                    const safeConditions = alt.conditions ? alt.conditions.replace(/'/g, "\\'").replace(/"/g, '&quot;') : "No specific prerequisites found.";
+                    const safeBank = alt.bank.replace(/'/g, "\\'");
+                    const safeProduct = alt.product.replace(/'/g, "\\'");
+
+                    itemDiv.innerHTML = `
+                        <div class="comparison-info">
+                            <span class="comparison-bank">${alt.bank}</span>
+                            <span class="comparison-product">${alt.product}</span>
+                        </div>
+                        <div class="comparison-yield">
+                            <span class="comparison-rate">${alt.rate_percentage.toFixed(2)}%</span>
+                            ${gainHtml}
+                        </div>
+                        <div style="display: flex; gap: 8px;">
+                            <button class="btn-compare" onclick="openComparisonModal('${safeBank}', '${safeProduct}', ${alt.rate_percentage}, '${safeConditions}', ${diff})">Compare</button>
+                            <button class="btn-apply" onclick="applyAlternativeRate('${safeBank}', '${safeProduct}', ${alt.rate_percentage})">Apply</button>
+                        </div>
+                    `;
+                    listElement.appendChild(itemDiv);
             });
         }
 
@@ -1581,7 +1788,103 @@
             await fetchLiveRates();
             runCalculations();
         };
-    </script>
-</body>
+        
+        function openComparisonModal(bank, product, rate, conditions, diff) {
+            document.getElementById('modalCurrentBank').textContent = document.getElementById('bankSelect').options[document.getElementById('bankSelect').selectedIndex].text.split(' - ')[0] || 'Current';
+            document.getElementById('modalCurrentRate').textContent = document.getElementById('rate').value + '%';
+            document.getElementById('modalTargetBank').textContent = bank;
+            document.getElementById('modalTargetProduct').textContent = product;
+            document.getElementById('modalTargetRate').textContent = rate.toFixed(2) + '%';
+            document.getElementById('modalConditions').innerHTML = conditions;
+            
+            const formatter = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 });
+            const modalGain = document.getElementById('modalGain');
+            if (diff > 0) {
+                modalGain.innerHTML = `You could earn an extra <strong>${formatter.format(diff)}</strong> with this rate.`;
+                modalGain.style.background = '#ecfdf5';
+                modalGain.style.color = '#065f46';
+            } else {
+                modalGain.innerHTML = `Difference: ${formatter.format(diff)}`;
+                modalGain.style.background = '#fef2f2';
+                modalGain.style.color = '#991b1b';
+            }
+            document.getElementById('comparisonModal').style.display = 'flex';
+        }
+        
+        function launchCustomCompare() {
+            const select = document.getElementById('customCompareSelect');
+            if (select.value === "") return alert("Please select a bank to compare!");
+            
+            const opt = select.options[select.selectedIndex];
+            const targetRate = parseFloat(opt.value);
+            const targetBank = opt.dataset.bankName;
+            const targetProduct = opt.dataset.productName;
+            const targetConditions = opt.dataset.conditions;
+            
+            // Calculate Current Interest
+            const currentPrincipal = parseFloat(document.getElementById('principal').value) || 0;
+            const currentDeposit = parseFloat(document.getElementById('deposit').value) || 0;
+            const depositFreq = parseInt(document.getElementById('depositFreq').value) || 12;
+            const currentRateVal = parseFloat(document.getElementById('rate').value) || 0;
+            const rawTerm = parseInt(document.getElementById('term').value) || 1;
+            const currentCompound = parseInt(document.getElementById('compound').value) || 12;
+            const t = (termUnit === 'years') ? rawTerm : (rawTerm / 12);
+            
+            const currentResult = calculateYield(currentPrincipal, currentDeposit, depositFreq, currentRateVal / 100, t, currentCompound, interestMode, depositTiming);
+            const currentInterest = currentResult.interest;
+            
+            // Calculate Target Interest
+            const targetResult = calculateYield(currentPrincipal, currentDeposit, depositFreq, targetRate / 100, t, currentCompound, interestMode, depositTiming);
+            const targetInterest = targetResult.interest;
+            
+            const diff = targetInterest - currentInterest;
+            
+            openComparisonModal(targetBank, targetProduct, targetRate, targetConditions, diff);
+        }
 
+        function closeComparisonModal() {
+            document.getElementById('comparisonModal').style.display = 'none';
+        }
+    </script>
+    <!-- Comparison Modal -->
+    <div id="comparisonModal" class="modal-overlay" onclick="if(event.target === this) closeComparisonModal()">
+        <div class="modal-container">
+            <div class="modal-header">
+                <div class="modal-title">Yield Comparison</div>
+                <button class="modal-close" onclick="closeComparisonModal()">&times;</button>
+            </div>
+            
+            <div class="vs-container">
+                <div class="bank-side">
+                    <div class="bank-side-title">Current Bank</div>
+                    <div id="modalCurrentBank" class="bank-name">CommBank</div>
+                    <div id="modalCurrentRate" class="bank-rate" style="color: #94a3b8;">2.00%</div>
+                </div>
+                
+                <div class="vs-badge">VS</div>
+                
+                <div class="bank-side">
+                    <div class="bank-side-title">Target Bank</div>
+                    <div id="modalTargetBank" class="bank-name">ING</div>
+                    <div id="modalTargetProduct" style="font-size: 0.8rem; color: #a1a1aa; margin-bottom: 4px;">Savings Maximiser</div>
+                    <div id="modalTargetRate" class="bank-rate">5.50%</div>
+                </div>
+            </div>
+            
+            <div id="modalGain" class="gain-highlight">
+                <!-- Injected via JS -->
+            </div>
+            
+            <div class="conditions-section">
+                <div class="conditions-title">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+                    Prerequisites & Conditions
+                </div>
+                <div id="modalConditions" class="conditions-text">
+                    Loading conditions...
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
 </html>

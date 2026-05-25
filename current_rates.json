@@ -2,1071 +2,1195 @@
     {
         "bank": "AMP - My AMP",
         "product": "AMP Saver Account",
-        "rate_percentage": 4.7
+        "rate_percentage": 4.7,
+        "conditions": "You don't need to maintain a specific minimum balance"
     },
     {
         "bank": "ANZ",
         "product": "ANZ Online Saver",
-        "rate_percentage": 1.35
+        "rate_percentage": 1.35,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "ANZ",
         "product": "ANZ Progress Saver",
-        "rate_percentage": 3.75
+        "rate_percentage": 3.75,
+        "conditions": "Bonus interest is subject to eligibility. ANZ Progress Saver pays bonus interest (in addition to the current variable base interest) in respect of a particular month if the set minimum deposit (currently $10) and no withdrawals, fees or charges are processed to the account on or before the last business day of that calendar month, and after the last business day of the previous calendar month. Bonus and base rates are variable and subject to change."
     },
     {
         "bank": "ANZ Plus",
         "product": "ANZ Plus Flex Saver",
-        "rate_percentage": 5.1
+        "rate_percentage": 5.1,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "ANZ Plus",
         "product": "ANZ Plus Growth Saver",
-        "rate_percentage": 5.1
+        "rate_percentage": 5.1,
+        "conditions": "Grow $100 by last business day of month"
     },
     {
         "bank": "Alex.Bank",
         "product": "Savings",
-        "rate_percentage": 4.5
+        "rate_percentage": 4.5,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Arab Bank Australia Limited",
         "product": "Personal Online Savings Account",
-        "rate_percentage": 4.95
+        "rate_percentage": 4.95,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Australian Military Bank",
         "product": "Online Saver",
-        "rate_percentage": 4.6
+        "rate_percentage": 4.6,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Australian Military Bank",
         "product": "Recruit Salary Saver",
-        "rate_percentage": 2.0
+        "rate_percentage": 2.0,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Auswide Bank Ltd",
         "product": "BONUS PLUS SAVER",
-        "rate_percentage": 3.06
+        "rate_percentage": 3.06,
+        "conditions": "Make at least 1 deposit, credit transfer or electronic credit to the account in the calendar month. Make no withdrawals, debit transfer, or electronic debits from the account in the calendar month."
     },
     {
         "bank": "Auswide Bank Ltd",
         "product": "ONLINE SAVER",
-        "rate_percentage": 2.0
+        "rate_percentage": 2.0,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Auswide Bank Ltd",
         "product": "ZIGGY KIDS SAVER",
-        "rate_percentage": 3.26
+        "rate_percentage": 3.26,
+        "conditions": "Make at least 1 deposit, credit transfer or electronic credit to the account in the calendar month. Make no withdrawals, debit transfers or eletrronic debits from the account in the same calendar month."
     },
     {
         "bank": "BCU Bank",
         "product": "Bonus Saver",
-        "rate_percentage": 0.05
+        "rate_percentage": 0.05,
+        "conditions": "Maximum balance is $5,000,000"
     },
     {
         "bank": "BCU Bank",
         "product": "Boss Saver",
-        "rate_percentage": 0.2
+        "rate_percentage": 0.2,
+        "conditions": "Maximum balance is $5,000,000"
     },
     {
         "bank": "BCU Bank",
         "product": "Power Saver",
-        "rate_percentage": 4.85
+        "rate_percentage": 4.85,
+        "conditions": "Maximum balance is $5,000,000"
     },
     {
         "bank": "Bank Australia",
         "product": "Bonus Saver",
-        "rate_percentage": 5.1
+        "rate_percentage": 5.1,
+        "conditions": "Earn monthly bonus interest when $100 is deposited each month and there are no withdrawals in the month. If these conditions aren't met, you will only be eligible to receive the base variable interest rate."
     },
     {
         "bank": "Bank Australia",
         "product": "Commercial Saver",
-        "rate_percentage": 1.7
+        "rate_percentage": 1.7,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Bank Australia",
         "product": "Online Saver",
-        "rate_percentage": 4.45
+        "rate_percentage": 4.45,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Bank Australia",
         "product": "mySaver",
-        "rate_percentage": 5.1
+        "rate_percentage": 5.1,
+        "conditions": "Earn monthly bonus interest when $10 is deposited each month and there are no withdrawals in the month. If these conditions aren't met, you will only be eligible to receive the base variable interest rate."
     },
     {
         "bank": "Bank First",
         "product": "Bonus Saver Account",
-        "rate_percentage": 4.75
+        "rate_percentage": 4.75,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Bank of China",
         "product": "Online Saver",
-        "rate_percentage": 1.35
+        "rate_percentage": 1.35,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Bank of China",
         "product": "Online Saver Statement",
-        "rate_percentage": 3.25
-    },
-    {
-        "bank": "Bank of Melbourne",
-        "product": "Incentive Saver",
-        "rate_percentage": 5.15
-    },
-    {
-        "bank": "Bank of Melbourne",
-        "product": "Maxi Saver",
-        "rate_percentage": 1.25
+        "rate_percentage": 3.25,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Bank of Queensland Limited",
         "product": "Kids Savings Account",
-        "rate_percentage": 1.3
+        "rate_percentage": 1.3,
+        "conditions": "Calculated daily and paid monthly."
     },
     {
         "bank": "Bank of Queensland Limited",
         "product": "Simple Saver Account",
-        "rate_percentage": 4.55
-    },
-    {
-        "bank": "BankSA",
-        "product": "Incentive Saver",
-        "rate_percentage": 5.15
-    },
-    {
-        "bank": "BankSA",
-        "product": "Maxi Saver",
-        "rate_percentage": 1.25
+        "rate_percentage": 4.55,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "BankVic",
         "product": "Bonus Saver",
-        "rate_percentage": 4.85
+        "rate_percentage": 4.85,
+        "conditions": "Deposit $100 per month and make no withdrawals to earn bonus interest"
     },
     {
         "bank": "BankVic",
         "product": "SMSF Saver",
-        "rate_percentage": 4.4
+        "rate_percentage": 4.4,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Bankwest",
         "product": "Bankwest Easy Saver",
-        "rate_percentage": 5.2
+        "rate_percentage": 5.2,
+        "conditions": "No minimum monthly deposit required."
     },
     {
         "bank": "Bankwest",
         "product": "Hero Saver",
-        "rate_percentage": 5.1
+        "rate_percentage": 5.1,
+        "conditions": "No minimum deposit required to open the account."
     },
     {
         "bank": "Bendigo Bank",
         "product": "Bendigo EasySaver",
-        "rate_percentage": 3.55
+        "rate_percentage": 3.55,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Bendigo Bank",
         "product": "Bendigo PiggySaver",
-        "rate_percentage": 3.55
+        "rate_percentage": 3.55,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Bendigo Bank",
         "product": "Bendigo Reward Saver",
-        "rate_percentage": 4.75
+        "rate_percentage": 4.75,
+        "conditions": "Bonus Rate in addition to variable (Base) rate where criteria is met\nWhen you grow your balance every month*\nWatch your savings grow without worrying about monthly service fees"
     },
     {
         "bank": "Beyond Bank Australia",
         "product": "Purple Bonus Saver",
-        "rate_percentage": 4.65
+        "rate_percentage": 4.65,
+        "conditions": "You will become eligible for bonus interest if you: a) deposit at least $50 during the month; and b) do not make a withdrawal during the same month. Interest is paid monthly."
     },
     {
         "bank": "Beyond Bank Australia",
         "product": "monEsaver Internet Account",
-        "rate_percentage": 2.75
-    },
-    {
-        "bank": "Border Bank",
-        "product": "Bonus Saver Account",
-        "rate_percentage": 4.3
-    },
-    {
-        "bank": "Border Bank",
-        "product": "Savings Plus Account",
-        "rate_percentage": 4.5
+        "rate_percentage": 2.75,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Broken Hill Bank",
         "product": "OTC Savings Account",
-        "rate_percentage": 1.6
+        "rate_percentage": 1.6,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Broken Hill Bank",
         "product": "Santa Saver Account",
-        "rate_percentage": 1.75
+        "rate_percentage": 1.75,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Broken Hill Bank",
         "product": "eCall Savings Account",
-        "rate_percentage": 2.55
+        "rate_percentage": 2.55,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Cairns bank",
         "product": "Childrens saver account",
-        "rate_percentage": 3.1
+        "rate_percentage": 3.1,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Cairns bank",
         "product": "Christmas Saver Account",
-        "rate_percentage": 2.0
+        "rate_percentage": 2.0,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Cairns bank",
         "product": "Online Saver account",
-        "rate_percentage": 2.65
+        "rate_percentage": 2.65,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Central Murray Bank",
         "product": "AT CALL SAVINGS",
-        "rate_percentage": 0.05
+        "rate_percentage": 0.05,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Central Murray Bank",
         "product": "AT CALL SAVINGS",
-        "rate_percentage": 0.05
+        "rate_percentage": 0.05,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Central West CUL",
         "product": "INVESTMENT SAVINGS",
-        "rate_percentage": 2.0
+        "rate_percentage": 2.0,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Central West CUL",
         "product": "S2 Budget Savings Account",
-        "rate_percentage": 0.05
+        "rate_percentage": 0.05,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Central West CUL",
         "product": "S8 E Access Saver Account",
-        "rate_percentage": 2.05
+        "rate_percentage": 2.05,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Coastline Bank",
         "product": "Bonus Reward Saver",
-        "rate_percentage": 0.4
+        "rate_percentage": 0.4,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Coastline Bank",
         "product": "Coastline Savings Account",
-        "rate_percentage": 3.0
+        "rate_percentage": 3.0,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Coastline Bank",
         "product": "Gold Benefits Savings",
-        "rate_percentage": 3.1
+        "rate_percentage": 3.1,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "CommBank",
         "product": "GoalSaver",
-        "rate_percentage": 5.0
+        "rate_percentage": 5.0,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "CommBank",
         "product": "NetBank Saver",
-        "rate_percentage": 2.1
+        "rate_percentage": 2.1,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "CommBank",
         "product": "Youthsaver Account",
-        "rate_percentage": 2.9
+        "rate_percentage": 2.9,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "CommFCU",
         "product": "FIRSTBIZ ONLINE SAVER",
-        "rate_percentage": 3.25
+        "rate_percentage": 3.25,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "CommFCU",
         "product": "Goal Saver",
-        "rate_percentage": 4.1
+        "rate_percentage": 4.1,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "CommFCU",
         "product": "Online Saver",
-        "rate_percentage": 3.1
+        "rate_percentage": 3.1,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "CommFCU",
         "product": "Santa Saver",
-        "rate_percentage": 4.85
+        "rate_percentage": 4.85,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "CommFCU",
         "product": "Wildlife Saver account",
-        "rate_percentage": 3.25
+        "rate_percentage": 3.25,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Credit Union SA",
         "product": "Bonus Savings Account",
-        "rate_percentage": 3.5
+        "rate_percentage": 3.5,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Credit Union SA",
         "product": "Children's Savings Account",
-        "rate_percentage": 4.35
+        "rate_percentage": 4.35,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Darling Downs Bank",
         "product": "EDUCATION SAVER",
-        "rate_percentage": 0.7
+        "rate_percentage": 0.7,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Darling Downs Bank",
         "product": "SMART SAVERS",
-        "rate_percentage": 0.6
+        "rate_percentage": 0.6,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Defence Bank",
         "product": "Kids Club Savings",
-        "rate_percentage": 5.0
+        "rate_percentage": 5.0,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Defence Bank",
         "product": "Max E Saver",
-        "rate_percentage": 5.2
+        "rate_percentage": 5.2,
+        "conditions": "Interest is calculated daily on the closing balance and credited on the last day of each month."
     },
     {
         "bank": "Defence Bank",
         "product": "Teen Saver",
-        "rate_percentage": 5.0
+        "rate_percentage": 5.0,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Defence Bank",
         "product": "iSaver",
-        "rate_percentage": 5.6
+        "rate_percentage": 5.6,
+        "conditions": "Interest is calculated daily on the closing balance and credited on the last day of each month."
     },
     {
         "bank": "Defence Bank",
         "product": "iSaver",
-        "rate_percentage": 5.6
+        "rate_percentage": 5.6,
+        "conditions": "Interest is calculated daily on the closing balance and credited on the last day of each month."
     },
     {
         "bank": "Dnister",
         "product": "Bonus Saver",
-        "rate_percentage": 4.55
+        "rate_percentage": 4.55,
+        "conditions": "Deposit $20.00 per month with no withdrawals to earn the Bonus Rate."
     },
     {
         "bank": "Dnister",
         "product": "Max Saver",
-        "rate_percentage": 4.65
+        "rate_percentage": 4.65,
+        "conditions": "To earn the Bonus Rate deposit $1,500 per month, withdraw up to $1,000 per month (maximum 4 withdrawals per month)."
     },
     {
         "bank": "Dnister",
         "product": "My Community Saver",
-        "rate_percentage": 0.77
+        "rate_percentage": 0.77,
+        "conditions": "Dnister pays a contribution based on the applicable interest rate and daily balance of a My Community Saver Account. This contribution is paid into the nominated eligible community organisation's Community Access Account."
     },
     {
         "bank": "Easy Street",
         "product": "Flex Saver",
-        "rate_percentage": 5.05
+        "rate_percentage": 5.05,
+        "conditions": "Interest is payable on all balances up to and including $3 million. Balances over this earn nil interest."
     },
     {
         "bank": "Family First",
         "product": "Bonus Saver",
-        "rate_percentage": 4.0
+        "rate_percentage": 4.0,
+        "conditions": "Bonus Monthly Interest paid should certain conditions be met - $200 deposited in the month with nil withdrawals."
     },
     {
         "bank": "Family First",
         "product": "Family e-Savings Account",
-        "rate_percentage": 2.75
+        "rate_percentage": 2.75,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Family First",
         "product": "Teen Saver Account",
-        "rate_percentage": 1.5
+        "rate_percentage": 1.5,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Fire Service Credit Union",
         "product": "S1 On Call Savings",
-        "rate_percentage": 0.05
+        "rate_percentage": 0.05,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Fire Service Credit Union",
         "product": "S7 Christmas Savings Account",
-        "rate_percentage": 2.5
+        "rate_percentage": 2.5,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Fire Service Credit Union",
         "product": "S8 Savings Account",
-        "rate_percentage": 2.25
+        "rate_percentage": 2.25,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Firefighters Mutual Bank",
         "product": "Essential Saver account",
-        "rate_percentage": 4.75
+        "rate_percentage": 4.75,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Firefighters Mutual Bank",
         "product": "MOMENTUM SAVER",
-        "rate_percentage": 4.85
+        "rate_percentage": 4.85,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Firefighters Mutual Bank",
         "product": "Starter Saver account",
-        "rate_percentage": 5.0
+        "rate_percentage": 5.0,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "First Option Bank",
         "product": "Bonus Saver",
-        "rate_percentage": 3.05
+        "rate_percentage": 3.05,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "First Option Bank",
         "product": "CHRISTMAS SAVER",
-        "rate_percentage": 2.0
+        "rate_percentage": 2.0,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "First Option Bank",
         "product": "KIDS BONUS SAVER",
-        "rate_percentage": 5.3
+        "rate_percentage": 5.3,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "First Option Bank",
         "product": "SAVINGS + BONUS",
-        "rate_percentage": 4.75
+        "rate_percentage": 4.75,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "First Option Bank",
         "product": "Smart Start Access Saver",
-        "rate_percentage": 0.05
+        "rate_percentage": 0.05,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "G&C Mutual Bank",
         "product": "Bonus Saver Account",
-        "rate_percentage": 4.4
+        "rate_percentage": 4.4,
+        "conditions": "All deposits made to the account receive interest on the balance together with a bonus interest, if these conditions are met: no withdrawals or transfers are made in the month, account not closed during the month and minimum $100 deposit each month by cash, cheque, payroll credit or direct credit."
     },
     {
         "bank": "G&C Mutual Bank",
         "product": "Christmas Saver Account",
-        "rate_percentage": 0.5
+        "rate_percentage": 0.5,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Gateway Bank",
         "product": "Dollaroo Junior Savers",
-        "rate_percentage": 3.75
+        "rate_percentage": 3.75,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Gateway Bank",
         "product": "Goal Saver",
-        "rate_percentage": 4.35
+        "rate_percentage": 4.35,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Gateway Bank",
         "product": "SMSF Savings Account",
-        "rate_percentage": 4.4
+        "rate_percentage": 4.4,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Gateway Bank",
         "product": "Savings Account",
-        "rate_percentage": 0.25
+        "rate_percentage": 0.25,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Gateway Bank",
         "product": "eMax Saver Account",
-        "rate_percentage": 3.95
+        "rate_percentage": 3.95,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Geelong Bank",
         "product": "Achieve Saver",
-        "rate_percentage": 1.3
+        "rate_percentage": 1.3,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Geelong Bank",
         "product": "Online Saver Account",
-        "rate_percentage": 1.25
+        "rate_percentage": 1.25,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Geelong Bank",
         "product": "Senior Savers",
-        "rate_percentage": 1.4
+        "rate_percentage": 1.4,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Geelong Bank",
         "product": "Young Achiever Savings",
-        "rate_percentage": 1.65
+        "rate_percentage": 1.65,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Geelong Bank",
         "product": "iSaver",
-        "rate_percentage": 1.36
+        "rate_percentage": 1.36,
+        "conditions": "Bonus interest is not paid on amounts over $250,000"
     },
     {
         "bank": "Great Southern Bank",
         "product": "Everyday Saver",
-        "rate_percentage": 4.8
+        "rate_percentage": 4.8,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Great Southern Bank",
         "product": "Future Saver",
-        "rate_percentage": 4.85
+        "rate_percentage": 4.85,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Great Southern Bank",
         "product": "Goal Saver",
-        "rate_percentage": 5.35
+        "rate_percentage": 5.35,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Great Southern Bank",
         "product": "Home Saver",
-        "rate_percentage": 5.25
+        "rate_percentage": 5.25,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Great Southern Bank",
         "product": "Youth eSaver",
-        "rate_percentage": 5.5
+        "rate_percentage": 5.5,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Greater Bank Limited",
         "product": "Bonus Saver",
-        "rate_percentage": 4.0
+        "rate_percentage": 4.0,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Greater Bank Limited",
         "product": "Life Saver",
-        "rate_percentage": 5.25
+        "rate_percentage": 5.25,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "HSBC",
         "product": "HSBC Bonus Savings Account - AUD",
-        "rate_percentage": 2.25
+        "rate_percentage": 2.25,
+        "conditions": "To receive the Monthly Bonus, ensure the closing account balance of the month is $300 higher (excluding interest paid during the month) than the opening balance of that month."
     },
     {
         "bank": "HSBC",
         "product": "HSBC Bonus Savings Account - GBP",
-        "rate_percentage": 2.0
+        "rate_percentage": 2.0,
+        "conditions": "To receive the Monthly Bonus, ensure the closing account balance of the month is \u00a3250 GBP higher (excluding interest paid during the month) than the opening balance of that month."
     },
     {
         "bank": "HSBC",
         "product": "HSBC Bonus Savings Account- CAD",
-        "rate_percentage": 2.0
+        "rate_percentage": 2.0,
+        "conditions": "To receive the Monthly Bonus, ensure the closing account balance of the month is $300 CAD  higher (excluding interest paid during the month) than the opening balance of that month."
     },
     {
         "bank": "HSBC",
         "product": "HSBC Everyday Savings Account",
-        "rate_percentage": 3.0
+        "rate_percentage": 3.0,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "HSBC",
         "product": "HSBC Premier Children's Savings Account",
-        "rate_percentage": 0.15
+        "rate_percentage": 0.15,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Health Professionals Bank",
         "product": "Essential Saver account",
-        "rate_percentage": 4.75
+        "rate_percentage": 4.75,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Health Professionals Bank",
         "product": "MOMENTUM SAVER",
-        "rate_percentage": 4.85
+        "rate_percentage": 4.85,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Health Professionals Bank",
         "product": "Starter Saver account",
-        "rate_percentage": 5.0
+        "rate_percentage": 5.0,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Heartland",
         "product": "MySavings account",
-        "rate_percentage": 4.55
+        "rate_percentage": 4.55,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Horizon Bank",
         "product": "SMSF SAVER",
-        "rate_percentage": 3.0
+        "rate_percentage": 3.0,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Horizon Bank",
         "product": "YOUTH REWARD SAVER",
-        "rate_percentage": 3.0
+        "rate_percentage": 3.0,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Hume Bank",
         "product": "Reward Saver",
-        "rate_percentage": 4.8
+        "rate_percentage": 4.8,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "IMB Bank",
         "product": "Reward Saver Account",
-        "rate_percentage": 3.0
+        "rate_percentage": 3.0,
+        "conditions": "Maximum withdrawals permitted before Bonus Interest is forfeited for the month."
     },
     {
         "bank": "IMB Bank",
         "product": "Reward Saver Kick Start",
-        "rate_percentage": 3.0
+        "rate_percentage": 3.0,
+        "conditions": "Maximum withdrawals permitted before Bonus Interest is forfeited for the month."
     },
     {
         "bank": "ING BANK (Australia) Ltd",
         "product": "Savings Accelerator",
-        "rate_percentage": 4.8
+        "rate_percentage": 4.8,
+        "conditions": "We may not accept a deposit to your Savings Accelerator if it would result in the combined deposits of all your Savings Accelerator(s) (whether in individual or joint names) exceeding $5,000,000.00"
     },
     {
         "bank": "ING BANK (Australia) Ltd",
         "product": "Savings Maximiser",
-        "rate_percentage": 5.5
+        "rate_percentage": 5.5,
+        "conditions": "When the criteria is met in a calendar month, the benefits and additional variable rate will apply in the next calendar month. Available on one account for balances up to $100,000."
     },
     {
         "bank": "Judo Bank",
         "product": "Personal Savings Account",
-        "rate_percentage": 5.35
+        "rate_percentage": 5.35,
+        "conditions": "Interest is calculated daily and paid monthly on your balance at a tiered interest rate."
     },
     {
         "bank": "Judo Bank",
         "product": "SMSF Savings Account",
-        "rate_percentage": 4.8
+        "rate_percentage": 4.8,
+        "conditions": "Interest is calculated daily and paid monthly on your balance at a tiered interest rate."
     },
     {
         "bank": "Laboratories Credit Union",
         "product": "Esaver Account",
-        "rate_percentage": 1.0
+        "rate_percentage": 1.0,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Laboratories Credit Union",
         "product": "Savvy Saver",
-        "rate_percentage": 3.66
+        "rate_percentage": 3.66,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "MOVE Bank",
         "product": "Bonus Saver",
-        "rate_percentage": 5.0
+        "rate_percentage": 5.0,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "MOVE Bank",
         "product": "Express Saver",
-        "rate_percentage": 1.1
+        "rate_percentage": 1.1,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "MOVE Bank",
         "product": "Growth Saver",
-        "rate_percentage": 5.4
+        "rate_percentage": 5.4,
+        "conditions": "Bonus interest payable on deposits up to $25,000"
     },
     {
         "bank": "MOVE Bank",
         "product": "Online Saver",
-        "rate_percentage": 4.15
+        "rate_percentage": 4.15,
+        "conditions": "Maximum balance $5,000,000"
     },
     {
         "bank": "Macquarie Bank Limited",
         "product": "Macquarie Cash Management Accelerator Account",
-        "rate_percentage": 4.65
+        "rate_percentage": 4.65,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Macquarie Bank Limited",
         "product": "Macquarie Savings Account",
-        "rate_percentage": 5.0
+        "rate_percentage": 5.0,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Maitland Mutual Limited",
         "product": "Bonus Saver",
-        "rate_percentage": 3.75
+        "rate_percentage": 3.75,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Maitland Mutual Limited",
         "product": "Internet Saver",
-        "rate_percentage": 3.25
+        "rate_percentage": 3.25,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "MyState Bank",
         "product": "Bonus Saver",
-        "rate_percentage": 4.95
+        "rate_percentage": 4.95,
+        "conditions": "Eligible deposit and Visa transactions are described on our web site."
     },
     {
         "bank": "MyState Bank",
         "product": "Hello Saver account",
-        "rate_percentage": 5.0
+        "rate_percentage": 5.0,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "NATIONAL AUSTRALIA BANK",
         "product": "NAB Reward Saver",
-        "rate_percentage": 5.0
+        "rate_percentage": 5.0,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "NATIONAL AUSTRALIA BANK",
         "product": "NAB iSaver",
-        "rate_percentage": 3.6
+        "rate_percentage": 3.6,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Northern Inland Credit Union Limited",
         "product": "Bonus Saver",
-        "rate_percentage": 4.15
+        "rate_percentage": 4.15,
+        "conditions": "Variable Base rate plus Bonus Interest rate is paid if you make at least one deposit of at least $1.00 and no withdrawals each month."
     },
     {
         "bank": "Northern Inland Credit Union Limited",
         "product": "Internet Saver",
-        "rate_percentage": 2.15
+        "rate_percentage": 2.15,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Northern Inland Credit Union Limited",
         "product": "Ready Saver",
-        "rate_percentage": 3.65
+        "rate_percentage": 3.65,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "ORANGE CREDIT UNION LTD",
         "product": "BONUS SAVER",
-        "rate_percentage": 3.75
+        "rate_percentage": 3.75,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "ORANGE CREDIT UNION LTD",
         "product": "ONLINE SAVER",
-        "rate_percentage": 4.6
+        "rate_percentage": 4.6,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "P&N Bank",
         "product": "Hi Saver Account",
-        "rate_percentage": 0.05
+        "rate_percentage": 0.05,
+        "conditions": "Maximum balance is $5,000,000"
     },
     {
         "bank": "P&N Bank",
         "product": "Savvy Saver Account",
-        "rate_percentage": 0.2
+        "rate_percentage": 0.2,
+        "conditions": "Maximum balance is $5,000,000"
     },
     {
         "bank": "P&N Bank",
         "product": "Smart Saver Account",
-        "rate_percentage": 4.85
+        "rate_percentage": 4.85,
+        "conditions": "Bonus interest is not paid on balances exceeding $250,000."
     },
     {
         "bank": "P&N Bank",
         "product": "Way Cool Saver",
-        "rate_percentage": 3.3
-    },
-    {
-        "bank": "Police Bank",
-        "product": "Bonus Saver Account",
-        "rate_percentage": 4.3
-    },
-    {
-        "bank": "Police Bank",
-        "product": "Savings Plus Account",
-        "rate_percentage": 4.5
+        "rate_percentage": 3.3,
+        "conditions": "Maximum balance is $5,000,000"
     },
     {
         "bank": "Police Credit Union Ltd",
         "product": "Beans Savings Account",
-        "rate_percentage": 4.05
+        "rate_percentage": 4.05,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Police Credit Union Ltd",
         "product": "Focus Saver Account",
-        "rate_percentage": 5.0
+        "rate_percentage": 5.0,
+        "conditions": "Cumulative"
     },
     {
         "bank": "Police Credit Union Ltd",
         "product": "Rural On-Call Savings Account",
-        "rate_percentage": 0.45
+        "rate_percentage": 0.45,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Police Credit Union Ltd",
         "product": "iSavings Account",
-        "rate_percentage": 4.0
+        "rate_percentage": 4.0,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "QBANK",
         "product": "Bonus Saver",
-        "rate_percentage": 4.7
+        "rate_percentage": 4.7,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "QBANK",
         "product": "Junior Saver",
-        "rate_percentage": 2.2
+        "rate_percentage": 2.2,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "QBANK",
         "product": "Teen Netlink Direct Savings",
-        "rate_percentage": 2.85
+        "rate_percentage": 2.85,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Qudos Bank",
         "product": "Bonus Saver",
-        "rate_percentage": 5.1
+        "rate_percentage": 5.1,
+        "conditions": "Deposit at least $100 and make no withdrawals in a calendar month to receive the bonus rate on your savings."
     },
     {
         "bank": "Qudos Bank",
         "product": "General Savings Account",
-        "rate_percentage": 0.05
+        "rate_percentage": 0.05,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Qudos Bank",
         "product": "Qantas Points Saver",
-        "rate_percentage": 4.25
+        "rate_percentage": 4.25,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Qudos Bank",
         "product": "Qsaver",
-        "rate_percentage": 4.45
+        "rate_percentage": 4.45,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Qudos Bank",
         "product": "Retirement Savings Account",
-        "rate_percentage": 4.95
+        "rate_percentage": 4.95,
+        "conditions": "Refer to PDS for details (Accumulation and Pension)"
     },
     {
         "bank": "Queensland Country Bank",
         "product": "Bonus Saver",
-        "rate_percentage": 4.35
+        "rate_percentage": 4.35,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Queensland Country Bank",
         "product": "Future Start Savings",
-        "rate_percentage": 4.35
+        "rate_percentage": 4.35,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Queensland Country Bank",
         "product": "Online Saver",
-        "rate_percentage": 2.8
+        "rate_percentage": 2.8,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Queensland Country Bank",
         "product": "Star Saver",
-        "rate_percentage": 3.95
+        "rate_percentage": 3.95,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Queensland Country Bank",
         "product": "Student Money Saver",
-        "rate_percentage": 4.35
+        "rate_percentage": 4.35,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "RACQ Bank",
         "product": "Bonus Saver Account",
-        "rate_percentage": 5.26
+        "rate_percentage": 5.26,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Rabobank",
         "product": "High Interest Savings Account",
-        "rate_percentage": 4.0
+        "rate_percentage": 4.0,
+        "conditions": "Funds can only be transferred externally to the nominated linked account."
     },
     {
         "bank": "Rabobank",
         "product": "High Interest Savings Account (SMSF)",
-        "rate_percentage": 3.45
+        "rate_percentage": 3.45,
+        "conditions": "Funds can only be transferred externally to the nominated linked account."
     },
     {
         "bank": "Rabobank",
         "product": "High Interest Savings Account (Trust)",
-        "rate_percentage": 3.4
+        "rate_percentage": 3.4,
+        "conditions": "Funds can only be transferred externally to the nominated linked account."
     },
     {
         "bank": "Rabobank",
         "product": "PremiumSaver",
-        "rate_percentage": 5.4
+        "rate_percentage": 5.4,
+        "conditions": "New customers are required to open and maintain a High Interest Savings Account (HISA) which is a variable rate at-call savings account which does not charge fees and has no minimum balance requirement."
     },
     {
         "bank": "Rabobank",
         "product": "PremiumSaver (SMSF)",
-        "rate_percentage": 4.6
+        "rate_percentage": 4.6,
+        "conditions": "New customers are required to open and maintain a High Interest Savings Account (HISA) which is a variable rate at-call savings account which does not charge fees and has no minimum balance requirement."
     },
     {
         "bank": "Regional Australia Bank",
         "product": "Internet Maximiser Account",
-        "rate_percentage": 3.0
+        "rate_percentage": 3.0,
+        "conditions": "A minimum balance of $1 is required to earn interest on this product."
     },
     {
         "bank": "Regional Australia Bank",
         "product": "Savings Account",
-        "rate_percentage": 3.0
+        "rate_percentage": 3.0,
+        "conditions": "\nA minimum balance of $1 is required to earn interest on this product."
     },
     {
         "bank": "Regional Australia Bank",
         "product": "Savings Booster Account",
-        "rate_percentage": 4.75
+        "rate_percentage": 4.75,
+        "conditions": "Interest is per annum. Deposit at least $100 and don\u2019t make any withdrawals through the month to receive boosted interest for that month. Bonus interest paid on portion of account balance up to $250,000.  Interest payable reverts to Base Interest if interest conditions are not met. Base Interest applies on the whole balance."
     },
     {
         "bank": "Reliance Bank",
         "product": "Bonus Saver Account",
-        "rate_percentage": 4.4
+        "rate_percentage": 4.4,
+        "conditions": "All deposits made to the account receive interest on the balance together with a bonus interest, if these conditions are met: no withdrawals or transfers are made in the month, account not closed during the month and minimum $100 deposit each month by cash, cheque, payroll credit or direct credit."
     },
     {
         "bank": "Reliance Bank",
         "product": "Christmas Saver Account",
-        "rate_percentage": 0.5
+        "rate_percentage": 0.5,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "SWSbank",
         "product": "Goal Account",
-        "rate_percentage": 0.25
+        "rate_percentage": 0.25,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "SWSbank",
         "product": "Online Saver",
-        "rate_percentage": 2.0
+        "rate_percentage": 2.0,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Southern Cross Credit Union",
         "product": "LITTLE STAR SAVER",
-        "rate_percentage": 4.9
+        "rate_percentage": 4.9,
+        "conditions": "Tiered rate based on different balance thresholds and bonus interest subject to no withdrawals"
     },
     {
         "bank": "Southern Cross Credit Union",
         "product": "STAR SAVER",
-        "rate_percentage": 4.9
+        "rate_percentage": 4.9,
+        "conditions": "Bonus interest paid when a minimum balance increase of $100 is achieved for the calendar month"
     },
     {
         "bank": "Southern Cross Credit Union",
         "product": "STAR SAVER CONTROLLED MONEY ACCOUNT (SOLICITORS ONLY)",
-        "rate_percentage": 2.35
+        "rate_percentage": 2.35,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "St.George Bank",
         "product": "Incentive Saver",
-        "rate_percentage": 5.15
-    },
-    {
-        "bank": "St.George Bank",
-        "product": "Maxi Saver",
-        "rate_percentage": 1.25
+        "rate_percentage": 5.15,
+        "conditions": "To earn Bonus interest rates, grow your account by at least $50 a month (for customers 21 or over) or $0.01 a month (for customers under 21) and keep your balance above $0. Add money to your account (interest payments don?t count). Grow your balance before the last business day of the month"
     },
     {
         "bank": "Summerland Bank",
         "product": "Bonus Saver",
-        "rate_percentage": 4.5
+        "rate_percentage": 4.5,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Suncorp Bank",
         "product": "Growth Saver Account",
-        "rate_percentage": 5.05
+        "rate_percentage": 5.05,
+        "conditions": "Bonus Interest - conditions must be met for bonus interest to be paid."
     },
     {
         "bank": "Suncorp Bank",
         "product": "Kids Savings",
-        "rate_percentage": 4.3
+        "rate_percentage": 4.3,
+        "conditions": "Bonus interest - conditions must be met for bonus interest to be paid."
     },
     {
         "bank": "TMCU",
         "product": "KIDS SAVER ACCOUNT",
-        "rate_percentage": 3.5
+        "rate_percentage": 3.5,
+        "conditions": "BONUS INTEREST PAID UP TO 10000 BALANCE"
     },
     {
         "bank": "TMCU",
         "product": "PREMIUM SAVERS ACCOUNT",
-        "rate_percentage": 2.25
+        "rate_percentage": 2.25,
+        "conditions": "FUNDS AVAILABLE AFTER 30 DAYS INTEREST PAID MONTHLY"
     },
     {
         "bank": "The Capricornian",
         "product": "Everyday Saver Account",
-        "rate_percentage": 0.1
+        "rate_percentage": 0.1,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "The Capricornian",
         "product": "iSaver",
-        "rate_percentage": 0.5
+        "rate_percentage": 0.5,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "The Mac",
         "product": "CHRISTMAS SAVER",
-        "rate_percentage": 1.5
+        "rate_percentage": 1.5,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "The Mac",
         "product": "eSaver",
-        "rate_percentage": 1.75
+        "rate_percentage": 1.75,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "UniBank",
         "product": "Essential Saver account",
-        "rate_percentage": 4.75
+        "rate_percentage": 4.75,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "UniBank",
         "product": "MOMENTUM SAVER",
-        "rate_percentage": 4.85
+        "rate_percentage": 4.85,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "UniBank",
         "product": "Starter Saver account",
-        "rate_percentage": 5.0
+        "rate_percentage": 5.0,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Unity Bank",
         "product": "Bonus Saver Account",
-        "rate_percentage": 4.4
+        "rate_percentage": 4.4,
+        "conditions": "All deposits made to the account receive interest on the balance together with a bonus interest, if these conditions are met: no withdrawals or transfers are made in the month, account not closed during the month and minimum $100 deposit each month by cash, cheque, payroll credit or direct credit."
     },
     {
         "bank": "Unity Bank",
         "product": "Christmas Saver Account",
-        "rate_percentage": 0.5
+        "rate_percentage": 0.5,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Up",
         "product": "Up Essentials Saver",
-        "rate_percentage": 5.35
+        "rate_percentage": 5.35,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Up",
         "product": "Up Saver",
-        "rate_percentage": 5.35
+        "rate_percentage": 5.35,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Virgin Money",
         "product": "Virgin Money Grow Saver",
-        "rate_percentage": 2.8
-    },
-    {
-        "bank": "Westpac",
-        "product": "Bump Savings",
-        "rate_percentage": 3.3
-    },
-    {
-        "bank": "Westpac",
-        "product": "Westpac Life",
-        "rate_percentage": 5.0
-    },
-    {
-        "bank": "Westpac",
-        "product": "Westpac eSaver",
-        "rate_percentage": 1.25
+        "rate_percentage": 2.8,
+        "conditions": "Additional variable interest rate earned on a Grow Saver where the optional Lock Saver Feature is enabled. Provide 32 days' advance notice to unlock your account or withdraw your money."
     },
     {
         "bank": "Woolworths Team Bank",
         "product": "Bonus Saver Account",
-        "rate_percentage": 4.9
+        "rate_percentage": 4.9,
+        "conditions": "Bonus Interest is capped on a max balance of $100,000"
     },
     {
         "bank": "bankWAW",
         "product": "Star Saver",
-        "rate_percentage": 4.75
+        "rate_percentage": 4.75,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "bankWAW",
         "product": "WAW Bonus Saver",
-        "rate_percentage": 4.85
+        "rate_percentage": 4.85,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "bankWAW",
         "product": "WAW Christmas Saver",
-        "rate_percentage": 2.65
+        "rate_percentage": 2.65,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "bankWAW",
         "product": "WAW SMSF Saver",
-        "rate_percentage": 2.4
+        "rate_percentage": 2.4,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "bankWAW",
         "product": "WAW Youth Saver",
-        "rate_percentage": 4.75
-    },
-    {
-        "bank": "gmcu",
-        "product": "Advantage Saver",
-        "rate_percentage": 4.3
-    },
-    {
-        "bank": "gmcu",
-        "product": "Christmas Saver",
-        "rate_percentage": 1.1
-    },
-    {
-        "bank": "gmcu",
-        "product": "Online Saver",
-        "rate_percentage": 1.05
+        "rate_percentage": 4.75,
+        "conditions": "No specific prerequisites found."
     }
 ]
