@@ -850,6 +850,44 @@
                     </div>
                 </section>
 
+                <!-- Regular Deposit Input & Slider -->
+                <section class="input-group">
+                    <div class="label-row">
+                        <label for="deposit">Regular Deposit</label>
+                    </div>
+                    <div class="numeric-display">
+                        <span class="prefix">$</span>
+                        <input type="number" id="deposit" value="500" min="0" max="1000000" step="10" oninput="syncSlider('deposit')">
+                    </div>
+                    <div class="slider-wrapper">
+                        <input type="range" id="depositSlider" value="500" min="0" max="10000" step="50" oninput="syncInput('deposit')">
+                    </div>
+                </section>
+
+                <!-- Regular Deposit Frequency & Timing (Side-by-Side) -->
+                <section class="input-group" style="display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 16px; margin-bottom: 24px;">
+                    <div>
+                        <div class="label-row">
+                            <label for="depositFreq">Frequency</label>
+                        </div>
+                        <select id="depositFreq" onchange="runCalculations()" style="padding: 12px 14px; font-size: 14px;">
+                            <option value="52">Weekly</option>
+                            <option value="26">Fortnightly</option>
+                            <option value="12" selected>Monthly</option>
+                            <option value="1">Yearly</option>
+                        </select>
+                    </div>
+                    <div>
+                        <div class="label-row">
+                            <label>Timing</label>
+                        </div>
+                        <div class="segmented-control" style="padding: 2px;">
+                            <button id="btnTimingEnd" class="segment-btn active" onclick="setDepositTiming('end')" style="padding: 8px 6px; font-size: 11px;">End</button>
+                            <button id="btnTimingBegin" class="segment-btn" onclick="setDepositTiming('beginning')" style="padding: 8px 6px; font-size: 11px;">Start</button>
+                        </div>
+                    </div>
+                </section>
+
                 <!-- Interest Rate Input & Slider -->
                 <section class="input-group">
                     <div class="label-row">
@@ -956,8 +994,24 @@
     <script>
         let termUnit = 'years';      // State: 'years' or 'months'
         let interestMode = 'compound'; // State: 'compound' or 'simple'
+        let depositTiming = 'end';     // State: 'end' or 'beginning'
         let growthChart = null;        // Global Chart.js reference
         let globalRatesData = [];      // Global bank rates storage for bottom comparisons
+
+        // Toggle deposit timing (Start vs End of period)
+        function setDepositTiming(timing) {
+            depositTiming = timing;
+            const btnEnd = document.getElementById('btnTimingEnd');
+            const btnBegin = document.getElementById('btnTimingBegin');
+            if (timing === 'end') {
+                btnEnd.classList.add('active');
+                btnBegin.classList.remove('active');
+            } else {
+                btnEnd.classList.remove('active');
+                btnBegin.classList.add('active');
+            }
+            runCalculations();
+        }
 
         // Toggle simple / compound interest mode
         function setInterestMode(mode) {
@@ -1128,9 +1182,54 @@
             }
         }
 
+        function calculateYield(principal, deposit, depositFreq, rate, termT, compoundFreq, mode, timing) {
+            const totalPeriods = Math.round(termT * depositFreq);
+            const r_eff = (compoundFreq && depositFreq) ? Math.pow(1 + rate / compoundFreq, compoundFreq / depositFreq) - 1 : 0;
+            
+            let total = principal;
+            let principalTotal = principal;
+            let interest = 0;
+
+            if (totalPeriods > 0) {
+                for (let period = 1; period <= totalPeriods; period++) {
+                    if (mode === 'simple') {
+                        let activeDeposit = principalTotal;
+                        if (timing === 'beginning') {
+                            activeDeposit += deposit;
+                        }
+                        let periodInterest = activeDeposit * (rate / depositFreq);
+                        interest += periodInterest;
+                        principalTotal += deposit;
+                        total = principalTotal + interest;
+                    } else {
+                        if (timing === 'beginning') {
+                            total += deposit;
+                            principalTotal += deposit;
+                            let oldTotal = total;
+                            total *= (1 + r_eff);
+                            interest += (total - oldTotal);
+                        } else {
+                            let oldTotal = total;
+                            total *= (1 + r_eff);
+                            total += deposit;
+                            principalTotal += deposit;
+                            interest += (total - oldTotal - deposit);
+                        }
+                    }
+                }
+            }
+            return {
+                total: Math.max(0, total),
+                principalTotal: Math.max(0, principalTotal),
+                interest: Math.max(0, interest)
+            };
+        }
+
         // Core Calculation Engine
         function runCalculations() {
             const principal = parseFloat(document.getElementById('principal').value) || 0;
+            const deposit = parseFloat(document.getElementById('deposit').value) || 0;
+            const depositFreq = parseFloat(document.getElementById('depositFreq').value) || 12;
             const rate = (parseFloat(document.getElementById('rate').value) || 0) / 100;
             const rawTerm = parseFloat(document.getElementById('term').value) || 0;
             const compoundFreq = parseFloat(document.getElementById('compound').value) || 12;
@@ -1138,20 +1237,11 @@
             // Normalize time variable 't' to standard years
             const t = (termUnit === 'years') ? rawTerm : (rawTerm / 12);
 
-            let total = 0;
-            if (rate === 0) {
-                total = principal;
-            } else {
-                if (interestMode === 'simple') {
-                    // Simple Interest Formula: A = P * (1 + r * t)
-                    total = principal * (1 + rate * t);
-                } else {
-                    // Compound Interest Formula: A = P * (1 + r/n)^(n*t)
-                    total = principal * Math.pow((1 + (rate / compoundFreq)), (compoundFreq * t));
-                }
-            }
-
-            const interest = Math.max(0, total - principal);
+            const result = calculateYield(principal, deposit, depositFreq, rate, t, compoundFreq, interestMode, depositTiming);
+            
+            let total = result.total;
+            let principalTotal = result.principalTotal;
+            let interest = result.interest;
             
             // Format numbers
             const formatter = new Intl.NumberFormat('en-US', {
@@ -1162,17 +1252,17 @@
 
             // Update UI Elements
             document.getElementById('outTotal').textContent = formatter.format(total);
-            document.getElementById('outPrincipal').textContent = formatter.format(principal);
+            document.getElementById('outPrincipal').textContent = formatter.format(principalTotal);
             document.getElementById('outInterest').textContent = formatter.format(interest);
 
             // Update SVG Visualizer (Arc lengths)
-            updateDonutChart(principal, interest);
+            updateDonutChart(principalTotal, interest);
 
             // Update Progression Bar Chart
-            renderProgressionChart(principal, rate, rawTerm, compoundFreq);
+            renderProgressionChart(principal, deposit, depositFreq, rate, rawTerm, compoundFreq);
 
             // Update Dynamic Comparisons Panel at the bottom
-            updateComparisons(principal, rate * 100, rawTerm, compoundFreq);
+            updateComparisons(principal, deposit, depositFreq, rate * 100, rawTerm, compoundFreq);
         }
 
         // Dynamic Donut Update
@@ -1206,7 +1296,7 @@
         }
 
         // Dynamic Chart.js Progression Graph Update
-        function renderProgressionChart(principal, rate, rawTerm, compoundFreq) {
+        function renderProgressionChart(principal, deposit, depositFreq, rate, rawTerm, compoundFreq) {
             let labels = [];
             let principalData = [];
             let interestData = [];
@@ -1222,43 +1312,23 @@
             // Loop to calculate progress data
             for (let i = sampleInterval; i <= rawTerm; i += sampleInterval) {
                 const stepT = (termUnit === 'years') ? i : (i / 12);
-                let stepTotal = 0;
                 
-                if (rate === 0) {
-                    stepTotal = principal;
-                } else {
-                    if (interestMode === 'simple') {
-                        stepTotal = principal * (1 + rate * stepT);
-                    } else {
-                        stepTotal = principal * Math.pow((1 + (rate / compoundFreq)), (compoundFreq * stepT));
-                    }
-                }
+                const stepResult = calculateYield(principal, deposit, depositFreq, rate, stepT, compoundFreq, interestMode, depositTiming);
                 
-                const stepInterest = Math.max(0, stepTotal - principal);
                 labels.push((termUnit === 'years') ? `Yr ${i}` : `Mo ${i}`);
-                principalData.push(Math.round(principal));
-                interestData.push(Math.round(stepInterest));
+                principalData.push(Math.round(stepResult.principalTotal));
+                interestData.push(Math.round(stepResult.interest));
             }
 
             // Force add final term data point if it was omitted by the sampling interval
             if (rawTerm % sampleInterval !== 0) {
                 const stepT = (termUnit === 'years') ? rawTerm : (rawTerm / 12);
-                let stepTotal = 0;
                 
-                if (rate === 0) {
-                    stepTotal = principal;
-                } else {
-                    if (interestMode === 'simple') {
-                        stepTotal = principal * (1 + rate * stepT);
-                    } else {
-                        stepTotal = principal * Math.pow((1 + (rate / compoundFreq)), (compoundFreq * stepT));
-                    }
-                }
+                const stepResult = calculateYield(principal, deposit, depositFreq, rate, stepT, compoundFreq, interestMode, depositTiming);
                 
-                const stepInterest = Math.max(0, stepTotal - principal);
                 labels.push((termUnit === 'years') ? `Yr ${rawTerm}` : `Mo ${rawTerm}`);
-                principalData.push(Math.round(principal));
-                interestData.push(Math.round(stepInterest));
+                principalData.push(Math.round(stepResult.principalTotal));
+                interestData.push(Math.round(stepResult.interest));
             }
 
             const ctx = document.getElementById('growthChart').getContext('2d');
@@ -1376,7 +1446,7 @@
         }
 
         // Update Dynamic Comparisons Panel at the bottom
-        function updateComparisons(currentPrincipal, currentRateVal, currentTerm, currentCompound) {
+        function updateComparisons(currentPrincipal, deposit, depositFreq, currentRateVal, currentTerm, currentCompound) {
             const listElement = document.getElementById('comparisonList');
             if (!listElement || globalRatesData.length === 0) return;
 
@@ -1405,21 +1475,23 @@
             // Sort all rates descending
             alternatives.sort((a, b) => b.rate_percentage - a.rate_percentage);
 
-            // Get top 5 highest alternative options
-            const topAlternatives = alternatives.slice(0, 5);
+            // Filter to ensure unique banks and get top 5 highest alternative options
+            const topAlternatives = [];
+            const seenBanks = new Set();
+            for (const item of alternatives) {
+                if (!seenBanks.has(item.bank)) {
+                    seenBanks.add(item.bank);
+                    topAlternatives.push(item);
+                }
+                if (topAlternatives.length >= 5) break;
+            }
 
             // Calculate current projected total interest
             const t = (termUnit === 'years') ? currentTerm : (currentTerm / 12);
-            let currentInterest = 0;
             const rCurrent = currentRateVal / 100;
             
-            if (rCurrent > 0) {
-                if (interestMode === 'simple') {
-                    currentInterest = currentPrincipal * rCurrent * t;
-                } else {
-                    currentInterest = (currentPrincipal * Math.pow((1 + (rCurrent / currentCompound)), (currentCompound * t))) - currentPrincipal;
-                }
-            }
+            const currentResult = calculateYield(currentPrincipal, deposit, depositFreq, rCurrent, t, currentCompound, interestMode, depositTiming);
+            let currentInterest = currentResult.interest;
 
             // Clear previous items
             listElement.innerHTML = '';
@@ -1433,15 +1505,9 @@
             // Render items
             topAlternatives.forEach(alt => {
                 const altRate = alt.rate_percentage / 100;
-                let altInterest = 0;
-
-                if (altRate > 0) {
-                    if (interestMode === 'simple') {
-                        altInterest = currentPrincipal * altRate * t;
-                    } else {
-                        altInterest = (currentPrincipal * Math.pow((1 + (altRate / currentCompound)), (currentCompound * t))) - currentPrincipal;
-                    }
-                }
+                
+                const altResult = calculateYield(currentPrincipal, deposit, depositFreq, altRate, t, currentCompound, interestMode, depositTiming);
+                let altInterest = altResult.interest;
 
                 const diff = altInterest - currentInterest;
 

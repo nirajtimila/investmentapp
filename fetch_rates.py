@@ -14,8 +14,8 @@ def scan_single_bank(bank):
     base_uri = base_uri.rstrip('/')
     products_url = f"{base_uri}/cds-au/v1/banking/products"
     
-    # We will try different version headers: x-v = 4 first, then 3, then 1
-    versions_to_try = ["4", "3", "1"]
+    # We will try different version headers from highest to lowest
+    versions_to_try = ["6", "5", "4", "3", "2", "1"]
     products = []
     chosen_version = "4"
     success_list = False
@@ -98,7 +98,7 @@ def scan_single_bank(bank):
         
         # Build optimized list of versions to try
         versions_detail = [chosen_version]
-        for fallback in ["4", "3", "1"]:
+        for fallback in ["6", "5", "4", "3", "2", "1"]:
             if fallback not in versions_detail:
                 versions_detail.append(fallback)
                 

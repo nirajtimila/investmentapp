@@ -1,5 +1,30 @@
 [
     {
+        "bank": "AMP - My AMP",
+        "product": "AMP Saver Account",
+        "rate_percentage": 4.7
+    },
+    {
+        "bank": "ANZ",
+        "product": "ANZ Online Saver",
+        "rate_percentage": 1.35
+    },
+    {
+        "bank": "ANZ",
+        "product": "ANZ Progress Saver",
+        "rate_percentage": 3.75
+    },
+    {
+        "bank": "ANZ Plus",
+        "product": "ANZ Plus Flex Saver",
+        "rate_percentage": 5.1
+    },
+    {
+        "bank": "ANZ Plus",
+        "product": "ANZ Plus Growth Saver",
+        "rate_percentage": 5.1
+    },
+    {
         "bank": "Alex.Bank",
         "product": "Savings",
         "rate_percentage": 4.5
@@ -18,6 +43,36 @@
         "bank": "Australian Military Bank",
         "product": "Recruit Salary Saver",
         "rate_percentage": 2.0
+    },
+    {
+        "bank": "Auswide Bank Ltd",
+        "product": "BONUS PLUS SAVER",
+        "rate_percentage": 3.06
+    },
+    {
+        "bank": "Auswide Bank Ltd",
+        "product": "ONLINE SAVER",
+        "rate_percentage": 2.0
+    },
+    {
+        "bank": "Auswide Bank Ltd",
+        "product": "ZIGGY KIDS SAVER",
+        "rate_percentage": 3.26
+    },
+    {
+        "bank": "BCU Bank",
+        "product": "Bonus Saver",
+        "rate_percentage": 0.05
+    },
+    {
+        "bank": "BCU Bank",
+        "product": "Boss Saver",
+        "rate_percentage": 0.2
+    },
+    {
+        "bank": "BCU Bank",
+        "product": "Power Saver",
+        "rate_percentage": 4.85
     },
     {
         "bank": "Bank Australia",
@@ -40,6 +95,11 @@
         "rate_percentage": 5.1
     },
     {
+        "bank": "Bank First",
+        "product": "Bonus Saver Account",
+        "rate_percentage": 4.75
+    },
+    {
         "bank": "Bank of China",
         "product": "Online Saver",
         "rate_percentage": 1.35
@@ -48,6 +108,46 @@
         "bank": "Bank of China",
         "product": "Online Saver Statement",
         "rate_percentage": 3.25
+    },
+    {
+        "bank": "Bank of Melbourne",
+        "product": "Incentive Saver",
+        "rate_percentage": 5.15
+    },
+    {
+        "bank": "Bank of Melbourne",
+        "product": "Maxi Saver",
+        "rate_percentage": 1.25
+    },
+    {
+        "bank": "Bank of Queensland Limited",
+        "product": "Kids Savings Account",
+        "rate_percentage": 1.3
+    },
+    {
+        "bank": "Bank of Queensland Limited",
+        "product": "Simple Saver Account",
+        "rate_percentage": 4.55
+    },
+    {
+        "bank": "BankSA",
+        "product": "Incentive Saver",
+        "rate_percentage": 5.15
+    },
+    {
+        "bank": "BankSA",
+        "product": "Maxi Saver",
+        "rate_percentage": 1.25
+    },
+    {
+        "bank": "BankVic",
+        "product": "Bonus Saver",
+        "rate_percentage": 4.85
+    },
+    {
+        "bank": "BankVic",
+        "product": "SMSF Saver",
+        "rate_percentage": 4.4
     },
     {
         "bank": "Bankwest",
@@ -60,6 +160,31 @@
         "rate_percentage": 5.1
     },
     {
+        "bank": "Bendigo Bank",
+        "product": "Bendigo EasySaver",
+        "rate_percentage": 3.55
+    },
+    {
+        "bank": "Bendigo Bank",
+        "product": "Bendigo PiggySaver",
+        "rate_percentage": 3.55
+    },
+    {
+        "bank": "Bendigo Bank",
+        "product": "Bendigo Reward Saver",
+        "rate_percentage": 4.75
+    },
+    {
+        "bank": "Beyond Bank Australia",
+        "product": "Purple Bonus Saver",
+        "rate_percentage": 4.65
+    },
+    {
+        "bank": "Beyond Bank Australia",
+        "product": "monEsaver Internet Account",
+        "rate_percentage": 2.75
+    },
+    {
         "bank": "Border Bank",
         "product": "Bonus Saver Account",
         "rate_percentage": 4.3
@@ -68,6 +193,76 @@
         "bank": "Border Bank",
         "product": "Savings Plus Account",
         "rate_percentage": 4.5
+    },
+    {
+        "bank": "Broken Hill Bank",
+        "product": "OTC Savings Account",
+        "rate_percentage": 1.6
+    },
+    {
+        "bank": "Broken Hill Bank",
+        "product": "Santa Saver Account",
+        "rate_percentage": 1.75
+    },
+    {
+        "bank": "Broken Hill Bank",
+        "product": "eCall Savings Account",
+        "rate_percentage": 2.55
+    },
+    {
+        "bank": "Cairns bank",
+        "product": "Childrens saver account",
+        "rate_percentage": 3.1
+    },
+    {
+        "bank": "Cairns bank",
+        "product": "Christmas Saver Account",
+        "rate_percentage": 2.0
+    },
+    {
+        "bank": "Cairns bank",
+        "product": "Online Saver account",
+        "rate_percentage": 2.65
+    },
+    {
+        "bank": "Central Murray Bank",
+        "product": "AT CALL SAVINGS",
+        "rate_percentage": 0.05
+    },
+    {
+        "bank": "Central Murray Bank",
+        "product": "AT CALL SAVINGS",
+        "rate_percentage": 0.05
+    },
+    {
+        "bank": "Central West CUL",
+        "product": "INVESTMENT SAVINGS",
+        "rate_percentage": 2.0
+    },
+    {
+        "bank": "Central West CUL",
+        "product": "S2 Budget Savings Account",
+        "rate_percentage": 0.05
+    },
+    {
+        "bank": "Central West CUL",
+        "product": "S8 E Access Saver Account",
+        "rate_percentage": 2.05
+    },
+    {
+        "bank": "Coastline Bank",
+        "product": "Bonus Reward Saver",
+        "rate_percentage": 0.4
+    },
+    {
+        "bank": "Coastline Bank",
+        "product": "Coastline Savings Account",
+        "rate_percentage": 3.0
+    },
+    {
+        "bank": "Coastline Bank",
+        "product": "Gold Benefits Savings",
+        "rate_percentage": 3.1
     },
     {
         "bank": "CommBank",
@@ -85,6 +280,31 @@
         "rate_percentage": 2.9
     },
     {
+        "bank": "CommFCU",
+        "product": "FIRSTBIZ ONLINE SAVER",
+        "rate_percentage": 3.25
+    },
+    {
+        "bank": "CommFCU",
+        "product": "Goal Saver",
+        "rate_percentage": 4.1
+    },
+    {
+        "bank": "CommFCU",
+        "product": "Online Saver",
+        "rate_percentage": 3.1
+    },
+    {
+        "bank": "CommFCU",
+        "product": "Santa Saver",
+        "rate_percentage": 4.85
+    },
+    {
+        "bank": "CommFCU",
+        "product": "Wildlife Saver account",
+        "rate_percentage": 3.25
+    },
+    {
         "bank": "Credit Union SA",
         "product": "Bonus Savings Account",
         "rate_percentage": 3.5
@@ -93,6 +313,16 @@
         "bank": "Credit Union SA",
         "product": "Children's Savings Account",
         "rate_percentage": 4.35
+    },
+    {
+        "bank": "Darling Downs Bank",
+        "product": "EDUCATION SAVER",
+        "rate_percentage": 0.7
+    },
+    {
+        "bank": "Darling Downs Bank",
+        "product": "SMART SAVERS",
+        "rate_percentage": 0.6
     },
     {
         "bank": "Defence Bank",
@@ -120,6 +350,26 @@
         "rate_percentage": 5.6
     },
     {
+        "bank": "Dnister",
+        "product": "Bonus Saver",
+        "rate_percentage": 4.55
+    },
+    {
+        "bank": "Dnister",
+        "product": "Max Saver",
+        "rate_percentage": 4.65
+    },
+    {
+        "bank": "Dnister",
+        "product": "My Community Saver",
+        "rate_percentage": 0.77
+    },
+    {
+        "bank": "Easy Street",
+        "product": "Flex Saver",
+        "rate_percentage": 5.05
+    },
+    {
         "bank": "Family First",
         "product": "Bonus Saver",
         "rate_percentage": 4.0
@@ -135,6 +385,146 @@
         "rate_percentage": 1.5
     },
     {
+        "bank": "Fire Service Credit Union",
+        "product": "S1 On Call Savings",
+        "rate_percentage": 0.05
+    },
+    {
+        "bank": "Fire Service Credit Union",
+        "product": "S7 Christmas Savings Account",
+        "rate_percentage": 2.5
+    },
+    {
+        "bank": "Fire Service Credit Union",
+        "product": "S8 Savings Account",
+        "rate_percentage": 2.25
+    },
+    {
+        "bank": "Firefighters Mutual Bank",
+        "product": "Essential Saver account",
+        "rate_percentage": 4.75
+    },
+    {
+        "bank": "Firefighters Mutual Bank",
+        "product": "MOMENTUM SAVER",
+        "rate_percentage": 4.85
+    },
+    {
+        "bank": "Firefighters Mutual Bank",
+        "product": "Starter Saver account",
+        "rate_percentage": 5.0
+    },
+    {
+        "bank": "First Option Bank",
+        "product": "Bonus Saver",
+        "rate_percentage": 3.05
+    },
+    {
+        "bank": "First Option Bank",
+        "product": "CHRISTMAS SAVER",
+        "rate_percentage": 2.0
+    },
+    {
+        "bank": "First Option Bank",
+        "product": "KIDS BONUS SAVER",
+        "rate_percentage": 5.3
+    },
+    {
+        "bank": "First Option Bank",
+        "product": "SAVINGS + BONUS",
+        "rate_percentage": 4.75
+    },
+    {
+        "bank": "First Option Bank",
+        "product": "Smart Start Access Saver",
+        "rate_percentage": 0.05
+    },
+    {
+        "bank": "G&C Mutual Bank",
+        "product": "Bonus Saver Account",
+        "rate_percentage": 4.4
+    },
+    {
+        "bank": "G&C Mutual Bank",
+        "product": "Christmas Saver Account",
+        "rate_percentage": 0.5
+    },
+    {
+        "bank": "Gateway Bank",
+        "product": "Dollaroo Junior Savers",
+        "rate_percentage": 3.75
+    },
+    {
+        "bank": "Gateway Bank",
+        "product": "Goal Saver",
+        "rate_percentage": 4.35
+    },
+    {
+        "bank": "Gateway Bank",
+        "product": "SMSF Savings Account",
+        "rate_percentage": 4.4
+    },
+    {
+        "bank": "Gateway Bank",
+        "product": "Savings Account",
+        "rate_percentage": 0.25
+    },
+    {
+        "bank": "Gateway Bank",
+        "product": "eMax Saver Account",
+        "rate_percentage": 3.95
+    },
+    {
+        "bank": "Geelong Bank",
+        "product": "Achieve Saver",
+        "rate_percentage": 1.3
+    },
+    {
+        "bank": "Geelong Bank",
+        "product": "Online Saver Account",
+        "rate_percentage": 1.25
+    },
+    {
+        "bank": "Geelong Bank",
+        "product": "Senior Savers",
+        "rate_percentage": 1.4
+    },
+    {
+        "bank": "Geelong Bank",
+        "product": "Young Achiever Savings",
+        "rate_percentage": 1.65
+    },
+    {
+        "bank": "Geelong Bank",
+        "product": "iSaver",
+        "rate_percentage": 1.36
+    },
+    {
+        "bank": "Great Southern Bank",
+        "product": "Everyday Saver",
+        "rate_percentage": 4.8
+    },
+    {
+        "bank": "Great Southern Bank",
+        "product": "Future Saver",
+        "rate_percentage": 4.85
+    },
+    {
+        "bank": "Great Southern Bank",
+        "product": "Goal Saver",
+        "rate_percentage": 5.35
+    },
+    {
+        "bank": "Great Southern Bank",
+        "product": "Home Saver",
+        "rate_percentage": 5.25
+    },
+    {
+        "bank": "Great Southern Bank",
+        "product": "Youth eSaver",
+        "rate_percentage": 5.5
+    },
+    {
         "bank": "Greater Bank Limited",
         "product": "Bonus Saver",
         "rate_percentage": 4.0
@@ -143,6 +533,86 @@
         "bank": "Greater Bank Limited",
         "product": "Life Saver",
         "rate_percentage": 5.25
+    },
+    {
+        "bank": "HSBC",
+        "product": "HSBC Bonus Savings Account - AUD",
+        "rate_percentage": 2.25
+    },
+    {
+        "bank": "HSBC",
+        "product": "HSBC Bonus Savings Account - GBP",
+        "rate_percentage": 2.0
+    },
+    {
+        "bank": "HSBC",
+        "product": "HSBC Bonus Savings Account- CAD",
+        "rate_percentage": 2.0
+    },
+    {
+        "bank": "HSBC",
+        "product": "HSBC Everyday Savings Account",
+        "rate_percentage": 3.0
+    },
+    {
+        "bank": "HSBC",
+        "product": "HSBC Premier Children's Savings Account",
+        "rate_percentage": 0.15
+    },
+    {
+        "bank": "Health Professionals Bank",
+        "product": "Essential Saver account",
+        "rate_percentage": 4.75
+    },
+    {
+        "bank": "Health Professionals Bank",
+        "product": "MOMENTUM SAVER",
+        "rate_percentage": 4.85
+    },
+    {
+        "bank": "Health Professionals Bank",
+        "product": "Starter Saver account",
+        "rate_percentage": 5.0
+    },
+    {
+        "bank": "Heartland",
+        "product": "MySavings account",
+        "rate_percentage": 4.55
+    },
+    {
+        "bank": "Horizon Bank",
+        "product": "SMSF SAVER",
+        "rate_percentage": 3.0
+    },
+    {
+        "bank": "Horizon Bank",
+        "product": "YOUTH REWARD SAVER",
+        "rate_percentage": 3.0
+    },
+    {
+        "bank": "Hume Bank",
+        "product": "Reward Saver",
+        "rate_percentage": 4.8
+    },
+    {
+        "bank": "IMB Bank",
+        "product": "Reward Saver Account",
+        "rate_percentage": 3.0
+    },
+    {
+        "bank": "IMB Bank",
+        "product": "Reward Saver Kick Start",
+        "rate_percentage": 3.0
+    },
+    {
+        "bank": "ING BANK (Australia) Ltd",
+        "product": "Savings Accelerator",
+        "rate_percentage": 4.8
+    },
+    {
+        "bank": "ING BANK (Australia) Ltd",
+        "product": "Savings Maximiser",
+        "rate_percentage": 5.5
     },
     {
         "bank": "Judo Bank",
@@ -155,6 +625,36 @@
         "rate_percentage": 4.8
     },
     {
+        "bank": "Laboratories Credit Union",
+        "product": "Esaver Account",
+        "rate_percentage": 1.0
+    },
+    {
+        "bank": "Laboratories Credit Union",
+        "product": "Savvy Saver",
+        "rate_percentage": 3.66
+    },
+    {
+        "bank": "MOVE Bank",
+        "product": "Bonus Saver",
+        "rate_percentage": 5.0
+    },
+    {
+        "bank": "MOVE Bank",
+        "product": "Express Saver",
+        "rate_percentage": 1.1
+    },
+    {
+        "bank": "MOVE Bank",
+        "product": "Growth Saver",
+        "rate_percentage": 5.4
+    },
+    {
+        "bank": "MOVE Bank",
+        "product": "Online Saver",
+        "rate_percentage": 4.15
+    },
+    {
         "bank": "Macquarie Bank Limited",
         "product": "Macquarie Cash Management Accelerator Account",
         "rate_percentage": 4.65
@@ -163,6 +663,16 @@
         "bank": "Macquarie Bank Limited",
         "product": "Macquarie Savings Account",
         "rate_percentage": 5.0
+    },
+    {
+        "bank": "Maitland Mutual Limited",
+        "product": "Bonus Saver",
+        "rate_percentage": 3.75
+    },
+    {
+        "bank": "Maitland Mutual Limited",
+        "product": "Internet Saver",
+        "rate_percentage": 3.25
     },
     {
         "bank": "MyState Bank",
@@ -185,6 +695,51 @@
         "rate_percentage": 3.6
     },
     {
+        "bank": "Northern Inland Credit Union Limited",
+        "product": "Bonus Saver",
+        "rate_percentage": 4.15
+    },
+    {
+        "bank": "Northern Inland Credit Union Limited",
+        "product": "Internet Saver",
+        "rate_percentage": 2.15
+    },
+    {
+        "bank": "Northern Inland Credit Union Limited",
+        "product": "Ready Saver",
+        "rate_percentage": 3.65
+    },
+    {
+        "bank": "ORANGE CREDIT UNION LTD",
+        "product": "BONUS SAVER",
+        "rate_percentage": 3.75
+    },
+    {
+        "bank": "ORANGE CREDIT UNION LTD",
+        "product": "ONLINE SAVER",
+        "rate_percentage": 4.6
+    },
+    {
+        "bank": "P&N Bank",
+        "product": "Hi Saver Account",
+        "rate_percentage": 0.05
+    },
+    {
+        "bank": "P&N Bank",
+        "product": "Savvy Saver Account",
+        "rate_percentage": 0.2
+    },
+    {
+        "bank": "P&N Bank",
+        "product": "Smart Saver Account",
+        "rate_percentage": 4.85
+    },
+    {
+        "bank": "P&N Bank",
+        "product": "Way Cool Saver",
+        "rate_percentage": 3.3
+    },
+    {
         "bank": "Police Bank",
         "product": "Bonus Saver Account",
         "rate_percentage": 4.3
@@ -193,6 +748,41 @@
         "bank": "Police Bank",
         "product": "Savings Plus Account",
         "rate_percentage": 4.5
+    },
+    {
+        "bank": "Police Credit Union Ltd",
+        "product": "Beans Savings Account",
+        "rate_percentage": 4.05
+    },
+    {
+        "bank": "Police Credit Union Ltd",
+        "product": "Focus Saver Account",
+        "rate_percentage": 5.0
+    },
+    {
+        "bank": "Police Credit Union Ltd",
+        "product": "Rural On-Call Savings Account",
+        "rate_percentage": 0.45
+    },
+    {
+        "bank": "Police Credit Union Ltd",
+        "product": "iSavings Account",
+        "rate_percentage": 4.0
+    },
+    {
+        "bank": "QBANK",
+        "product": "Bonus Saver",
+        "rate_percentage": 4.7
+    },
+    {
+        "bank": "QBANK",
+        "product": "Junior Saver",
+        "rate_percentage": 2.2
+    },
+    {
+        "bank": "QBANK",
+        "product": "Teen Netlink Direct Savings",
+        "rate_percentage": 2.85
     },
     {
         "bank": "Qudos Bank",
@@ -220,6 +810,61 @@
         "rate_percentage": 4.95
     },
     {
+        "bank": "Queensland Country Bank",
+        "product": "Bonus Saver",
+        "rate_percentage": 4.35
+    },
+    {
+        "bank": "Queensland Country Bank",
+        "product": "Future Start Savings",
+        "rate_percentage": 4.35
+    },
+    {
+        "bank": "Queensland Country Bank",
+        "product": "Online Saver",
+        "rate_percentage": 2.8
+    },
+    {
+        "bank": "Queensland Country Bank",
+        "product": "Star Saver",
+        "rate_percentage": 3.95
+    },
+    {
+        "bank": "Queensland Country Bank",
+        "product": "Student Money Saver",
+        "rate_percentage": 4.35
+    },
+    {
+        "bank": "RACQ Bank",
+        "product": "Bonus Saver Account",
+        "rate_percentage": 5.26
+    },
+    {
+        "bank": "Rabobank",
+        "product": "High Interest Savings Account",
+        "rate_percentage": 4.0
+    },
+    {
+        "bank": "Rabobank",
+        "product": "High Interest Savings Account (SMSF)",
+        "rate_percentage": 3.45
+    },
+    {
+        "bank": "Rabobank",
+        "product": "High Interest Savings Account (Trust)",
+        "rate_percentage": 3.4
+    },
+    {
+        "bank": "Rabobank",
+        "product": "PremiumSaver",
+        "rate_percentage": 5.4
+    },
+    {
+        "bank": "Rabobank",
+        "product": "PremiumSaver (SMSF)",
+        "rate_percentage": 4.6
+    },
+    {
         "bank": "Regional Australia Bank",
         "product": "Internet Maximiser Account",
         "rate_percentage": 3.0
@@ -235,6 +880,56 @@
         "rate_percentage": 4.75
     },
     {
+        "bank": "Reliance Bank",
+        "product": "Bonus Saver Account",
+        "rate_percentage": 4.4
+    },
+    {
+        "bank": "Reliance Bank",
+        "product": "Christmas Saver Account",
+        "rate_percentage": 0.5
+    },
+    {
+        "bank": "SWSbank",
+        "product": "Goal Account",
+        "rate_percentage": 0.25
+    },
+    {
+        "bank": "SWSbank",
+        "product": "Online Saver",
+        "rate_percentage": 2.0
+    },
+    {
+        "bank": "Southern Cross Credit Union",
+        "product": "LITTLE STAR SAVER",
+        "rate_percentage": 4.9
+    },
+    {
+        "bank": "Southern Cross Credit Union",
+        "product": "STAR SAVER",
+        "rate_percentage": 4.9
+    },
+    {
+        "bank": "Southern Cross Credit Union",
+        "product": "STAR SAVER CONTROLLED MONEY ACCOUNT (SOLICITORS ONLY)",
+        "rate_percentage": 2.35
+    },
+    {
+        "bank": "St.George Bank",
+        "product": "Incentive Saver",
+        "rate_percentage": 5.15
+    },
+    {
+        "bank": "St.George Bank",
+        "product": "Maxi Saver",
+        "rate_percentage": 1.25
+    },
+    {
+        "bank": "Summerland Bank",
+        "product": "Bonus Saver",
+        "rate_percentage": 4.5
+    },
+    {
         "bank": "Suncorp Bank",
         "product": "Growth Saver Account",
         "rate_percentage": 5.05
@@ -245,6 +940,16 @@
         "rate_percentage": 4.3
     },
     {
+        "bank": "TMCU",
+        "product": "KIDS SAVER ACCOUNT",
+        "rate_percentage": 3.5
+    },
+    {
+        "bank": "TMCU",
+        "product": "PREMIUM SAVERS ACCOUNT",
+        "rate_percentage": 2.25
+    },
+    {
         "bank": "The Capricornian",
         "product": "Everyday Saver Account",
         "rate_percentage": 0.1
@@ -252,6 +957,41 @@
     {
         "bank": "The Capricornian",
         "product": "iSaver",
+        "rate_percentage": 0.5
+    },
+    {
+        "bank": "The Mac",
+        "product": "CHRISTMAS SAVER",
+        "rate_percentage": 1.5
+    },
+    {
+        "bank": "The Mac",
+        "product": "eSaver",
+        "rate_percentage": 1.75
+    },
+    {
+        "bank": "UniBank",
+        "product": "Essential Saver account",
+        "rate_percentage": 4.75
+    },
+    {
+        "bank": "UniBank",
+        "product": "MOMENTUM SAVER",
+        "rate_percentage": 4.85
+    },
+    {
+        "bank": "UniBank",
+        "product": "Starter Saver account",
+        "rate_percentage": 5.0
+    },
+    {
+        "bank": "Unity Bank",
+        "product": "Bonus Saver Account",
+        "rate_percentage": 4.4
+    },
+    {
+        "bank": "Unity Bank",
+        "product": "Christmas Saver Account",
         "rate_percentage": 0.5
     },
     {
@@ -265,8 +1005,68 @@
         "rate_percentage": 5.35
     },
     {
+        "bank": "Virgin Money",
+        "product": "Virgin Money Grow Saver",
+        "rate_percentage": 2.8
+    },
+    {
+        "bank": "Westpac",
+        "product": "Bump Savings",
+        "rate_percentage": 3.3
+    },
+    {
+        "bank": "Westpac",
+        "product": "Westpac Life",
+        "rate_percentage": 5.0
+    },
+    {
+        "bank": "Westpac",
+        "product": "Westpac eSaver",
+        "rate_percentage": 1.25
+    },
+    {
         "bank": "Woolworths Team Bank",
         "product": "Bonus Saver Account",
         "rate_percentage": 4.9
+    },
+    {
+        "bank": "bankWAW",
+        "product": "Star Saver",
+        "rate_percentage": 4.75
+    },
+    {
+        "bank": "bankWAW",
+        "product": "WAW Bonus Saver",
+        "rate_percentage": 4.85
+    },
+    {
+        "bank": "bankWAW",
+        "product": "WAW Christmas Saver",
+        "rate_percentage": 2.65
+    },
+    {
+        "bank": "bankWAW",
+        "product": "WAW SMSF Saver",
+        "rate_percentage": 2.4
+    },
+    {
+        "bank": "bankWAW",
+        "product": "WAW Youth Saver",
+        "rate_percentage": 4.75
+    },
+    {
+        "bank": "gmcu",
+        "product": "Advantage Saver",
+        "rate_percentage": 4.3
+    },
+    {
+        "bank": "gmcu",
+        "product": "Christmas Saver",
+        "rate_percentage": 1.1
+    },
+    {
+        "bank": "gmcu",
+        "product": "Online Saver",
+        "rate_percentage": 1.05
     }
 ]
