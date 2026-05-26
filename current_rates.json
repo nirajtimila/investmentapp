@@ -1,5 +1,11 @@
 [
     {
+        "bank": "AMP - My AMP",
+        "product": "AMP Saver Account",
+        "rate_percentage": 4.7,
+        "conditions": "You don't need to maintain a specific minimum balance"
+    },
+    {
         "bank": "ANZ",
         "product": "ANZ Online Saver",
         "rate_percentage": 1.35,
@@ -45,6 +51,24 @@
         "bank": "Australian Military Bank",
         "product": "Recruit Salary Saver",
         "rate_percentage": 2.0,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Australian Mutual Bank LTD",
+        "product": "Essential Saver account",
+        "rate_percentage": 4.75,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Australian Mutual Bank LTD",
+        "product": "Momentum Saver account",
+        "rate_percentage": 4.85,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Australian Mutual Bank LTD",
+        "product": "Starter Saver account",
+        "rate_percentage": 5.0,
         "conditions": "No specific prerequisites found."
     },
     {
@@ -848,7 +872,7 @@
     {
         "bank": "QBANK",
         "product": "Junior Saver",
-        "rate_percentage": 2.45,
+        "rate_percentage": 2.2,
         "conditions": "No specific prerequisites found."
     },
     {
@@ -1042,6 +1066,12 @@
         "product": "PREMIUM SAVERS ACCOUNT",
         "rate_percentage": 2.25,
         "conditions": "FUNDS AVAILABLE AFTER 30 DAYS INTEREST PAID MONTHLY"
+    },
+    {
+        "bank": "Teachers Mutual Bank",
+        "product": "Starter Saver account",
+        "rate_percentage": 5.0,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "The Capricornian",
