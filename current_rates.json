@@ -162,18 +162,6 @@
         "conditions": "No specific prerequisites found."
     },
     {
-        "bank": "BankVic",
-        "product": "Bonus Saver",
-        "rate_percentage": 4.85,
-        "conditions": "Deposit $100 per month and make no withdrawals to earn bonus interest"
-    },
-    {
-        "bank": "BankVic",
-        "product": "SMSF Saver",
-        "rate_percentage": 4.4,
-        "conditions": "No specific prerequisites found."
-    },
-    {
         "bank": "Bankwest",
         "product": "Bankwest Easy Saver",
         "rate_percentage": 5.2,
@@ -872,7 +860,7 @@
     {
         "bank": "QBANK",
         "product": "Junior Saver",
-        "rate_percentage": 2.2,
+        "rate_percentage": 2.45,
         "conditions": "No specific prerequisites found."
     },
     {
@@ -1066,12 +1054,6 @@
         "product": "PREMIUM SAVERS ACCOUNT",
         "rate_percentage": 2.25,
         "conditions": "FUNDS AVAILABLE AFTER 30 DAYS INTEREST PAID MONTHLY"
-    },
-    {
-        "bank": "Teachers Mutual Bank",
-        "product": "Starter Saver account",
-        "rate_percentage": 5.0,
-        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "The Capricornian",
