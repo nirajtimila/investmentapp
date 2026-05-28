@@ -162,6 +162,18 @@
         "conditions": "No specific prerequisites found."
     },
     {
+        "bank": "BankVic",
+        "product": "Bonus Saver",
+        "rate_percentage": 4.85,
+        "conditions": "Deposit $100 per month and make no withdrawals to earn bonus interest"
+    },
+    {
+        "bank": "BankVic",
+        "product": "SMSF Saver",
+        "rate_percentage": 4.4,
+        "conditions": "No specific prerequisites found."
+    },
+    {
         "bank": "Bankwest",
         "product": "Bankwest Easy Saver",
         "rate_percentage": 5.2,
@@ -656,13 +668,13 @@
     {
         "bank": "IMB Bank",
         "product": "Reward Saver Account",
-        "rate_percentage": 3.0,
+        "rate_percentage": 3.2,
         "conditions": "Maximum withdrawals permitted before Bonus Interest is forfeited for the month."
     },
     {
         "bank": "IMB Bank",
         "product": "Reward Saver Kick Start",
-        "rate_percentage": 3.0,
+        "rate_percentage": 3.2,
         "conditions": "Maximum withdrawals permitted before Bonus Interest is forfeited for the month."
     },
     {
@@ -1034,7 +1046,7 @@
     {
         "bank": "Suncorp Bank",
         "product": "Growth Saver Account",
-        "rate_percentage": 5.05,
+        "rate_percentage": 5.1,
         "conditions": "Bonus Interest - conditions must be met for bonus interest to be paid."
     },
     {
@@ -1054,6 +1066,12 @@
         "product": "PREMIUM SAVERS ACCOUNT",
         "rate_percentage": 2.25,
         "conditions": "FUNDS AVAILABLE AFTER 30 DAYS INTEREST PAID MONTHLY"
+    },
+    {
+        "bank": "Teachers Mutual Bank",
+        "product": "Starter Saver account",
+        "rate_percentage": 5.0,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "The Capricornian",
