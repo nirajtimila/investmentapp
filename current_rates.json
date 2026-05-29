@@ -552,6 +552,24 @@
         "conditions": "No specific prerequisites found."
     },
     {
+        "bank": "Geelong Bank",
+        "product": "Online Saver Account",
+        "rate_percentage": 1.25,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Geelong Bank",
+        "product": "Young Achiever Savings",
+        "rate_percentage": 1.65,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Geelong Bank",
+        "product": "iSaver",
+        "rate_percentage": 1.36,
+        "conditions": "Bonus interest is not paid on amounts over $250,000"
+    },
+    {
         "bank": "Great Southern Bank",
         "product": "Everyday Saver",
         "rate_percentage": 4.8,
@@ -1066,12 +1084,6 @@
         "product": "PREMIUM SAVERS ACCOUNT",
         "rate_percentage": 2.25,
         "conditions": "FUNDS AVAILABLE AFTER 30 DAYS INTEREST PAID MONTHLY"
-    },
-    {
-        "bank": "Teachers Mutual Bank",
-        "product": "Starter Saver account",
-        "rate_percentage": 5.0,
-        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "The Capricornian",
