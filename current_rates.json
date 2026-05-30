@@ -54,24 +54,6 @@
         "conditions": "No specific prerequisites found."
     },
     {
-        "bank": "Australian Mutual Bank LTD",
-        "product": "Essential Saver account",
-        "rate_percentage": 4.75,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Australian Mutual Bank LTD",
-        "product": "Momentum Saver account",
-        "rate_percentage": 4.85,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Australian Mutual Bank LTD",
-        "product": "Starter Saver account",
-        "rate_percentage": 5.0,
-        "conditions": "No specific prerequisites found."
-    },
-    {
         "bank": "Auswide Bank Ltd",
         "product": "BONUS PLUS SAVER",
         "rate_percentage": 3.06,
@@ -462,24 +444,6 @@
         "conditions": "No specific prerequisites found."
     },
     {
-        "bank": "Firefighters Mutual Bank",
-        "product": "Essential Saver account",
-        "rate_percentage": 4.75,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Firefighters Mutual Bank",
-        "product": "MOMENTUM SAVER",
-        "rate_percentage": 4.85,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Firefighters Mutual Bank",
-        "product": "Starter Saver account",
-        "rate_percentage": 5.0,
-        "conditions": "No specific prerequisites found."
-    },
-    {
         "bank": "First Option Bank",
         "product": "Bonus Saver",
         "rate_percentage": 3.05,
@@ -559,8 +523,8 @@
     },
     {
         "bank": "Geelong Bank",
-        "product": "Young Achiever Savings",
-        "rate_percentage": 1.65,
+        "product": "Senior Savers",
+        "rate_percentage": 1.4,
         "conditions": "No specific prerequisites found."
     },
     {
@@ -639,24 +603,6 @@
         "bank": "HSBC",
         "product": "HSBC Premier Children's Savings Account",
         "rate_percentage": 0.15,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Health Professionals Bank",
-        "product": "Essential Saver account",
-        "rate_percentage": 4.75,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Health Professionals Bank",
-        "product": "MOMENTUM SAVER",
-        "rate_percentage": 4.85,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Health Professionals Bank",
-        "product": "Starter Saver account",
-        "rate_percentage": 5.0,
         "conditions": "No specific prerequisites found."
     },
     {
@@ -1107,24 +1053,6 @@
         "bank": "The Mac",
         "product": "eSaver",
         "rate_percentage": 1.75,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "UniBank",
-        "product": "Essential Saver account",
-        "rate_percentage": 4.75,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "UniBank",
-        "product": "MOMENTUM SAVER",
-        "rate_percentage": 4.85,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "UniBank",
-        "product": "Starter Saver account",
-        "rate_percentage": 5.0,
         "conditions": "No specific prerequisites found."
     },
     {
