@@ -44,7 +44,7 @@
     {
         "bank": "Australian Military Bank",
         "product": "Online Saver",
-        "rate_percentage": 4.6,
+        "rate_percentage": 4.85,
         "conditions": "No specific prerequisites found."
     },
     {
@@ -516,24 +516,6 @@
         "conditions": "No specific prerequisites found."
     },
     {
-        "bank": "Geelong Bank",
-        "product": "Online Saver Account",
-        "rate_percentage": 1.25,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Geelong Bank",
-        "product": "Senior Savers",
-        "rate_percentage": 1.4,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Geelong Bank",
-        "product": "iSaver",
-        "rate_percentage": 1.36,
-        "conditions": "Bonus interest is not paid on amounts over $250,000"
-    },
-    {
         "bank": "Great Southern Bank",
         "product": "Everyday Saver",
         "rate_percentage": 4.8,
@@ -680,7 +662,7 @@
     {
         "bank": "MOVE Bank",
         "product": "Bonus Saver",
-        "rate_percentage": 5.0,
+        "rate_percentage": 5.35,
         "conditions": "No specific prerequisites found."
     },
     {
@@ -692,13 +674,13 @@
     {
         "bank": "MOVE Bank",
         "product": "Growth Saver",
-        "rate_percentage": 5.4,
+        "rate_percentage": 5.65,
         "conditions": "Bonus interest payable on deposits up to $25,000"
     },
     {
         "bank": "MOVE Bank",
         "product": "Online Saver",
-        "rate_percentage": 4.15,
+        "rate_percentage": 4.7,
         "conditions": "Maximum balance $5,000,000"
     },
     {
@@ -986,19 +968,19 @@
     {
         "bank": "Southern Cross Credit Union",
         "product": "LITTLE STAR SAVER",
-        "rate_percentage": 4.9,
+        "rate_percentage": 5.2,
         "conditions": "Tiered rate based on different balance thresholds and bonus interest subject to no withdrawals"
     },
     {
         "bank": "Southern Cross Credit Union",
         "product": "STAR SAVER",
-        "rate_percentage": 4.9,
+        "rate_percentage": 5.2,
         "conditions": "Bonus interest paid when a minimum balance increase of $100 is achieved for the calendar month"
     },
     {
         "bank": "Southern Cross Credit Union",
         "product": "STAR SAVER CONTROLLED MONEY ACCOUNT (SOLICITORS ONLY)",
-        "rate_percentage": 2.35,
+        "rate_percentage": 2.6,
         "conditions": "No specific prerequisites found."
     },
     {
