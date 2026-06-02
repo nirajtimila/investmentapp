@@ -1,11 +1,5 @@
 [
     {
-        "bank": "AMP - My AMP",
-        "product": "AMP Saver Account",
-        "rate_percentage": 4.7,
-        "conditions": "You don't need to maintain a specific minimum balance"
-    },
-    {
         "bank": "ANZ",
         "product": "ANZ Online Saver",
         "rate_percentage": 1.35,
@@ -165,6 +159,12 @@
         "bank": "Bank of Queensland Limited",
         "product": "Simple Saver Account",
         "rate_percentage": 4.55,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Bank of Sydney",
+        "product": "BOS Saver",
+        "rate_percentage": 4.75,
         "conditions": "No specific prerequisites found."
     },
     {
@@ -488,31 +488,31 @@
     {
         "bank": "First Option Bank",
         "product": "Bonus Saver",
-        "rate_percentage": 3.05,
+        "rate_percentage": 3.3,
         "conditions": "No specific prerequisites found."
     },
     {
         "bank": "First Option Bank",
         "product": "CHRISTMAS SAVER",
-        "rate_percentage": 2.0,
+        "rate_percentage": 2.25,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "First Option Bank",
+        "product": "GST/TAX SAVER",
+        "rate_percentage": 0.5,
         "conditions": "No specific prerequisites found."
     },
     {
         "bank": "First Option Bank",
         "product": "KIDS BONUS SAVER",
-        "rate_percentage": 5.3,
+        "rate_percentage": 5.55,
         "conditions": "No specific prerequisites found."
     },
     {
         "bank": "First Option Bank",
         "product": "SAVINGS + BONUS",
-        "rate_percentage": 4.75,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "First Option Bank",
-        "product": "Smart Start Access Saver",
-        "rate_percentage": 0.05,
+        "rate_percentage": 5.0,
         "conditions": "No specific prerequisites found."
     },
     {
@@ -556,36 +556,6 @@
         "product": "eMax Saver Account",
         "rate_percentage": 3.95,
         "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Geelong Bank",
-        "product": "Achieve Saver",
-        "rate_percentage": 1.45,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Geelong Bank",
-        "product": "Online Saver Account",
-        "rate_percentage": 1.25,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Geelong Bank",
-        "product": "Senior Savers",
-        "rate_percentage": 1.65,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Geelong Bank",
-        "product": "Young Achiever Savings",
-        "rate_percentage": 1.8,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Geelong Bank",
-        "product": "iSaver",
-        "rate_percentage": 1.51,
-        "conditions": "Bonus interest is not paid on amounts over $250,000"
     },
     {
         "bank": "Great Southern Bank",
@@ -772,6 +742,18 @@
         "product": "Online Saver",
         "rate_percentage": 4.7,
         "conditions": "Maximum balance $5,000,000"
+    },
+    {
+        "bank": "Macquarie Bank Limited",
+        "product": "Macquarie Cash Management Accelerator Account",
+        "rate_percentage": 4.65,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Macquarie Bank Limited",
+        "product": "Macquarie Savings Account",
+        "rate_percentage": 5.0,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Maitland Mutual Limited",
@@ -1111,6 +1093,12 @@
     },
     {
         "bank": "The Capricornian",
+        "product": "Bonus Saver Account",
+        "rate_percentage": 4.75,
+        "conditions": "0.10% interest is applied to the entirety of the balance regardless of whether or not the bonus criteria is met."
+    },
+    {
+        "bank": "The Capricornian",
         "product": "Everyday Saver Account",
         "rate_percentage": 0.1,
         "conditions": "No specific prerequisites found."
@@ -1130,7 +1118,7 @@
     {
         "bank": "The Mac",
         "product": "eSaver",
-        "rate_percentage": 1.75,
+        "rate_percentage": 1.9,
         "conditions": "No specific prerequisites found."
     },
     {
