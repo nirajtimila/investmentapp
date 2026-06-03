@@ -1,5 +1,11 @@
 [
     {
+        "bank": "AMP - My AMP",
+        "product": "AMP Saver Account",
+        "rate_percentage": 4.7,
+        "conditions": "You don't need to maintain a specific minimum balance"
+    },
+    {
         "bank": "ANZ",
         "product": "ANZ Online Saver",
         "rate_percentage": 1.35,
