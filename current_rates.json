@@ -165,13 +165,13 @@
         "bank": "Bankwest",
         "product": "Bankwest Easy Saver",
         "rate_percentage": 5.2,
-        "conditions": "No minimum monthly deposit required."
+        "conditions": "Bonus rates available from time to time for selected customers, bonus rates applied may vary. Terms and conditions may apply."
     },
     {
         "bank": "Bankwest",
         "product": "Hero Saver",
         "rate_percentage": 5.1,
-        "conditions": "No minimum deposit required to open the account."
+        "conditions": "Bonus interest will be paid in respect of each day of a month of the year at Your Bonus Interest Rate on that day if the total amount of deposits (excluding interest) exceeds the total amount of withdrawals in that month."
     },
     {
         "bank": "Bendigo Bank",
@@ -540,36 +540,6 @@
         "conditions": "No specific prerequisites found."
     },
     {
-        "bank": "Geelong Bank",
-        "product": "Achieve Saver",
-        "rate_percentage": 1.45,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Geelong Bank",
-        "product": "Online Saver Account",
-        "rate_percentage": 1.25,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Geelong Bank",
-        "product": "Senior Savers",
-        "rate_percentage": 1.65,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Geelong Bank",
-        "product": "Young Achiever Savings",
-        "rate_percentage": 1.8,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Geelong Bank",
-        "product": "iSaver",
-        "rate_percentage": 1.51,
-        "conditions": "Bonus interest is not paid on amounts over $250,000"
-    },
-    {
         "bank": "Great Southern Bank",
         "product": "Everyday Saver",
         "rate_percentage": 4.8,
@@ -716,7 +686,7 @@
     {
         "bank": "Judo Bank",
         "product": "SMSF Savings Account",
-        "rate_percentage": 4.8,
+        "rate_percentage": 5.11,
         "conditions": "Interest is calculated daily and paid monthly on your balance at a tiered interest rate."
     },
     {
