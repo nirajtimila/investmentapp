@@ -1,11 +1,5 @@
 [
     {
-        "bank": "AMP - My AMP",
-        "product": "AMP Saver Account",
-        "rate_percentage": 4.7,
-        "conditions": "You don't need to maintain a specific minimum balance"
-    },
-    {
         "bank": "ANZ",
         "product": "ANZ Online Saver",
         "rate_percentage": 1.35,
@@ -330,6 +324,12 @@
         "conditions": "No specific prerequisites found."
     },
     {
+        "bank": "CommFCU",
+        "product": "Wildlife Saver account",
+        "rate_percentage": 3.25,
+        "conditions": "No specific prerequisites found."
+    },
+    {
         "bank": "Credit Union SA",
         "product": "Bonus Savings Account",
         "rate_percentage": 3.5,
@@ -490,6 +490,12 @@
         "product": "SAVINGS + BONUS",
         "rate_percentage": 5.0,
         "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "G&C Mutual Bank",
+        "product": "Bonus Saver Account",
+        "rate_percentage": 4.6,
+        "conditions": "All deposits made to the account receive interest on the balance together with a bonus interest, if these conditions are met: no withdrawals or transfers are made in the month, account not closed during the month and minimum $100 deposit each month by cash, cheque, payroll credit or direct credit."
     },
     {
         "bank": "G&C Mutual Bank",
@@ -1077,6 +1083,18 @@
         "bank": "The Capricornian",
         "product": "iSaver",
         "rate_percentage": 0.5,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "The Mac",
+        "product": "CHRISTMAS SAVER",
+        "rate_percentage": 1.5,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "The Mac",
+        "product": "eSaver",
+        "rate_percentage": 1.9,
         "conditions": "No specific prerequisites found."
     },
     {
