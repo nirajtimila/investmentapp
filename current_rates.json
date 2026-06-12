@@ -36,6 +36,24 @@
         "conditions": "No specific prerequisites found."
     },
     {
+        "bank": "Arab Bank Australia Limited",
+        "product": "Personal Online Savings Account",
+        "rate_percentage": 4.95,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Australian Military Bank",
+        "product": "Online Saver",
+        "rate_percentage": 4.85,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Australian Military Bank",
+        "product": "Recruit Salary Saver",
+        "rate_percentage": 2.0,
+        "conditions": "No specific prerequisites found."
+    },
+    {
         "bank": "Australian Mutual Bank LTD",
         "product": "Essential Saver account",
         "rate_percentage": 5.0,
@@ -384,6 +402,24 @@
         "conditions": "Interest is payable on all balances up to and including $3 million. Balances over this earn nil interest."
     },
     {
+        "bank": "Family First",
+        "product": "Bonus Saver",
+        "rate_percentage": 4.0,
+        "conditions": "Bonus Monthly Interest paid should certain conditions be met - $200 deposited in the month with nil withdrawals."
+    },
+    {
+        "bank": "Family First",
+        "product": "Family e-Savings Account",
+        "rate_percentage": 2.75,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Family First",
+        "product": "Teen Saver Account",
+        "rate_percentage": 1.5,
+        "conditions": "No specific prerequisites found."
+    },
+    {
         "bank": "Fire Service Credit Union",
         "product": "S1 On Call Savings",
         "rate_percentage": 0.05,
@@ -510,6 +546,18 @@
         "conditions": "No specific prerequisites found."
     },
     {
+        "bank": "Greater Bank Limited",
+        "product": "Bonus Saver",
+        "rate_percentage": 4.0,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Greater Bank Limited",
+        "product": "Life Saver",
+        "rate_percentage": 5.25,
+        "conditions": "No specific prerequisites found."
+    },
+    {
         "bank": "HSBC",
         "product": "HSBC Bonus Savings Account - AUD",
         "rate_percentage": 2.25,
@@ -606,6 +654,18 @@
         "conditions": "When the criteria is met in a calendar month, the benefits and additional variable rate will apply in the next calendar month. Available on one account for balances up to $100,000."
     },
     {
+        "bank": "Judo Bank",
+        "product": "Personal Savings Account",
+        "rate_percentage": 5.35,
+        "conditions": "Interest is calculated daily and paid monthly on your balance at a tiered interest rate."
+    },
+    {
+        "bank": "Judo Bank",
+        "product": "SMSF Savings Account",
+        "rate_percentage": 5.11,
+        "conditions": "Interest is calculated daily and paid monthly on your balance at a tiered interest rate."
+    },
+    {
         "bank": "Laboratories Credit Union",
         "product": "Esaver Account",
         "rate_percentage": 1.0,
@@ -663,6 +723,18 @@
         "bank": "Maitland Mutual Limited",
         "product": "Internet Saver",
         "rate_percentage": 3.25,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "MyState Bank",
+        "product": "Bonus Saver",
+        "rate_percentage": 4.95,
+        "conditions": "Eligible deposit and Visa transactions are described on our web site."
+    },
+    {
+        "bank": "MyState Bank",
+        "product": "Hello Saver account",
+        "rate_percentage": 5.0,
         "conditions": "No specific prerequisites found."
     },
     {
@@ -756,22 +828,34 @@
         "conditions": "No specific prerequisites found."
     },
     {
-        "bank": "QBANK",
+        "bank": "Qudos Bank",
         "product": "Bonus Saver",
+        "rate_percentage": 5.1,
+        "conditions": "Deposit at least $100 and make no withdrawals in a calendar month to receive the bonus rate on your savings."
+    },
+    {
+        "bank": "Qudos Bank",
+        "product": "General Savings Account",
+        "rate_percentage": 0.05,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Qudos Bank",
+        "product": "Qantas Points Saver",
+        "rate_percentage": 4.25,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Qudos Bank",
+        "product": "Qsaver",
+        "rate_percentage": 4.45,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Qudos Bank",
+        "product": "Retirement Savings Account",
         "rate_percentage": 4.95,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "QBANK",
-        "product": "Junior Saver",
-        "rate_percentage": 2.45,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "QBANK",
-        "product": "Teen Netlink Direct Savings",
-        "rate_percentage": 2.85,
-        "conditions": "No specific prerequisites found."
+        "conditions": "Refer to PDS for details (Accumulation and Pension)"
     },
     {
         "bank": "Queensland Country Bank",
@@ -933,6 +1017,24 @@
         "bank": "Teachers Mutual Bank",
         "product": "Starter Saver account",
         "rate_percentage": 5.25,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "The Capricornian",
+        "product": "Bonus Saver Account",
+        "rate_percentage": 4.75,
+        "conditions": "0.10% interest is applied to the entirety of the balance regardless of whether or not the bonus criteria is met."
+    },
+    {
+        "bank": "The Capricornian",
+        "product": "Everyday Saver Account",
+        "rate_percentage": 0.1,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "The Capricornian",
+        "product": "iSaver",
+        "rate_percentage": 0.5,
         "conditions": "No specific prerequisites found."
     },
     {
