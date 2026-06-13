@@ -54,24 +54,6 @@
         "conditions": "No specific prerequisites found."
     },
     {
-        "bank": "Australian Mutual Bank LTD",
-        "product": "Essential Saver account",
-        "rate_percentage": 5.0,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Australian Mutual Bank LTD",
-        "product": "Momentum Saver account",
-        "rate_percentage": 5.1,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Australian Mutual Bank LTD",
-        "product": "Starter Saver account",
-        "rate_percentage": 5.25,
-        "conditions": "No specific prerequisites found."
-    },
-    {
         "bank": "Auswide Bank Ltd",
         "product": "BONUS PLUS SAVER",
         "rate_percentage": 3.31,
@@ -825,6 +807,24 @@
         "bank": "Police Credit Union Ltd",
         "product": "iSavings Account",
         "rate_percentage": 4.25,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "QBANK",
+        "product": "Bonus Saver",
+        "rate_percentage": 4.95,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "QBANK",
+        "product": "Junior Saver",
+        "rate_percentage": 2.45,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "QBANK",
+        "product": "Teen Netlink Direct Savings",
+        "rate_percentage": 2.85,
         "conditions": "No specific prerequisites found."
     },
     {
