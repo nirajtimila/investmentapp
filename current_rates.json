@@ -516,30 +516,6 @@
         "conditions": "No specific prerequisites found."
     },
     {
-        "bank": "Geelong Bank",
-        "product": "Achieve Saver",
-        "rate_percentage": 1.45,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Geelong Bank",
-        "product": "Senior Savers",
-        "rate_percentage": 1.65,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Geelong Bank",
-        "product": "Young Achiever Savings",
-        "rate_percentage": 1.8,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Geelong Bank",
-        "product": "iSaver",
-        "rate_percentage": 1.51,
-        "conditions": "Bonus interest is not paid on amounts over $250,000"
-    },
-    {
         "bank": "Great Southern Bank",
         "product": "Everyday Saver",
         "rate_percentage": 4.8,
@@ -664,6 +640,18 @@
         "product": "Reward Saver Kick Start",
         "rate_percentage": 3.2,
         "conditions": "Maximum withdrawals permitted before Bonus Interest is forfeited for the month."
+    },
+    {
+        "bank": "ING BANK (Australia) Ltd",
+        "product": "Savings Accelerator",
+        "rate_percentage": 4.8,
+        "conditions": "We may not accept a deposit to your Savings Accelerator if it would result in the combined deposits of all your Savings Accelerator(s) (whether in individual or joint names) exceeding $5,000,000.00"
+    },
+    {
+        "bank": "ING BANK (Australia) Ltd",
+        "product": "Savings Maximiser",
+        "rate_percentage": 5.5,
+        "conditions": "When the criteria is met in a calendar month, the benefits and additional variable rate will apply in the next calendar month. Available on one account for balances up to $100,000."
     },
     {
         "bank": "Judo Bank",
