@@ -108,6 +108,18 @@
         "conditions": "Maximum balance is $5,000,000"
     },
     {
+        "bank": "Bank First",
+        "product": "Bonus Saver Account",
+        "rate_percentage": 5.0,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Bank First",
+        "product": "First Home Bonus Saver Account",
+        "rate_percentage": 5.05,
+        "conditions": "No specific prerequisites found."
+    },
+    {
         "bank": "Bank of China",
         "product": "Online Saver",
         "rate_percentage": 1.35,
