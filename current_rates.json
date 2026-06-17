@@ -108,6 +108,30 @@
         "conditions": "Maximum balance is $5,000,000"
     },
     {
+        "bank": "Bank Australia",
+        "product": "Bonus Saver",
+        "rate_percentage": 5.1,
+        "conditions": "Earn monthly bonus interest when $100 is deposited each month and there are no withdrawals in the month. If these conditions aren't met, you will only be eligible to receive the base variable interest rate."
+    },
+    {
+        "bank": "Bank Australia",
+        "product": "Commercial Saver",
+        "rate_percentage": 1.7,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Bank Australia",
+        "product": "Online Saver",
+        "rate_percentage": 4.45,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Bank Australia",
+        "product": "mySaver",
+        "rate_percentage": 5.1,
+        "conditions": "Earn monthly bonus interest when $10 is deposited each month and there are no withdrawals in the month. If these conditions aren't met, you will only be eligible to receive the base variable interest rate."
+    },
+    {
         "bank": "Bank First",
         "product": "Bonus Saver Account",
         "rate_percentage": 5.0,
