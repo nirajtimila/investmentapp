@@ -552,6 +552,36 @@
         "conditions": "No specific prerequisites found."
     },
     {
+        "bank": "Geelong Bank",
+        "product": "Achieve Saver",
+        "rate_percentage": 1.45,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Geelong Bank",
+        "product": "Online Saver Account",
+        "rate_percentage": 1.25,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Geelong Bank",
+        "product": "Senior Savers",
+        "rate_percentage": 1.65,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Geelong Bank",
+        "product": "Young Achiever Savings",
+        "rate_percentage": 1.8,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Geelong Bank",
+        "product": "iSaver",
+        "rate_percentage": 1.51,
+        "conditions": "Bonus interest is not paid on amounts over $250,000"
+    },
+    {
         "bank": "Great Southern Bank",
         "product": "Everyday Saver",
         "rate_percentage": 4.8,
@@ -664,12 +694,6 @@
         "product": "Reward Saver",
         "rate_percentage": 5.05,
         "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "IMB Bank",
-        "product": "Reward Saver Account",
-        "rate_percentage": 3.2,
-        "conditions": "Maximum withdrawals permitted before Bonus Interest is forfeited for the month."
     },
     {
         "bank": "IMB Bank",
