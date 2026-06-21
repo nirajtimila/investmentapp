@@ -565,12 +565,6 @@
     },
     {
         "bank": "Geelong Bank",
-        "product": "Senior Savers",
-        "rate_percentage": 1.65,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Geelong Bank",
         "product": "Young Achiever Savings",
         "rate_percentage": 1.8,
         "conditions": "No specific prerequisites found."
@@ -694,6 +688,12 @@
         "product": "Reward Saver",
         "rate_percentage": 5.05,
         "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "IMB Bank",
+        "product": "Reward Saver Account",
+        "rate_percentage": 3.2,
+        "conditions": "Maximum withdrawals permitted before Bonus Interest is forfeited for the month."
     },
     {
         "bank": "IMB Bank",
