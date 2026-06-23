@@ -115,6 +115,12 @@
     },
     {
         "bank": "Bank Australia",
+        "product": "Christmas Saver",
+        "rate_percentage": 2.25,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Bank Australia",
         "product": "Commercial Saver",
         "rate_percentage": 1.7,
         "conditions": "No specific prerequisites found."
@@ -309,24 +315,6 @@
         "bank": "Coastline Bank",
         "product": "Gold Benefits Savings",
         "rate_percentage": 3.1,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "CommBank",
-        "product": "GoalSaver",
-        "rate_percentage": 5.0,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "CommBank",
-        "product": "NetBank Saver",
-        "rate_percentage": 2.1,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "CommBank",
-        "product": "Youthsaver Account",
-        "rate_percentage": 2.9,
         "conditions": "No specific prerequisites found."
     },
     {
@@ -550,6 +538,30 @@
         "product": "eMax Saver Account",
         "rate_percentage": 3.95,
         "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Geelong Bank",
+        "product": "Achieve Saver",
+        "rate_percentage": 1.45,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Geelong Bank",
+        "product": "Online Saver Account",
+        "rate_percentage": 1.25,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Geelong Bank",
+        "product": "Senior Savers",
+        "rate_percentage": 1.65,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Geelong Bank",
+        "product": "iSaver",
+        "rate_percentage": 1.51,
+        "conditions": "Bonus interest is not paid on amounts over $250,000"
     },
     {
         "bank": "Great Southern Bank",
@@ -805,12 +817,6 @@
     },
     {
         "bank": "ORANGE CREDIT UNION LTD",
-        "product": "BONUS SAVER",
-        "rate_percentage": 3.75,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "ORANGE CREDIT UNION LTD",
         "product": "ONLINE SAVER",
         "rate_percentage": 4.6,
         "conditions": "No specific prerequisites found."
@@ -1002,12 +1008,6 @@
         "conditions": "No specific prerequisites found."
     },
     {
-        "bank": "SWSbank",
-        "product": "Online Saver",
-        "rate_percentage": 2.0,
-        "conditions": "No specific prerequisites found."
-    },
-    {
         "bank": "Southern Cross Credit Union",
         "product": "LITTLE STAR SAVER",
         "rate_percentage": 5.2,
@@ -1123,12 +1123,6 @@
     },
     {
         "bank": "Unity Bank",
-        "product": "Bonus Saver Account",
-        "rate_percentage": 4.6,
-        "conditions": "All deposits made to the account receive interest on the balance together with a bonus interest, if these conditions are met: no withdrawals or transfers are made in the month, account not closed during the month and minimum $100 deposit each month by cash, cheque, payroll credit or direct credit."
-    },
-    {
-        "bank": "Unity Bank",
         "product": "Christmas Saver Account",
         "rate_percentage": 0.5,
         "conditions": "No specific prerequisites found."
@@ -1156,12 +1150,6 @@
         "product": "Bonus Saver Account",
         "rate_percentage": 4.9,
         "conditions": "Bonus Interest is capped on a max balance of $100,000"
-    },
-    {
-        "bank": "bankWAW",
-        "product": "Star Saver",
-        "rate_percentage": 5.0,
-        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "bankWAW",
