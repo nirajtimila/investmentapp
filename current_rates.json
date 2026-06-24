@@ -1,11 +1,5 @@
 [
     {
-        "bank": "AMP - My AMP",
-        "product": "AMP Saver Account",
-        "rate_percentage": 4.95,
-        "conditions": "You don't need to maintain a specific minimum balance"
-    },
-    {
         "bank": "ANZ",
         "product": "ANZ Online Saver",
         "rate_percentage": 1.35,
@@ -318,6 +312,24 @@
         "conditions": "No specific prerequisites found."
     },
     {
+        "bank": "CommBank",
+        "product": "GoalSaver",
+        "rate_percentage": 5.0,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "CommBank",
+        "product": "NetBank Saver",
+        "rate_percentage": 2.1,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "CommBank",
+        "product": "Youthsaver Account",
+        "rate_percentage": 2.9,
+        "conditions": "No specific prerequisites found."
+    },
+    {
         "bank": "CommFCU",
         "product": "FIRSTBIZ ONLINE SAVER",
         "rate_percentage": 3.25,
@@ -555,6 +567,12 @@
         "bank": "Geelong Bank",
         "product": "Senior Savers",
         "rate_percentage": 1.65,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Geelong Bank",
+        "product": "Young Achiever Savings",
+        "rate_percentage": 1.8,
         "conditions": "No specific prerequisites found."
     },
     {
@@ -817,6 +835,12 @@
     },
     {
         "bank": "ORANGE CREDIT UNION LTD",
+        "product": "BONUS SAVER",
+        "rate_percentage": 3.75,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "ORANGE CREDIT UNION LTD",
         "product": "ONLINE SAVER",
         "rate_percentage": 4.6,
         "conditions": "No specific prerequisites found."
@@ -1008,6 +1032,12 @@
         "conditions": "No specific prerequisites found."
     },
     {
+        "bank": "SWSbank",
+        "product": "Online Saver",
+        "rate_percentage": 2.0,
+        "conditions": "No specific prerequisites found."
+    },
+    {
         "bank": "Southern Cross Credit Union",
         "product": "LITTLE STAR SAVER",
         "rate_percentage": 5.2,
@@ -1123,6 +1153,12 @@
     },
     {
         "bank": "Unity Bank",
+        "product": "Bonus Saver Account",
+        "rate_percentage": 4.6,
+        "conditions": "All deposits made to the account receive interest on the balance together with a bonus interest, if these conditions are met: no withdrawals or transfers are made in the month, account not closed during the month and minimum $100 deposit each month by cash, cheque, payroll credit or direct credit."
+    },
+    {
+        "bank": "Unity Bank",
         "product": "Christmas Saver Account",
         "rate_percentage": 0.5,
         "conditions": "No specific prerequisites found."
@@ -1150,6 +1186,12 @@
         "product": "Bonus Saver Account",
         "rate_percentage": 4.9,
         "conditions": "Bonus Interest is capped on a max balance of $100,000"
+    },
+    {
+        "bank": "bankWAW",
+        "product": "Star Saver",
+        "rate_percentage": 5.0,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "bankWAW",
