@@ -1,11 +1,5 @@
 [
     {
-        "bank": "AMP - My AMP",
-        "product": "AMP Saver Account",
-        "rate_percentage": 4.95,
-        "conditions": "You don't need to maintain a specific minimum balance"
-    },
-    {
         "bank": "ANZ",
         "product": "ANZ Online Saver",
         "rate_percentage": 1.35,
@@ -555,6 +549,12 @@
         "bank": "Gateway Bank",
         "product": "eMax Saver Account",
         "rate_percentage": 3.95,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Geelong Bank",
+        "product": "Achieve Saver",
+        "rate_percentage": 1.45,
         "conditions": "No specific prerequisites found."
     },
     {
