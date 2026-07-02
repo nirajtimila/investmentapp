@@ -372,18 +372,6 @@
         "conditions": "No specific prerequisites found."
     },
     {
-        "bank": "Darling Downs Bank",
-        "product": "EDUCATION SAVER",
-        "rate_percentage": 0.7,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Darling Downs Bank",
-        "product": "SMART SAVERS",
-        "rate_percentage": 0.6,
-        "conditions": "No specific prerequisites found."
-    },
-    {
         "bank": "Defence Bank",
         "product": "Kids Club Savings",
         "rate_percentage": 5.0,
@@ -553,8 +541,14 @@
     },
     {
         "bank": "Geelong Bank",
-        "product": "Achieve Saver",
-        "rate_percentage": 1.45,
+        "product": "Online Saver Account",
+        "rate_percentage": 1.5,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Geelong Bank",
+        "product": "Young Achiever Savings",
+        "rate_percentage": 1.8,
         "conditions": "No specific prerequisites found."
     },
     {
@@ -585,18 +579,6 @@
         "bank": "Great Southern Bank",
         "product": "Youth eSaver",
         "rate_percentage": 5.5,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Greater Bank Limited",
-        "product": "Bonus Saver",
-        "rate_percentage": 4.0,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Greater Bank Limited",
-        "product": "Life Saver",
-        "rate_percentage": 5.25,
         "conditions": "No specific prerequisites found."
     },
     {
