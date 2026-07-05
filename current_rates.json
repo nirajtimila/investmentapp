@@ -474,24 +474,6 @@
         "conditions": "No specific prerequisites found."
     },
     {
-        "bank": "Firefighters Mutual Bank",
-        "product": "Essential Saver account",
-        "rate_percentage": 5.0,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Firefighters Mutual Bank",
-        "product": "MOMENTUM SAVER",
-        "rate_percentage": 5.1,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Firefighters Mutual Bank",
-        "product": "Starter Saver account",
-        "rate_percentage": 5.25,
-        "conditions": "No specific prerequisites found."
-    },
-    {
         "bank": "First Option Bank",
         "product": "Bonus Saver",
         "rate_percentage": 3.3,
@@ -552,6 +534,30 @@
         "conditions": "No specific prerequisites found."
     },
     {
+        "bank": "Geelong Bank",
+        "product": "Achieve Saver",
+        "rate_percentage": 1.45,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Geelong Bank",
+        "product": "Online Saver Account",
+        "rate_percentage": 1.5,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Geelong Bank",
+        "product": "Senior Savers",
+        "rate_percentage": 1.65,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Geelong Bank",
+        "product": "iSaver",
+        "rate_percentage": 1.51,
+        "conditions": "Bonus interest is not paid on amounts over $250,000"
+    },
+    {
         "bank": "Great Southern Bank",
         "product": "Everyday Saver",
         "rate_percentage": 4.8,
@@ -582,18 +588,6 @@
         "conditions": "No specific prerequisites found."
     },
     {
-        "bank": "Greater Bank Limited",
-        "product": "Bonus Saver",
-        "rate_percentage": 4.0,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Greater Bank Limited",
-        "product": "Life Saver",
-        "rate_percentage": 5.25,
-        "conditions": "No specific prerequisites found."
-    },
-    {
         "bank": "HSBC",
         "product": "HSBC Bonus Savings Account - AUD",
         "rate_percentage": 2.25,
@@ -621,24 +615,6 @@
         "bank": "HSBC",
         "product": "HSBC Premier Children's Savings Account",
         "rate_percentage": 0.15,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Health Professionals Bank",
-        "product": "Essential Saver account",
-        "rate_percentage": 5.0,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Health Professionals Bank",
-        "product": "MOMENTUM SAVER",
-        "rate_percentage": 5.1,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Health Professionals Bank",
-        "product": "Starter Saver account",
-        "rate_percentage": 5.25,
         "conditions": "No specific prerequisites found."
     },
     {
@@ -1059,18 +1035,6 @@
         "bank": "Teachers Mutual Bank",
         "product": "Essential Saver account",
         "rate_percentage": 5.0,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Teachers Mutual Bank",
-        "product": "MOMENTUM SAVER",
-        "rate_percentage": 5.1,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Teachers Mutual Bank",
-        "product": "Starter Saver account",
-        "rate_percentage": 5.25,
         "conditions": "No specific prerequisites found."
     },
     {
