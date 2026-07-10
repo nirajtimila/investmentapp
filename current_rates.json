@@ -48,24 +48,6 @@
         "conditions": "No specific prerequisites found."
     },
     {
-        "bank": "Australian Mutual Bank LTD",
-        "product": "Essential Saver account",
-        "rate_percentage": 5.0,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Australian Mutual Bank LTD",
-        "product": "Momentum Saver account",
-        "rate_percentage": 5.1,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Australian Mutual Bank LTD",
-        "product": "Starter Saver account",
-        "rate_percentage": 5.25,
-        "conditions": "No specific prerequisites found."
-    },
-    {
         "bank": "Auswide Bank Ltd",
         "product": "BONUS PLUS SAVER",
         "rate_percentage": 3.31,
@@ -474,24 +456,6 @@
         "conditions": "No specific prerequisites found."
     },
     {
-        "bank": "Firefighters Mutual Bank",
-        "product": "Essential Saver account",
-        "rate_percentage": 5.0,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Firefighters Mutual Bank",
-        "product": "MOMENTUM SAVER",
-        "rate_percentage": 5.1,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Firefighters Mutual Bank",
-        "product": "Starter Saver account",
-        "rate_percentage": 5.25,
-        "conditions": "No specific prerequisites found."
-    },
-    {
         "bank": "First Option Bank",
         "product": "Bonus Saver",
         "rate_percentage": 3.3,
@@ -550,6 +514,36 @@
         "product": "eMax Saver Account",
         "rate_percentage": 3.95,
         "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Geelong Bank",
+        "product": "Achieve Saver",
+        "rate_percentage": 1.45,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Geelong Bank",
+        "product": "Online Saver Account",
+        "rate_percentage": 1.5,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Geelong Bank",
+        "product": "Senior Savers",
+        "rate_percentage": 1.65,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Geelong Bank",
+        "product": "Young Achiever Savings",
+        "rate_percentage": 1.8,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Geelong Bank",
+        "product": "iSaver",
+        "rate_percentage": 1.51,
+        "conditions": "Bonus interest is not paid on amounts over $250,000"
     },
     {
         "bank": "Great Southern Bank",
@@ -621,24 +615,6 @@
         "bank": "HSBC",
         "product": "HSBC Premier Children's Savings Account",
         "rate_percentage": 0.15,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Health Professionals Bank",
-        "product": "Essential Saver account",
-        "rate_percentage": 5.0,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Health Professionals Bank",
-        "product": "MOMENTUM SAVER",
-        "rate_percentage": 5.1,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Health Professionals Bank",
-        "product": "Starter Saver account",
-        "rate_percentage": 5.25,
         "conditions": "No specific prerequisites found."
     },
     {
@@ -787,12 +763,6 @@
     },
     {
         "bank": "Northern Inland Credit Union Limited",
-        "product": "Bonus Saver",
-        "rate_percentage": 4.15,
-        "conditions": "Variable Base rate plus Bonus Interest rate is paid if you make at least one deposit of at least $1.00 and no withdrawals each month."
-    },
-    {
-        "bank": "Northern Inland Credit Union Limited",
         "product": "Internet Saver",
         "rate_percentage": 2.15,
         "conditions": "No specific prerequisites found."
@@ -801,18 +771,6 @@
         "bank": "Northern Inland Credit Union Limited",
         "product": "Ready Saver",
         "rate_percentage": 3.65,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "ORANGE CREDIT UNION LTD",
-        "product": "BONUS SAVER",
-        "rate_percentage": 3.75,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "ORANGE CREDIT UNION LTD",
-        "product": "ONLINE SAVER",
-        "rate_percentage": 4.6,
         "conditions": "No specific prerequisites found."
     },
     {
@@ -949,12 +907,6 @@
     },
     {
         "bank": "Rabobank",
-        "product": "High Interest Savings Account",
-        "rate_percentage": 4.0,
-        "conditions": "Funds can only be transferred externally to the nominated linked account."
-    },
-    {
-        "bank": "Rabobank",
         "product": "High Interest Savings Account (SMSF)",
         "rate_percentage": 3.45,
         "conditions": "Funds can only be transferred externally to the nominated linked account."
@@ -969,13 +921,19 @@
         "bank": "Rabobank",
         "product": "PremiumSaver",
         "rate_percentage": 5.4,
-        "conditions": "New customers are required to open and maintain a High Interest Savings Account (HISA) which is a variable rate at-call savings account which does not charge fees and has no minimum balance requirement."
+        "conditions": "Bonus Variable Rate"
     },
     {
         "bank": "Rabobank",
         "product": "PremiumSaver (SMSF)",
         "rate_percentage": 4.6,
-        "conditions": "New customers are required to open and maintain a High Interest Savings Account (HISA) which is a variable rate at-call savings account which does not charge fees and has no minimum balance requirement."
+        "conditions": "Bonus Variable Rate"
+    },
+    {
+        "bank": "Rabobank",
+        "product": "PremiumSaver (Trust)",
+        "rate_percentage": 3.95,
+        "conditions": "Bonus Variable Rate"
     },
     {
         "bank": "Regional Australia Bank",
@@ -1056,24 +1014,6 @@
         "conditions": "FUNDS AVAILABLE AFTER 30 DAYS INTEREST PAID MONTHLY"
     },
     {
-        "bank": "Teachers Mutual Bank",
-        "product": "Essential Saver account",
-        "rate_percentage": 5.0,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Teachers Mutual Bank",
-        "product": "MOMENTUM SAVER",
-        "rate_percentage": 5.1,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Teachers Mutual Bank",
-        "product": "Starter Saver account",
-        "rate_percentage": 5.25,
-        "conditions": "No specific prerequisites found."
-    },
-    {
         "bank": "The Capricornian",
         "product": "Bonus Saver Account",
         "rate_percentage": 4.75,
@@ -1101,24 +1041,6 @@
         "bank": "The Mac",
         "product": "eSaver",
         "rate_percentage": 1.9,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "UniBank",
-        "product": "Essential Saver account",
-        "rate_percentage": 5.0,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "UniBank",
-        "product": "MOMENTUM SAVER",
-        "rate_percentage": 5.1,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "UniBank",
-        "product": "Starter Saver account",
-        "rate_percentage": 5.25,
         "conditions": "No specific prerequisites found."
     },
     {
