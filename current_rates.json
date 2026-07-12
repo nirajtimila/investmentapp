@@ -546,18 +546,6 @@
         "conditions": "No specific prerequisites found."
     },
     {
-        "bank": "Greater Bank Limited",
-        "product": "Bonus Saver",
-        "rate_percentage": 4.0,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Greater Bank Limited",
-        "product": "Life Saver",
-        "rate_percentage": 5.25,
-        "conditions": "No specific prerequisites found."
-    },
-    {
         "bank": "HSBC",
         "product": "HSBC Bonus Savings Account - AUD",
         "rate_percentage": 2.25,
