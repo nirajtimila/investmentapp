@@ -516,6 +516,30 @@
         "conditions": "No specific prerequisites found."
     },
     {
+        "bank": "Geelong Bank",
+        "product": "Achieve Saver",
+        "rate_percentage": 1.45,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Geelong Bank",
+        "product": "Senior Savers",
+        "rate_percentage": 1.65,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Geelong Bank",
+        "product": "Young Achiever Savings",
+        "rate_percentage": 1.8,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Geelong Bank",
+        "product": "iSaver",
+        "rate_percentage": 1.51,
+        "conditions": "Bonus interest is not paid on amounts over $250,000"
+    },
+    {
         "bank": "Great Southern Bank",
         "product": "Everyday Saver",
         "rate_percentage": 4.8,
@@ -543,6 +567,18 @@
         "bank": "Great Southern Bank",
         "product": "Youth eSaver",
         "rate_percentage": 5.5,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Greater Bank Limited",
+        "product": "Bonus Saver",
+        "rate_percentage": 4.0,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Greater Bank Limited",
+        "product": "Life Saver",
+        "rate_percentage": 5.25,
         "conditions": "No specific prerequisites found."
     },
     {
@@ -729,12 +765,6 @@
         "bank": "Northern Inland Credit Union Limited",
         "product": "Internet Saver",
         "rate_percentage": 2.15,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Northern Inland Credit Union Limited",
-        "product": "Ready Saver",
-        "rate_percentage": 3.65,
         "conditions": "No specific prerequisites found."
     },
     {
