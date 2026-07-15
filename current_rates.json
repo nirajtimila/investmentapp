@@ -145,6 +145,12 @@
     },
     {
         "bank": "Bank of China",
+        "product": "Online Saver",
+        "rate_percentage": 1.35,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Bank of China",
         "product": "Online Saver Statement",
         "rate_percentage": 3.25,
         "conditions": "No specific prerequisites found."
@@ -1057,6 +1063,12 @@
     },
     {
         "bank": "Teachers Mutual Bank",
+        "product": "MOMENTUM SAVER",
+        "rate_percentage": 5.1,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Teachers Mutual Bank",
         "product": "Starter Saver account",
         "rate_percentage": 5.25,
         "conditions": "No specific prerequisites found."
@@ -1132,6 +1144,12 @@
         "product": "Up Saver",
         "rate_percentage": 3.35,
         "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Virgin Money",
+        "product": "Virgin Money Boost Saver",
+        "rate_percentage": 4.2,
+        "conditions": "Additional variable interest rate earned on a Boost Saver where the optional Lock Saver Feature is enabled. Provide 32 days' advance notice to unlock your account or withdraw your money."
     },
     {
         "bank": "Virgin Money",
