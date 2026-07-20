@@ -552,12 +552,6 @@
         "conditions": "No specific prerequisites found."
     },
     {
-        "bank": "Geelong Bank",
-        "product": "Senior Savers",
-        "rate_percentage": 1.65,
-        "conditions": "No specific prerequisites found."
-    },
-    {
         "bank": "Great Southern Bank",
         "product": "Everyday Saver",
         "rate_percentage": 4.8,
@@ -663,6 +657,12 @@
         "bank": "Horizon Bank",
         "product": "YOUTH REWARD SAVER",
         "rate_percentage": 3.0,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Hume Bank",
+        "product": "Reward Saver",
+        "rate_percentage": 5.05,
         "conditions": "No specific prerequisites found."
     },
     {
@@ -783,24 +783,6 @@
         "bank": "NATIONAL AUSTRALIA BANK",
         "product": "NAB iSaver",
         "rate_percentage": 3.6,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Northern Inland Credit Union Limited",
-        "product": "Bonus Saver",
-        "rate_percentage": 4.15,
-        "conditions": "Variable Base rate plus Bonus Interest rate is paid if you make at least one deposit of at least $1.00 and no withdrawals each month."
-    },
-    {
-        "bank": "Northern Inland Credit Union Limited",
-        "product": "Internet Saver",
-        "rate_percentage": 2.15,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Northern Inland Credit Union Limited",
-        "product": "Ready Saver",
-        "rate_percentage": 3.65,
         "conditions": "No specific prerequisites found."
     },
     {
