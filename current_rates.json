@@ -66,24 +66,6 @@
         "conditions": "No specific prerequisites found."
     },
     {
-        "bank": "Auswide Bank Ltd",
-        "product": "BONUS PLUS SAVER",
-        "rate_percentage": 3.31,
-        "conditions": "Make at least 1 deposit, credit transfer or electronic credit to the account in the calendar month. Make no withdrawals, debit transfer, or electronic debits from the account in the calendar month."
-    },
-    {
-        "bank": "Auswide Bank Ltd",
-        "product": "ONLINE SAVER",
-        "rate_percentage": 2.0,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Auswide Bank Ltd",
-        "product": "ZIGGY KIDS SAVER",
-        "rate_percentage": 3.51,
-        "conditions": "Make at least 1 deposit, credit transfer or electronic credit to the account in the calendar month. Make no withdrawals, debit transfers or eletrronic debits from the account in the same calendar month."
-    },
-    {
         "bank": "BCU Bank",
         "product": "Bonus Saver",
         "rate_percentage": 0.05,
@@ -783,6 +765,24 @@
         "bank": "NATIONAL AUSTRALIA BANK",
         "product": "NAB iSaver",
         "rate_percentage": 3.6,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Northern Inland Credit Union Limited",
+        "product": "Bonus Saver",
+        "rate_percentage": 4.15,
+        "conditions": "Variable Base rate plus Bonus Interest rate is paid if you make at least one deposit of at least $1.00 and no withdrawals each month."
+    },
+    {
+        "bank": "Northern Inland Credit Union Limited",
+        "product": "Internet Saver",
+        "rate_percentage": 2.15,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Northern Inland Credit Union Limited",
+        "product": "Ready Saver",
+        "rate_percentage": 3.65,
         "conditions": "No specific prerequisites found."
     },
     {
