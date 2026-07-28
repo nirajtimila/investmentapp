@@ -744,6 +744,18 @@
         "conditions": "Maximum balance $5,000,000"
     },
     {
+        "bank": "Macquarie Bank Limited",
+        "product": "Macquarie Cash Management Accelerator Account",
+        "rate_percentage": 4.65,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Macquarie Bank Limited",
+        "product": "Macquarie Savings Account",
+        "rate_percentage": 5.0,
+        "conditions": "No specific prerequisites found."
+    },
+    {
         "bank": "Maitland Mutual Limited",
         "product": "Bonus Saver",
         "rate_percentage": 4.0,
@@ -832,6 +844,30 @@
         "product": "Way Cool Saver",
         "rate_percentage": 3.55,
         "conditions": "Maximum balance is $5,000,000"
+    },
+    {
+        "bank": "Police Credit Union Ltd",
+        "product": "Beans Savings Account",
+        "rate_percentage": 5.0,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Police Credit Union Ltd",
+        "product": "Focus Saver Account",
+        "rate_percentage": 5.0,
+        "conditions": "Cumulative"
+    },
+    {
+        "bank": "Police Credit Union Ltd",
+        "product": "Rural On-Call Savings Account",
+        "rate_percentage": 0.45,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Police Credit Union Ltd",
+        "product": "iSavings Account",
+        "rate_percentage": 4.25,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "QBANK",
