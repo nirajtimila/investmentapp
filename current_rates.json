@@ -582,48 +582,6 @@
         "conditions": "No specific prerequisites found."
     },
     {
-        "bank": "Greater Bank Limited",
-        "product": "Bonus Saver",
-        "rate_percentage": 4.0,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Greater Bank Limited",
-        "product": "Life Saver",
-        "rate_percentage": 5.25,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "HSBC",
-        "product": "HSBC Bonus Savings Account - AUD",
-        "rate_percentage": 2.25,
-        "conditions": "To receive the Monthly Bonus, ensure the closing account balance of the month is $300 higher (excluding interest paid during the month) than the opening balance of that month."
-    },
-    {
-        "bank": "HSBC",
-        "product": "HSBC Bonus Savings Account - GBP",
-        "rate_percentage": 2.0,
-        "conditions": "To receive the Monthly Bonus, ensure the closing account balance of the month is \u00a3250 GBP higher (excluding interest paid during the month) than the opening balance of that month."
-    },
-    {
-        "bank": "HSBC",
-        "product": "HSBC Bonus Savings Account- CAD",
-        "rate_percentage": 2.0,
-        "conditions": "To receive the Monthly Bonus, ensure the closing account balance of the month is $300 CAD  higher (excluding interest paid during the month) than the opening balance of that month."
-    },
-    {
-        "bank": "HSBC",
-        "product": "HSBC Everyday Savings Account",
-        "rate_percentage": 3.0,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "HSBC",
-        "product": "HSBC Premier Children's Savings Account",
-        "rate_percentage": 0.15,
-        "conditions": "No specific prerequisites found."
-    },
-    {
         "bank": "Health Professionals Bank",
         "product": "Essential Saver account",
         "rate_percentage": 5.0,
@@ -723,25 +681,25 @@
         "bank": "MOVE Bank",
         "product": "Bonus Saver",
         "rate_percentage": 5.35,
-        "conditions": "No specific prerequisites found."
+        "conditions": "Bonus rate payable for a calendar month when the eligibility criteria below are met, in addition to the base rate."
     },
     {
         "bank": "MOVE Bank",
         "product": "Express Saver",
         "rate_percentage": 1.1,
-        "conditions": "No specific prerequisites found."
+        "conditions": "You can only hold a maximum of 10 accounts for this product."
     },
     {
         "bank": "MOVE Bank",
         "product": "Growth Saver",
         "rate_percentage": 5.65,
-        "conditions": "Bonus interest payable on deposits up to $25,000"
+        "conditions": "Bonus rate payable for a calendar month when the eligibility criteria below are met, in addition to the base rate."
     },
     {
         "bank": "MOVE Bank",
         "product": "Online Saver",
         "rate_percentage": 4.7,
-        "conditions": "Maximum balance $5,000,000"
+        "conditions": "You can only hold a maximum of 10 accounts for this product."
     },
     {
         "bank": "Macquarie Bank Limited",
@@ -982,6 +940,24 @@
         "product": "PremiumSaver (Trust)",
         "rate_percentage": 3.95,
         "conditions": "Bonus Variable Rate"
+    },
+    {
+        "bank": "Regional Australia Bank",
+        "product": "Internet Maximiser Account",
+        "rate_percentage": 3.25,
+        "conditions": "A minimum balance of $1 is required to earn interest on this product."
+    },
+    {
+        "bank": "Regional Australia Bank",
+        "product": "Savings Account",
+        "rate_percentage": 3.25,
+        "conditions": "\nA minimum balance of $1 is required to earn interest on this product."
+    },
+    {
+        "bank": "Regional Australia Bank",
+        "product": "Savings Booster Account",
+        "rate_percentage": 5.0,
+        "conditions": "Interest is per annum. Deposit at least $100 and don\u2019t make any withdrawals through the month to receive boosted interest for that month. Bonus interest paid on portion of account balance up to $250,000.  Interest payable reverts to Base Interest if interest conditions are not met. Base Interest applies on the whole balance."
     },
     {
         "bank": "SWSbank",
