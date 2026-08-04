@@ -553,6 +553,18 @@
     },
     {
         "bank": "Geelong Bank",
+        "product": "Achieve Saver",
+        "rate_percentage": 1.45,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Geelong Bank",
+        "product": "Online Saver Account",
+        "rate_percentage": 1.5,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Geelong Bank",
         "product": "Senior Savers",
         "rate_percentage": 1.65,
         "conditions": "No specific prerequisites found."
