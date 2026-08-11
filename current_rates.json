@@ -138,24 +138,6 @@
         "conditions": "No specific prerequisites found."
     },
     {
-        "bank": "Bank of Queensland Limited",
-        "product": "Kids Savings Account",
-        "rate_percentage": 1.3,
-        "conditions": "Calculated daily and paid monthly."
-    },
-    {
-        "bank": "Bank of Queensland Limited",
-        "product": "Simple Saver Account",
-        "rate_percentage": 4.8,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Bank of Sydney",
-        "product": "BOS Saver",
-        "rate_percentage": 4.75,
-        "conditions": "No specific prerequisites found."
-    },
-    {
         "bank": "BankVic",
         "product": "Bonus Saver",
         "rate_percentage": 5.1,
@@ -432,12 +414,6 @@
         "conditions": "No specific prerequisites found."
     },
     {
-        "bank": "Heartland",
-        "product": "MySavings account",
-        "rate_percentage": 4.55,
-        "conditions": "No specific prerequisites found."
-    },
-    {
         "bank": "IMB Bank",
         "product": "Reward Saver Account",
         "rate_percentage": 3.2,
@@ -660,12 +636,6 @@
         "conditions": "No specific prerequisites found."
     },
     {
-        "bank": "RACQ Bank",
-        "product": "Bonus Saver Account",
-        "rate_percentage": 5.26,
-        "conditions": "No specific prerequisites found."
-    },
-    {
         "bank": "Rabobank",
         "product": "High Interest Savings Account (SMSF)",
         "rate_percentage": 3.45,
@@ -760,18 +730,6 @@
         "product": "Up Saver",
         "rate_percentage": 3.35,
         "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Virgin Money",
-        "product": "Virgin Money Boost Saver",
-        "rate_percentage": 4.2,
-        "conditions": "Additional variable interest rate earned on a Boost Saver where the optional Lock Saver Feature is enabled. Provide 32 days' advance notice to unlock your account or withdraw your money."
-    },
-    {
-        "bank": "Virgin Money",
-        "product": "Virgin Money Grow Saver",
-        "rate_percentage": 3.05,
-        "conditions": "Additional variable interest rate earned on a Grow Saver where the optional Lock Saver Feature is enabled. Provide 32 days' advance notice to unlock your account or withdraw your money."
     },
     {
         "bank": "Woolworths Team Bank",
