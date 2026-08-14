@@ -402,6 +402,18 @@
         "conditions": "No specific prerequisites found."
     },
     {
+        "bank": "Greater Bank Limited",
+        "product": "Bonus Saver",
+        "rate_percentage": 4.0,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Greater Bank Limited",
+        "product": "Life Saver",
+        "rate_percentage": 5.25,
+        "conditions": "No specific prerequisites found."
+    },
+    {
         "bank": "IMB Bank",
         "product": "Reward Saver Account",
         "rate_percentage": 3.2,
@@ -466,18 +478,6 @@
         "product": "Online Saver",
         "rate_percentage": 4.7,
         "conditions": "You can only hold a maximum of 10 accounts for this product."
-    },
-    {
-        "bank": "Macquarie Bank Limited",
-        "product": "Macquarie Cash Management Accelerator Account",
-        "rate_percentage": 4.65,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Macquarie Bank Limited",
-        "product": "Macquarie Savings Account",
-        "rate_percentage": 5.0,
-        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "MyState Bank",
