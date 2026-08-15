@@ -492,18 +492,6 @@
         "conditions": "No specific prerequisites found."
     },
     {
-        "bank": "NATIONAL AUSTRALIA BANK",
-        "product": "NAB Reward Saver",
-        "rate_percentage": 5.0,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "NATIONAL AUSTRALIA BANK",
-        "product": "NAB iSaver",
-        "rate_percentage": 3.6,
-        "conditions": "No specific prerequisites found."
-    },
-    {
         "bank": "Northern Inland Credit Union Limited",
         "product": "Bonus Saver",
         "rate_percentage": 4.15,
