@@ -480,6 +480,18 @@
         "conditions": "You can only hold a maximum of 10 accounts for this product."
     },
     {
+        "bank": "Macquarie Bank Limited",
+        "product": "Macquarie Cash Management Accelerator Account",
+        "rate_percentage": 4.65,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Macquarie Bank Limited",
+        "product": "Macquarie Savings Account",
+        "rate_percentage": 5.0,
+        "conditions": "No specific prerequisites found."
+    },
+    {
         "bank": "MyState Bank",
         "product": "Bonus Saver",
         "rate_percentage": 4.95,
@@ -489,6 +501,18 @@
         "bank": "MyState Bank",
         "product": "Hello Saver account",
         "rate_percentage": 5.0,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "NATIONAL AUSTRALIA BANK",
+        "product": "NAB Reward Saver",
+        "rate_percentage": 5.0,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "NATIONAL AUSTRALIA BANK",
+        "product": "NAB iSaver",
+        "rate_percentage": 3.6,
         "conditions": "No specific prerequisites found."
     },
     {
