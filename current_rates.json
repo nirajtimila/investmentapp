@@ -1,17 +1,5 @@
 [
     {
-        "bank": "ANZ",
-        "product": "ANZ Online Saver",
-        "rate_percentage": 1.35,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "ANZ",
-        "product": "ANZ Progress Saver",
-        "rate_percentage": 3.75,
-        "conditions": "Bonus interest is subject to eligibility. ANZ Progress Saver pays bonus interest (in addition to the current variable base interest) in respect of a particular month if the set minimum deposit (currently $10) and no withdrawals, fees or charges are processed to the account on or before the last business day of that calendar month, and after the last business day of the previous calendar month. Bonus and base rates are variable and subject to change."
-    },
-    {
         "bank": "ANZ Plus",
         "product": "ANZ Plus Flex Saver",
         "rate_percentage": 5.1,
@@ -682,6 +670,18 @@
         "product": "Savings Booster Account",
         "rate_percentage": 5.0,
         "conditions": "Interest is per annum. Deposit at least $100 and don\u2019t make any withdrawals through the month to receive boosted interest for that month. Bonus interest paid on portion of account balance up to $250,000.  Interest payable reverts to Base Interest if interest conditions are not met. Base Interest applies on the whole balance."
+    },
+    {
+        "bank": "Revolut",
+        "product": "Revolut Instant Access Savings",
+        "rate_percentage": 5.05,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Revolut",
+        "product": "Revolut Kids & Teens Instant Access Savings",
+        "rate_percentage": 5.05,
+        "conditions": "Maximum total balance for the RKT Savings sub-account is A$699.00"
     },
     {
         "bank": "Summerland Bank",
