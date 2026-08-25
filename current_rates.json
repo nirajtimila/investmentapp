@@ -61,12 +61,6 @@
     },
     {
         "bank": "BCU Bank",
-        "product": "Boss Saver",
-        "rate_percentage": 0.2,
-        "conditions": "Maximum balance is $5,000,000"
-    },
-    {
-        "bank": "BCU Bank",
         "product": "Power Saver",
         "rate_percentage": 5.1,
         "conditions": "Maximum balance is $5,000,000"
@@ -265,9 +259,9 @@
     },
     {
         "bank": "Defence Bank",
-        "product": "Teen Saver",
-        "rate_percentage": 5.0,
-        "conditions": "No specific prerequisites found."
+        "product": "Max E Saver",
+        "rate_percentage": 5.2,
+        "conditions": "Interest is calculated daily on the closing balance and credited on the last day of each month."
     },
     {
         "bank": "Defence Bank",
@@ -390,6 +384,18 @@
         "conditions": "No specific prerequisites found."
     },
     {
+        "bank": "Greater Bank Limited",
+        "product": "Bonus Saver",
+        "rate_percentage": 4.0,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Greater Bank Limited",
+        "product": "Life Saver",
+        "rate_percentage": 5.25,
+        "conditions": "No specific prerequisites found."
+    },
+    {
         "bank": "IMB Bank",
         "product": "Reward Saver Account",
         "rate_percentage": 3.2,
@@ -432,30 +438,6 @@
         "conditions": "Interest is calculated daily and paid monthly on your balance at a tiered interest rate."
     },
     {
-        "bank": "MOVE Bank",
-        "product": "Bonus Saver",
-        "rate_percentage": 5.35,
-        "conditions": "Bonus rate payable for a calendar month when the eligibility criteria below are met, in addition to the base rate."
-    },
-    {
-        "bank": "MOVE Bank",
-        "product": "Express Saver",
-        "rate_percentage": 1.1,
-        "conditions": "You can only hold a maximum of 10 accounts for this product."
-    },
-    {
-        "bank": "MOVE Bank",
-        "product": "Growth Saver",
-        "rate_percentage": 5.65,
-        "conditions": "Bonus rate payable for a calendar month when the eligibility criteria below are met, in addition to the base rate."
-    },
-    {
-        "bank": "MOVE Bank",
-        "product": "Online Saver",
-        "rate_percentage": 4.7,
-        "conditions": "You can only hold a maximum of 10 accounts for this product."
-    },
-    {
         "bank": "Macquarie Bank Limited",
         "product": "Macquarie Cash Management Accelerator Account",
         "rate_percentage": 4.65,
@@ -466,6 +448,30 @@
         "product": "Macquarie Savings Account",
         "rate_percentage": 5.0,
         "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "MoveBank",
+        "product": "Bonus Saver",
+        "rate_percentage": 5.35,
+        "conditions": "Bonus rate payable for a calendar month when the eligibility criteria below are met, in addition to the base rate."
+    },
+    {
+        "bank": "MoveBank",
+        "product": "Express Saver",
+        "rate_percentage": 1.1,
+        "conditions": "You can only hold a maximum of 10 accounts for this product."
+    },
+    {
+        "bank": "MoveBank",
+        "product": "Growth Saver",
+        "rate_percentage": 5.65,
+        "conditions": "Bonus rate payable for a calendar month when the eligibility criteria below are met, in addition to the base rate."
+    },
+    {
+        "bank": "MoveBank",
+        "product": "Online Saver",
+        "rate_percentage": 4.7,
+        "conditions": "You can only hold a maximum of 10 accounts for this product."
     },
     {
         "bank": "MyState Bank",
