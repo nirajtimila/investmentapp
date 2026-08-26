@@ -61,6 +61,12 @@
     },
     {
         "bank": "BCU Bank",
+        "product": "Boss Saver",
+        "rate_percentage": 0.2,
+        "conditions": "Maximum balance is $5,000,000"
+    },
+    {
+        "bank": "BCU Bank",
         "product": "Power Saver",
         "rate_percentage": 5.1,
         "conditions": "Maximum balance is $5,000,000"
@@ -237,12 +243,6 @@
         "bank": "Credit Union SA",
         "product": "Children's Savings Account",
         "rate_percentage": 4.35,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Defence Bank",
-        "product": "Kids Club Savings",
-        "rate_percentage": 5.0,
         "conditions": "No specific prerequisites found."
     },
     {
