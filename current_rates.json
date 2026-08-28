@@ -253,6 +253,12 @@
     },
     {
         "bank": "Defence Bank",
+        "product": "Kids Club Savings",
+        "rate_percentage": 5.0,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Defence Bank",
         "product": "Max E Saver",
         "rate_percentage": 5.2,
         "conditions": "Interest is calculated daily on the closing balance and credited on the last day of each month."
@@ -286,24 +292,6 @@
         "product": "My Community Saver",
         "rate_percentage": 0.77,
         "conditions": "Dnister pays a contribution based on the applicable interest rate and daily balance of a My Community Saver Account. This contribution is paid into the nominated eligible community organisation's Community Access Account."
-    },
-    {
-        "bank": "Family First",
-        "product": "Bonus Saver",
-        "rate_percentage": 4.0,
-        "conditions": "Bonus Monthly Interest paid should certain conditions be met - $200 deposited in the month with nil withdrawals."
-    },
-    {
-        "bank": "Family First",
-        "product": "Family e-Savings Account",
-        "rate_percentage": 2.75,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Family First",
-        "product": "Teen Saver Account",
-        "rate_percentage": 1.5,
-        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Fire Service Credit Union",
