@@ -114,6 +114,12 @@
         "conditions": "No specific prerequisites found."
     },
     {
+        "bank": "Bank First",
+        "product": "Strong Start Saver",
+        "rate_percentage": 5.4,
+        "conditions": "No specific prerequisites found."
+    },
+    {
         "bank": "Bank of China",
         "product": "Online Saver",
         "rate_percentage": 1.35,
