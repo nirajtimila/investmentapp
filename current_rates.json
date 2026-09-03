@@ -146,7 +146,7 @@
     {
         "bank": "Bankwest",
         "product": "Bankwest Easy Saver",
-        "rate_percentage": 5.2,
+        "rate_percentage": 5.0,
         "conditions": "Bonus rates available from time to time for selected customers, bonus rates applied may vary. Terms and conditions may apply."
     },
     {
@@ -532,24 +532,6 @@
         "product": "Way Cool Saver",
         "rate_percentage": 3.55,
         "conditions": "Maximum balance is $5,000,000"
-    },
-    {
-        "bank": "QBANK",
-        "product": "Bonus Saver",
-        "rate_percentage": 4.95,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "QBANK",
-        "product": "Junior Saver",
-        "rate_percentage": 2.45,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "QBANK",
-        "product": "Teen Netlink Direct Savings",
-        "rate_percentage": 2.85,
-        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Qudos Bank",
