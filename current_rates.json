@@ -432,18 +432,6 @@
         "conditions": "Interest is calculated daily and paid monthly on your balance at a tiered interest rate."
     },
     {
-        "bank": "Macquarie Bank Limited",
-        "product": "Macquarie Cash Management Accelerator Account",
-        "rate_percentage": 4.65,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Macquarie Bank Limited",
-        "product": "Macquarie Savings Account",
-        "rate_percentage": 5.0,
-        "conditions": "No specific prerequisites found."
-    },
-    {
         "bank": "MoveBank",
         "product": "Bonus Saver",
         "rate_percentage": 5.35,
