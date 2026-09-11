@@ -379,6 +379,12 @@
     },
     {
         "bank": "Greater Bank Limited",
+        "product": "Bonus Saver",
+        "rate_percentage": 4.0,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Greater Bank Limited",
         "product": "Life Saver",
         "rate_percentage": 5.25,
         "conditions": "No specific prerequisites found."
@@ -604,36 +610,6 @@
         "product": "Student Money Saver",
         "rate_percentage": 4.35,
         "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Rabobank",
-        "product": "High Interest Savings Account (SMSF)",
-        "rate_percentage": 3.45,
-        "conditions": "Funds can only be transferred externally to the nominated linked account."
-    },
-    {
-        "bank": "Rabobank",
-        "product": "High Interest Savings Account (Trust)",
-        "rate_percentage": 3.4,
-        "conditions": "Funds can only be transferred externally to the nominated linked account."
-    },
-    {
-        "bank": "Rabobank",
-        "product": "PremiumSaver",
-        "rate_percentage": 5.4,
-        "conditions": "Bonus Variable Rate"
-    },
-    {
-        "bank": "Rabobank",
-        "product": "PremiumSaver (SMSF)",
-        "rate_percentage": 4.6,
-        "conditions": "Bonus Variable Rate"
-    },
-    {
-        "bank": "Rabobank",
-        "product": "PremiumSaver (Trust)",
-        "rate_percentage": 3.95,
-        "conditions": "Bonus Variable Rate"
     },
     {
         "bank": "Regional Australia Bank",
