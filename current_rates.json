@@ -54,24 +54,6 @@
         "conditions": "Make at least 1 deposit, credit transfer or electronic credit to the account in the calendar month. Make no withdrawals, debit transfers or eletrronic debits from the account in the same calendar month."
     },
     {
-        "bank": "BCU Bank",
-        "product": "Bonus Saver",
-        "rate_percentage": 0.05,
-        "conditions": "Maximum balance is $5,000,000"
-    },
-    {
-        "bank": "BCU Bank",
-        "product": "Boss Saver",
-        "rate_percentage": 0.2,
-        "conditions": "Maximum balance is $5,000,000"
-    },
-    {
-        "bank": "BCU Bank",
-        "product": "Power Saver",
-        "rate_percentage": 5.1,
-        "conditions": "Maximum balance is $5,000,000"
-    },
-    {
         "bank": "Bank Australia",
         "product": "Bonus Saver",
         "rate_percentage": 5.1,
@@ -510,30 +492,6 @@
         "conditions": "No specific prerequisites found."
     },
     {
-        "bank": "P&N Bank",
-        "product": "Hi Saver Account",
-        "rate_percentage": 0.05,
-        "conditions": "Maximum balance is $5,000,000"
-    },
-    {
-        "bank": "P&N Bank",
-        "product": "Savvy Saver Account",
-        "rate_percentage": 0.2,
-        "conditions": "Maximum balance is $5,000,000"
-    },
-    {
-        "bank": "P&N Bank",
-        "product": "Smart Saver Account",
-        "rate_percentage": 5.1,
-        "conditions": "Bonus interest is not paid on balances exceeding $250,000."
-    },
-    {
-        "bank": "P&N Bank",
-        "product": "Way Cool Saver",
-        "rate_percentage": 3.55,
-        "conditions": "Maximum balance is $5,000,000"
-    },
-    {
         "bank": "QBANK",
         "product": "Bonus Saver",
         "rate_percentage": 4.95,
@@ -580,36 +538,6 @@
         "product": "Retirement Savings Account",
         "rate_percentage": 4.95,
         "conditions": "Refer to PDS for details"
-    },
-    {
-        "bank": "Queensland Country Bank",
-        "product": "Bonus Saver",
-        "rate_percentage": 4.35,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Queensland Country Bank",
-        "product": "Future Start Savings",
-        "rate_percentage": 4.35,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Queensland Country Bank",
-        "product": "Online Saver",
-        "rate_percentage": 2.8,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Queensland Country Bank",
-        "product": "Star Saver",
-        "rate_percentage": 3.95,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Queensland Country Bank",
-        "product": "Student Money Saver",
-        "rate_percentage": 4.35,
-        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Rabobank",
