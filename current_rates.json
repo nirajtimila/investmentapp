@@ -499,6 +499,12 @@
     },
     {
         "bank": "QBANK",
+        "product": "Intro Saver",
+        "rate_percentage": 5.35,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "QBANK",
         "product": "Junior Saver",
         "rate_percentage": 2.45,
         "conditions": "No specific prerequisites found."
