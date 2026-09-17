@@ -156,36 +156,6 @@
         "conditions": "Bonus Rate in addition to variable (Base) rate where criteria is met\nWhen you grow your balance every month*\nWatch your savings grow without worrying about monthly service fees"
     },
     {
-        "bank": "Beyond Bank Australia",
-        "product": "Purple Bonus Saver",
-        "rate_percentage": 4.65,
-        "conditions": "You will become eligible for bonus interest if you: a) deposit at least $50 during the month; and b) do not make a withdrawal during the same month. Interest is paid monthly."
-    },
-    {
-        "bank": "Beyond Bank Australia",
-        "product": "monEsaver Internet Account",
-        "rate_percentage": 2.75,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Broken Hill Bank",
-        "product": "OTC Savings Account",
-        "rate_percentage": 1.6,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Broken Hill Bank",
-        "product": "Santa Saver Account",
-        "rate_percentage": 1.75,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Broken Hill Bank",
-        "product": "eCall Savings Account",
-        "rate_percentage": 2.55,
-        "conditions": "No specific prerequisites found."
-    },
-    {
         "bank": "Coastline Bank",
         "product": "Bonus Reward Saver",
         "rate_percentage": 0.4,
@@ -327,36 +297,6 @@
         "bank": "Gateway Bank",
         "product": "eMax Saver Account",
         "rate_percentage": 3.95,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Great Southern Bank",
-        "product": "Everyday Saver",
-        "rate_percentage": 4.8,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Great Southern Bank",
-        "product": "Future Saver",
-        "rate_percentage": 4.85,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Great Southern Bank",
-        "product": "Goal Saver",
-        "rate_percentage": 5.35,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Great Southern Bank",
-        "product": "Home Saver",
-        "rate_percentage": 5.25,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Great Southern Bank",
-        "product": "Youth eSaver",
-        "rate_percentage": 5.5,
         "conditions": "No specific prerequisites found."
     },
     {
