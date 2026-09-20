@@ -354,6 +354,18 @@
         "conditions": "Interest is calculated daily and paid monthly on your balance at a tiered interest rate."
     },
     {
+        "bank": "Macquarie Bank Limited",
+        "product": "Macquarie Cash Management Accelerator Account",
+        "rate_percentage": 4.65,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Macquarie Bank Limited",
+        "product": "Macquarie Savings Account",
+        "rate_percentage": 5.0,
+        "conditions": "No specific prerequisites found."
+    },
+    {
         "bank": "MoveBank",
         "product": "Bonus Saver",
         "rate_percentage": 5.35,
@@ -484,6 +496,24 @@
         "product": "High Interest Savings Account (Trust)",
         "rate_percentage": 3.4,
         "conditions": "Funds can only be transferred externally to the nominated linked account."
+    },
+    {
+        "bank": "Rabobank",
+        "product": "PremiumSaver",
+        "rate_percentage": 5.4,
+        "conditions": "Bonus Variable Rate"
+    },
+    {
+        "bank": "Rabobank",
+        "product": "PremiumSaver (SMSF)",
+        "rate_percentage": 4.6,
+        "conditions": "Bonus Variable Rate"
+    },
+    {
+        "bank": "Rabobank",
+        "product": "PremiumSaver (Trust)",
+        "rate_percentage": 3.95,
+        "conditions": "Bonus Variable Rate"
     },
     {
         "bank": "Regional Australia Bank",
