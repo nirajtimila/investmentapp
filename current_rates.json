@@ -138,24 +138,6 @@
         "conditions": "Bonus interest will be paid in respect of each day of a month of the year at Your Bonus Interest Rate on that day if the total amount of deposits (excluding interest) exceeds the total amount of withdrawals in that month."
     },
     {
-        "bank": "Bendigo Bank",
-        "product": "Bendigo EasySaver",
-        "rate_percentage": 3.55,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Bendigo Bank",
-        "product": "Bendigo PiggySaver",
-        "rate_percentage": 3.55,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Bendigo Bank",
-        "product": "Bendigo Reward Saver",
-        "rate_percentage": 4.75,
-        "conditions": "Bonus Rate in addition to variable (Base) rate where criteria is met\nWhen you grow your balance every month*\nWatch your savings grow without worrying about monthly service fees"
-    },
-    {
         "bank": "Coastline Bank",
         "product": "Bonus Reward Saver",
         "rate_percentage": 0.4,
