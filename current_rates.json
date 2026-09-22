@@ -169,6 +169,12 @@
     },
     {
         "bank": "CommBank",
+        "product": "SMSF Saver",
+        "rate_percentage": 4.5,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "CommBank",
         "product": "Youthsaver Account",
         "rate_percentage": 2.9,
         "conditions": "No specific prerequisites found."
@@ -496,24 +502,6 @@
         "product": "PremiumSaver (Trust)",
         "rate_percentage": 3.95,
         "conditions": "Bonus Variable Rate"
-    },
-    {
-        "bank": "Regional Australia Bank",
-        "product": "Internet Maximiser Account",
-        "rate_percentage": 3.25,
-        "conditions": "A minimum balance of $1 is required to earn interest on this product."
-    },
-    {
-        "bank": "Regional Australia Bank",
-        "product": "Savings Account",
-        "rate_percentage": 3.25,
-        "conditions": "\nA minimum balance of $1 is required to earn interest on this product."
-    },
-    {
-        "bank": "Regional Australia Bank",
-        "product": "Savings Booster Account",
-        "rate_percentage": 5.0,
-        "conditions": "Interest is per annum. Deposit at least $100 and don\u2019t make any withdrawals through the month to receive boosted interest for that month. Bonus interest paid on portion of account balance up to $250,000.  Interest payable reverts to Base Interest if interest conditions are not met. Base Interest applies on the whole balance."
     },
     {
         "bank": "Revolut",
