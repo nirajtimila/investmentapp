@@ -138,24 +138,6 @@
         "conditions": "Bonus interest will be paid in respect of each day of a month of the year at Your Bonus Interest Rate on that day if the total amount of deposits (excluding interest) exceeds the total amount of withdrawals in that month."
     },
     {
-        "bank": "Bendigo Bank",
-        "product": "Bendigo EasySaver",
-        "rate_percentage": 3.55,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Bendigo Bank",
-        "product": "Bendigo PiggySaver",
-        "rate_percentage": 3.55,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Bendigo Bank",
-        "product": "Bendigo Reward Saver",
-        "rate_percentage": 4.75,
-        "conditions": "Bonus Rate in addition to variable (Base) rate where criteria is met\nWhen you grow your balance every month*\nWatch your savings grow without worrying about monthly service fees"
-    },
-    {
         "bank": "Coastline Bank",
         "product": "Bonus Reward Saver",
         "rate_percentage": 0.4,
@@ -360,6 +342,18 @@
         "conditions": "Interest is calculated daily and paid monthly on your balance at a tiered interest rate."
     },
     {
+        "bank": "Macquarie Bank Limited",
+        "product": "Macquarie Cash Management Accelerator Account",
+        "rate_percentage": 4.65,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Macquarie Bank Limited",
+        "product": "Macquarie Savings Account",
+        "rate_percentage": 5.0,
+        "conditions": "No specific prerequisites found."
+    },
+    {
         "bank": "MoveBank",
         "product": "Bonus Saver",
         "rate_percentage": 5.35,
@@ -508,6 +502,24 @@
         "product": "PremiumSaver (Trust)",
         "rate_percentage": 3.95,
         "conditions": "Bonus Variable Rate"
+    },
+    {
+        "bank": "Regional Australia Bank",
+        "product": "Internet Maximiser Account",
+        "rate_percentage": 3.25,
+        "conditions": "A minimum balance of $1 is required to earn interest on this product."
+    },
+    {
+        "bank": "Regional Australia Bank",
+        "product": "Savings Account",
+        "rate_percentage": 3.25,
+        "conditions": "\nA minimum balance of $1 is required to earn interest on this product."
+    },
+    {
+        "bank": "Regional Australia Bank",
+        "product": "Savings Booster Account",
+        "rate_percentage": 5.0,
+        "conditions": "Interest is per annum. Deposit at least $100 and don\u2019t make any withdrawals through the month to receive boosted interest for that month. Bonus interest paid on portion of account balance up to $250,000.  Interest payable reverts to Base Interest if interest conditions are not met. Base Interest applies on the whole balance."
     },
     {
         "bank": "Revolut",
