@@ -126,18 +126,6 @@
         "conditions": "No specific prerequisites found."
     },
     {
-        "bank": "Bankwest",
-        "product": "Bankwest Easy Saver",
-        "rate_percentage": 5.0,
-        "conditions": "Bonus rates available from time to time for selected customers, bonus rates applied may vary. Terms and conditions may apply."
-    },
-    {
-        "bank": "Bankwest",
-        "product": "Hero Saver",
-        "rate_percentage": 5.1,
-        "conditions": "Bonus interest will be paid in respect of each day of a month of the year at Your Bonus Interest Rate on that day if the total amount of deposits (excluding interest) exceeds the total amount of withdrawals in that month."
-    },
-    {
         "bank": "Coastline Bank",
         "product": "Bonus Reward Saver",
         "rate_percentage": 0.4,
@@ -199,12 +187,6 @@
     },
     {
         "bank": "Defence Bank",
-        "product": "Kids Club Savings",
-        "rate_percentage": 5.0,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Defence Bank",
         "product": "Max E Saver",
         "rate_percentage": 5.2,
         "conditions": "Interest is calculated daily on the closing balance and credited on the last day of each month."
@@ -241,32 +223,14 @@
     },
     {
         "bank": "Fire Service Credit Union",
-        "product": "S1 On Call Savings",
-        "rate_percentage": 0.05,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Fire Service Credit Union",
         "product": "S7 Christmas Savings Account",
         "rate_percentage": 2.5,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Fire Service Credit Union",
-        "product": "S8 Savings Account",
-        "rate_percentage": 2.25,
         "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Gateway Bank",
         "product": "Dollaroo Junior Savers",
         "rate_percentage": 3.75,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Gateway Bank",
-        "product": "Goal Saver",
-        "rate_percentage": 4.35,
         "conditions": "No specific prerequisites found."
     },
     {
@@ -403,12 +367,6 @@
     },
     {
         "bank": "Northern Inland Credit Union Limited",
-        "product": "Bonus Saver",
-        "rate_percentage": 4.15,
-        "conditions": "Variable Base rate plus Bonus Interest rate is paid if you make at least one deposit of at least $1.00 and no withdrawals each month."
-    },
-    {
-        "bank": "Northern Inland Credit Union Limited",
         "product": "Internet Saver",
         "rate_percentage": 2.15,
         "conditions": "No specific prerequisites found."
@@ -523,12 +481,6 @@
     },
     {
         "bank": "Revolut",
-        "product": "Revolut Instant Access Savings",
-        "rate_percentage": 5.05,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Revolut",
         "product": "Revolut Kids & Teens Instant Access Savings",
         "rate_percentage": 5.05,
         "conditions": "Maximum total balance for the RKT Savings sub-account is A$699.00"
@@ -615,24 +567,6 @@
         "bank": "bankWAW",
         "product": "WAW Youth Saver",
         "rate_percentage": 5.0,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "gmcu",
-        "product": "Advantage Saver",
-        "rate_percentage": 4.55,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "gmcu",
-        "product": "Christmas Saver",
-        "rate_percentage": 1.1,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "gmcu",
-        "product": "Online Saver",
-        "rate_percentage": 1.05,
         "conditions": "No specific prerequisites found."
     }
 ]
