@@ -524,13 +524,13 @@
     {
         "bank": "Revolut",
         "product": "Revolut Instant Access Savings",
-        "rate_percentage": 5.05,
+        "rate_percentage": 5.3,
         "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Revolut",
         "product": "Revolut Kids & Teens Instant Access Savings",
-        "rate_percentage": 5.05,
+        "rate_percentage": 5.4,
         "conditions": "Maximum total balance for the RKT Savings sub-account is A$699.00"
     },
     {
