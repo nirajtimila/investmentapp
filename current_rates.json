@@ -288,6 +288,18 @@
         "conditions": "No specific prerequisites found."
     },
     {
+        "bank": "Greater Bank",
+        "product": "Bonus Saver",
+        "rate_percentage": 4.0,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Greater Bank",
+        "product": "Life Saver",
+        "rate_percentage": 5.25,
+        "conditions": "No specific prerequisites found."
+    },
+    {
         "bank": "IMB Bank",
         "product": "Reward Saver Account",
         "rate_percentage": 3.2,
@@ -441,6 +453,12 @@
         "bank": "Qudos Bank",
         "product": "General Savings Account",
         "rate_percentage": 0.05,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Qudos Bank",
+        "product": "Qantas Points Saver",
+        "rate_percentage": 4.25,
         "conditions": "No specific prerequisites found."
     },
     {
