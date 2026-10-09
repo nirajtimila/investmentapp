@@ -128,13 +128,13 @@
     {
         "bank": "Bankwest",
         "product": "Bankwest Easy Saver",
-        "rate_percentage": 5.0,
+        "rate_percentage": 5.25,
         "conditions": "Bonus rates available from time to time for selected customers, bonus rates applied may vary. Terms and conditions may apply."
     },
     {
         "bank": "Bankwest",
         "product": "Hero Saver",
-        "rate_percentage": 5.1,
+        "rate_percentage": 5.35,
         "conditions": "Bonus interest will be paid in respect of each day of a month of the year at Your Bonus Interest Rate on that day if the total amount of deposits (excluding interest) exceeds the total amount of withdrawals in that month."
     },
     {
@@ -296,13 +296,13 @@
     {
         "bank": "NATIONAL AUSTRALIA BANK",
         "product": "NAB Reward Saver",
-        "rate_percentage": 5.0,
+        "rate_percentage": 5.25,
         "conditions": "No specific prerequisites found."
     },
     {
         "bank": "NATIONAL AUSTRALIA BANK",
         "product": "NAB iSaver",
-        "rate_percentage": 3.6,
+        "rate_percentage": 3.65,
         "conditions": "No specific prerequisites found."
     },
     {
