@@ -2,13 +2,13 @@
     {
         "bank": "ANZ Plus",
         "product": "ANZ Plus Flex Saver",
-        "rate_percentage": 5.1,
+        "rate_percentage": 5.35,
         "conditions": "No specific prerequisites found."
     },
     {
         "bank": "ANZ Plus",
         "product": "ANZ Plus Growth Saver",
-        "rate_percentage": 5.1,
+        "rate_percentage": 5.35,
         "conditions": "Grow $100 by last business day of month"
     },
     {
@@ -140,25 +140,25 @@
     {
         "bank": "CommBank",
         "product": "GoalSaver",
-        "rate_percentage": 5.0,
+        "rate_percentage": 5.25,
         "conditions": "No specific prerequisites found."
     },
     {
         "bank": "CommBank",
         "product": "NetBank Saver",
-        "rate_percentage": 2.1,
+        "rate_percentage": 2.3,
         "conditions": "No specific prerequisites found."
     },
     {
         "bank": "CommBank",
         "product": "SMSF Saver",
-        "rate_percentage": 4.5,
+        "rate_percentage": 4.9,
         "conditions": "No specific prerequisites found."
     },
     {
         "bank": "CommBank",
         "product": "Youthsaver Account",
-        "rate_percentage": 2.9,
+        "rate_percentage": 2.95,
         "conditions": "No specific prerequisites found."
     },
     {
@@ -204,33 +204,21 @@
         "conditions": "Interest is calculated daily on the closing balance and credited on the last day of each month."
     },
     {
-        "bank": "Greater Bank",
-        "product": "Bonus Saver",
-        "rate_percentage": 4.0,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Greater Bank",
-        "product": "Life Saver",
-        "rate_percentage": 5.25,
-        "conditions": "No specific prerequisites found."
-    },
-    {
         "bank": "IMB Bank",
         "product": "Reward Saver Account",
-        "rate_percentage": 3.2,
+        "rate_percentage": 3.45,
         "conditions": "Maximum withdrawals permitted before Bonus Interest is forfeited for the month."
     },
     {
         "bank": "IMB Bank",
         "product": "Reward Saver Kick Start",
-        "rate_percentage": 3.2,
+        "rate_percentage": 3.45,
         "conditions": "Maximum withdrawals permitted before Bonus Interest is forfeited for the month."
     },
     {
         "bank": "ING BANK (Australia) Ltd",
         "product": "Savings Accelerator",
-        "rate_percentage": 4.8,
+        "rate_percentage": 5.05,
         "conditions": "We may not accept a deposit to your Savings Accelerator if it would result in the combined deposits of all your Savings Accelerator(s) (whether in individual or joint names) exceeding $5,000,000.00"
     },
     {
@@ -242,7 +230,7 @@
     {
         "bank": "ING BANK (Australia) Ltd",
         "product": "Savings Maximiser",
-        "rate_percentage": 5.5,
+        "rate_percentage": 5.75,
         "conditions": "When the criteria is met in a calendar month, the benefits and additional variable rate will apply in the next calendar month. Available on one account for balances up to $100,000."
     },
     {
@@ -464,7 +452,7 @@
     {
         "bank": "The Capricornian",
         "product": "Bonus Saver Account",
-        "rate_percentage": 4.75,
+        "rate_percentage": 5.0,
         "conditions": "0.10% interest is applied to the entirety of the balance regardless of whether or not the bonus criteria is met."
     },
     {
@@ -476,7 +464,7 @@
     {
         "bank": "The Capricornian",
         "product": "iSaver",
-        "rate_percentage": 0.5,
+        "rate_percentage": 0.6,
         "conditions": "No specific prerequisites found."
     },
     {
