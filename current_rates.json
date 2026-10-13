@@ -164,13 +164,13 @@
     {
         "bank": "Credit Union SA",
         "product": "Bonus Savings Account",
-        "rate_percentage": 3.5,
+        "rate_percentage": 3.75,
         "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Credit Union SA",
         "product": "Children's Savings Account",
-        "rate_percentage": 4.35,
+        "rate_percentage": 4.6,
         "conditions": "No specific prerequisites found."
     },
     {
