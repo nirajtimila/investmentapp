@@ -56,7 +56,7 @@
     {
         "bank": "Bank Australia",
         "product": "Bonus Saver",
-        "rate_percentage": 5.1,
+        "rate_percentage": 5.35,
         "conditions": "Earn monthly bonus interest when $100 is deposited each month and there are no withdrawals in the month. If these conditions aren't met, you will only be eligible to receive the base variable interest rate."
     },
     {
@@ -68,19 +68,19 @@
     {
         "bank": "Bank Australia",
         "product": "Commercial Saver",
-        "rate_percentage": 1.7,
+        "rate_percentage": 1.95,
         "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Bank Australia",
         "product": "Online Saver",
-        "rate_percentage": 4.45,
+        "rate_percentage": 4.7,
         "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Bank Australia",
         "product": "mySaver",
-        "rate_percentage": 5.1,
+        "rate_percentage": 5.35,
         "conditions": "Earn monthly bonus interest when $10 is deposited each month and there are no withdrawals in the month. If these conditions aren't met, you will only be eligible to receive the base variable interest rate."
     },
     {
@@ -175,26 +175,26 @@
     },
     {
         "bank": "Defence Bank",
+        "product": "Cadet Saver",
+        "rate_percentage": 5.25,
+        "conditions": "Available only for deposits up to $1 million."
+    },
+    {
+        "bank": "Defence Bank",
         "product": "Kids Club Savings",
-        "rate_percentage": 5.0,
+        "rate_percentage": 5.25,
         "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Defence Bank",
         "product": "Max E Saver",
-        "rate_percentage": 5.2,
-        "conditions": "Interest is calculated daily on the closing balance and credited on the last day of each month."
-    },
-    {
-        "bank": "Defence Bank",
-        "product": "Max E Saver",
-        "rate_percentage": 5.2,
+        "rate_percentage": 5.3,
         "conditions": "Interest is calculated daily on the closing balance and credited on the last day of each month."
     },
     {
         "bank": "Defence Bank",
         "product": "Teen Saver",
-        "rate_percentage": 5.0,
+        "rate_percentage": 5.25,
         "conditions": "No specific prerequisites found."
     },
     {
@@ -260,13 +260,13 @@
     {
         "bank": "Macquarie Bank Limited",
         "product": "Macquarie Cash Management Accelerator Account",
-        "rate_percentage": 4.65,
+        "rate_percentage": 4.9,
         "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Macquarie Bank Limited",
         "product": "Macquarie Savings Account",
-        "rate_percentage": 5.0,
+        "rate_percentage": 5.25,
         "conditions": "No specific prerequisites found."
     },
     {
@@ -290,7 +290,7 @@
     {
         "bank": "MoveBank",
         "product": "Online Saver",
-        "rate_percentage": 4.7,
+        "rate_percentage": 4.8,
         "conditions": "You can only hold a maximum of 10 accounts for this product."
     },
     {
@@ -344,25 +344,25 @@
     {
         "bank": "QBANK",
         "product": "Intro Saver",
-        "rate_percentage": 5.35,
+        "rate_percentage": 5.6,
         "conditions": "No specific prerequisites found."
     },
     {
         "bank": "QBANK",
         "product": "Junior Saver",
-        "rate_percentage": 2.45,
+        "rate_percentage": 2.7,
         "conditions": "No specific prerequisites found."
     },
     {
         "bank": "QBANK",
         "product": "Teen Netlink Direct Savings",
-        "rate_percentage": 2.85,
+        "rate_percentage": 3.1,
         "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Qudos Bank",
         "product": "Bonus Saver",
-        "rate_percentage": 5.1,
+        "rate_percentage": 5.35,
         "conditions": "Deposit at least $100 and make no withdrawals in a calendar month to receive the bonus rate on your savings."
     },
     {
@@ -374,13 +374,13 @@
     {
         "bank": "Qudos Bank",
         "product": "Qantas Points Saver",
-        "rate_percentage": 4.25,
+        "rate_percentage": 4.5,
         "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Qudos Bank",
         "product": "Qsaver",
-        "rate_percentage": 4.45,
+        "rate_percentage": 4.7,
         "conditions": "No specific prerequisites found."
     },
     {
