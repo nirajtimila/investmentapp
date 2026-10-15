@@ -85,20 +85,20 @@
     },
     {
         "bank": "Bank First",
-        "product": "Bonus Saver Account",
-        "rate_percentage": 5.0,
+        "product": "First Saver Account",
+        "rate_percentage": 4.65,
         "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Bank First",
-        "product": "First Home Bonus Saver Account",
-        "rate_percentage": 5.05,
+        "product": "Online Saver Account",
+        "rate_percentage": 4.05,
         "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Bank First",
-        "product": "Strong Start Saver",
-        "rate_percentage": 5.4,
+        "product": "Preschool Savings Account",
+        "rate_percentage": 4.55,
         "conditions": "No specific prerequisites found."
     },
     {
