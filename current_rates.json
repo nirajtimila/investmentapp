@@ -193,6 +193,12 @@
     },
     {
         "bank": "Greater Bank",
+        "product": "Bonus Saver",
+        "rate_percentage": 4.25,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Greater Bank",
         "product": "Life Saver",
         "rate_percentage": 5.5,
         "conditions": "No specific prerequisites found."
@@ -291,6 +297,12 @@
         "bank": "NATIONAL AUSTRALIA BANK",
         "product": "NAB Reward Saver",
         "rate_percentage": 5.25,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "NATIONAL AUSTRALIA BANK",
+        "product": "NAB iSaver",
+        "rate_percentage": 3.65,
         "conditions": "No specific prerequisites found."
     },
     {
@@ -424,18 +436,6 @@
         "product": "Revolut Kids & Teens Instant Access Savings",
         "rate_percentage": 5.3,
         "conditions": "Maximum total balance for the RKT Savings sub-account is A$699.00"
-    },
-    {
-        "bank": "Suncorp Bank",
-        "product": "Growth Saver Account",
-        "rate_percentage": 5.35,
-        "conditions": "Bonus Interest - conditions must be met for bonus interest to be paid."
-    },
-    {
-        "bank": "Suncorp Bank",
-        "product": "Kids Savings",
-        "rate_percentage": 4.55,
-        "conditions": "Bonus interest - conditions must be met for bonus interest to be paid."
     },
     {
         "bank": "The Capricornian",
