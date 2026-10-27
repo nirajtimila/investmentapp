@@ -102,6 +102,24 @@
         "conditions": "No specific prerequisites found."
     },
     {
+        "bank": "Bank of Queensland Limited",
+        "product": "Kids Savings Account",
+        "rate_percentage": 1.3,
+        "conditions": "Calculated daily and paid monthly."
+    },
+    {
+        "bank": "Bank of Queensland Limited",
+        "product": "Simple Saver Account",
+        "rate_percentage": 5.0,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Bank of Sydney",
+        "product": "BOS Saver",
+        "rate_percentage": 5.25,
+        "conditions": "No specific prerequisites found."
+    },
+    {
         "bank": "BankVic",
         "product": "Bonus Saver",
         "rate_percentage": 5.35,
@@ -111,42 +129,6 @@
         "bank": "BankVic",
         "product": "SMSF Saver",
         "rate_percentage": 4.9,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Bankwest",
-        "product": "Bankwest Easy Saver",
-        "rate_percentage": 5.25,
-        "conditions": "Bonus rates available from time to time for selected customers, bonus rates applied may vary. Terms and conditions may apply."
-    },
-    {
-        "bank": "Bankwest",
-        "product": "Hero Saver",
-        "rate_percentage": 5.35,
-        "conditions": "Bonus interest will be paid in respect of each day of a month of the year at Your Bonus Interest Rate on that day if the total amount of deposits (excluding interest) exceeds the total amount of withdrawals in that month."
-    },
-    {
-        "bank": "CommBank",
-        "product": "GoalSaver",
-        "rate_percentage": 5.25,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "CommBank",
-        "product": "NetBank Saver",
-        "rate_percentage": 2.3,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "CommBank",
-        "product": "SMSF Saver",
-        "rate_percentage": 4.9,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "CommBank",
-        "product": "Youthsaver Account",
-        "rate_percentage": 2.95,
         "conditions": "No specific prerequisites found."
     },
     {
@@ -201,6 +183,12 @@
         "bank": "Greater Bank",
         "product": "Life Saver",
         "rate_percentage": 5.5,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Heartland",
+        "product": "MySavings account",
+        "rate_percentage": 4.55,
         "conditions": "No specific prerequisites found."
     },
     {
@@ -324,6 +312,12 @@
         "conditions": "No specific prerequisites found."
     },
     {
+        "bank": "People First and Heritage Bank",
+        "product": "Online Saver Account",
+        "rate_percentage": 3.2,
+        "conditions": "No specific prerequisites found."
+    },
+    {
         "bank": "QBANK",
         "product": "Bonus Saver",
         "rate_percentage": 5.2,
@@ -376,6 +370,12 @@
         "product": "Retirement Savings Account",
         "rate_percentage": 4.95,
         "conditions": "Refer to PDS for details"
+    },
+    {
+        "bank": "RACQ Bank",
+        "product": "Bonus Saver Account",
+        "rate_percentage": 6.01,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Rabobank",
@@ -466,6 +466,18 @@
         "product": "Up Saver",
         "rate_percentage": 3.6,
         "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Virgin Money",
+        "product": "Virgin Money Boost Saver",
+        "rate_percentage": 5.3,
+        "conditions": "Additional variable interest rate earned on a Boost Saver where the optional Lock Saver Feature is enabled. Provide 32 days' advance notice to unlock your account or withdraw your money."
+    },
+    {
+        "bank": "Virgin Money",
+        "product": "Virgin Money Grow Saver",
+        "rate_percentage": 3.3,
+        "conditions": "Additional variable interest rate earned on a Grow Saver where the optional Lock Saver Feature is enabled. Provide 32 days' advance notice to unlock your account or withdraw your money."
     },
     {
         "bank": "Woolworths Team Bank",
