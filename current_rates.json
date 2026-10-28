@@ -294,30 +294,6 @@
         "conditions": "No specific prerequisites found."
     },
     {
-        "bank": "Northern Inland Credit Union Limited",
-        "product": "Bonus Saver",
-        "rate_percentage": 4.15,
-        "conditions": "Variable Base rate plus Bonus Interest rate is paid if you make at least one deposit of at least $1.00 and no withdrawals each month."
-    },
-    {
-        "bank": "Northern Inland Credit Union Limited",
-        "product": "Internet Saver",
-        "rate_percentage": 2.15,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Northern Inland Credit Union Limited",
-        "product": "Ready Saver",
-        "rate_percentage": 3.65,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "People First and Heritage Bank",
-        "product": "Online Saver Account",
-        "rate_percentage": 3.2,
-        "conditions": "No specific prerequisites found."
-    },
-    {
         "bank": "QBANK",
         "product": "Bonus Saver",
         "rate_percentage": 5.2,
