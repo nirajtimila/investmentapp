@@ -490,23 +490,5 @@
         "product": "WAW Youth Saver",
         "rate_percentage": 5.0,
         "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "gmcu",
-        "product": "Advantage Saver",
-        "rate_percentage": 4.55,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "gmcu",
-        "product": "Christmas Saver",
-        "rate_percentage": 1.1,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "gmcu",
-        "product": "Online Saver",
-        "rate_percentage": 1.05,
-        "conditions": "No specific prerequisites found."
     }
 ]
