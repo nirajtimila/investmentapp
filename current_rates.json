@@ -26,7 +26,7 @@
     {
         "bank": "Australian Military Bank",
         "product": "Online Saver",
-        "rate_percentage": 4.85,
+        "rate_percentage": 5.1,
         "conditions": "No specific prerequisites found."
     },
     {
@@ -309,6 +309,12 @@
         "bank": "Northern Inland Credit Union Limited",
         "product": "Ready Saver",
         "rate_percentage": 3.65,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "People First and Heritage Bank",
+        "product": "Online Saver Account",
+        "rate_percentage": 3.45,
         "conditions": "No specific prerequisites found."
     },
     {
