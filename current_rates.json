@@ -67,14 +67,20 @@
     },
     {
         "bank": "Bank First",
-        "product": "First Saver Account",
-        "rate_percentage": 4.65,
+        "product": "Bonus Saver Account",
+        "rate_percentage": 5.3,
         "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Bank First",
-        "product": "Online Saver Account",
-        "rate_percentage": 4.05,
+        "product": "First Home Bonus Saver Account",
+        "rate_percentage": 5.3,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Bank First",
+        "product": "First Saver Account",
+        "rate_percentage": 4.65,
         "conditions": "No specific prerequisites found."
     },
     {
@@ -248,7 +254,7 @@
     {
         "bank": "MoveBank",
         "product": "Bonus Saver",
-        "rate_percentage": 5.35,
+        "rate_percentage": 5.45,
         "conditions": "Bonus rate payable for a calendar month when the eligibility criteria below are met, in addition to the base rate."
     },
     {
@@ -260,7 +266,7 @@
     {
         "bank": "MoveBank",
         "product": "Growth Saver",
-        "rate_percentage": 5.65,
+        "rate_percentage": 5.75,
         "conditions": "Bonus rate payable for a calendar month when the eligibility criteria below are met, in addition to the base rate."
     },
     {
@@ -309,12 +315,6 @@
         "bank": "Northern Inland Credit Union Limited",
         "product": "Ready Saver",
         "rate_percentage": 3.65,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "People First and Heritage Bank",
-        "product": "Online Saver Account",
-        "rate_percentage": 3.45,
         "conditions": "No specific prerequisites found."
     },
     {
@@ -410,19 +410,19 @@
     {
         "bank": "Regional Australia Bank",
         "product": "Internet Maximiser Account",
-        "rate_percentage": 3.25,
+        "rate_percentage": 3.5,
         "conditions": "A minimum balance of $1 is required to earn interest on this product."
     },
     {
         "bank": "Regional Australia Bank",
         "product": "Savings Account",
-        "rate_percentage": 3.25,
+        "rate_percentage": 3.5,
         "conditions": "\nA minimum balance of $1 is required to earn interest on this product."
     },
     {
         "bank": "Regional Australia Bank",
         "product": "Savings Booster Account",
-        "rate_percentage": 5.0,
+        "rate_percentage": 5.25,
         "conditions": "Interest is per annum. Deposit at least $100 and don\u2019t make any withdrawals through the month to receive boosted interest for that month. Bonus interest paid on portion of account balance up to $250,000.  Interest payable reverts to Base Interest if interest conditions are not met. Base Interest applies on the whole balance."
     },
     {
@@ -488,7 +488,13 @@
     {
         "bank": "bankWAW",
         "product": "Star Saver",
-        "rate_percentage": 5.0,
+        "rate_percentage": 5.1,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "bankWAW",
+        "product": "WAW Bonus Saver",
+        "rate_percentage": 5.2,
         "conditions": "No specific prerequisites found."
     },
     {
@@ -505,14 +511,8 @@
     },
     {
         "bank": "bankWAW",
-        "product": "WAW SMSF Saver",
-        "rate_percentage": 2.65,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "bankWAW",
         "product": "WAW Youth Saver",
-        "rate_percentage": 5.0,
+        "rate_percentage": 5.1,
         "conditions": "No specific prerequisites found."
     }
 ]
