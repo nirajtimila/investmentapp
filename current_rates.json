@@ -18,6 +18,24 @@
         "conditions": "No specific prerequisites found."
     },
     {
+        "bank": "Arab Bank Australia Limited",
+        "product": "Personal Online Savings Account",
+        "rate_percentage": 4.95,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Australian Military Bank",
+        "product": "Online Saver",
+        "rate_percentage": 5.1,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Australian Military Bank",
+        "product": "Recruit Salary Saver",
+        "rate_percentage": 2.0,
+        "conditions": "No specific prerequisites found."
+    },
+    {
         "bank": "Bank Australia",
         "product": "Bonus Saver",
         "rate_percentage": 5.35,
@@ -46,6 +64,36 @@
         "product": "mySaver",
         "rate_percentage": 5.35,
         "conditions": "Earn monthly bonus interest when $10 is deposited each month and there are no withdrawals in the month. If these conditions aren't met, you will only be eligible to receive the base variable interest rate."
+    },
+    {
+        "bank": "Bank First",
+        "product": "Bonus Saver Account",
+        "rate_percentage": 5.3,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Bank First",
+        "product": "First Home Bonus Saver Account",
+        "rate_percentage": 5.3,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Bank First",
+        "product": "First Saver Account",
+        "rate_percentage": 4.65,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Bank First",
+        "product": "Preschool Savings Account",
+        "rate_percentage": 4.55,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Bank First",
+        "product": "Strong Start Saver",
+        "rate_percentage": 5.65,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Bank of China",
@@ -150,6 +198,18 @@
         "conditions": "Maximum withdrawals permitted before Bonus Interest is forfeited for the month."
     },
     {
+        "bank": "Judo Bank",
+        "product": "Personal Savings Account",
+        "rate_percentage": 5.6,
+        "conditions": "Interest is calculated daily and paid monthly on your balance at a tiered interest rate."
+    },
+    {
+        "bank": "Judo Bank",
+        "product": "SMSF Savings Account",
+        "rate_percentage": 5.36,
+        "conditions": "Interest is calculated daily and paid monthly on your balance at a tiered interest rate."
+    },
+    {
         "bank": "Macquarie Bank Limited",
         "product": "Macquarie Cash Management Accelerator Account",
         "rate_percentage": 4.9,
@@ -162,28 +222,16 @@
         "conditions": "No specific prerequisites found."
     },
     {
-        "bank": "MoveBank",
+        "bank": "MyState Bank",
         "product": "Bonus Saver",
-        "rate_percentage": 5.45,
-        "conditions": "Bonus rate payable for a calendar month when the eligibility criteria below are met, in addition to the base rate."
+        "rate_percentage": 5.2,
+        "conditions": "Eligible deposit and Visa transactions are described on our web site."
     },
     {
-        "bank": "MoveBank",
-        "product": "Express Saver",
-        "rate_percentage": 1.1,
-        "conditions": "You can only hold a maximum of 10 accounts for this product."
-    },
-    {
-        "bank": "MoveBank",
-        "product": "Growth Saver",
-        "rate_percentage": 5.75,
-        "conditions": "Bonus rate payable for a calendar month when the eligibility criteria below are met, in addition to the base rate."
-    },
-    {
-        "bank": "MoveBank",
-        "product": "Online Saver",
-        "rate_percentage": 4.8,
-        "conditions": "You can only hold a maximum of 10 accounts for this product."
+        "bank": "MyState Bank",
+        "product": "Hello Saver account",
+        "rate_percentage": 5.25,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "NATIONAL AUSTRALIA BANK",
@@ -306,6 +354,24 @@
         "conditions": "Bonus Variable Rate"
     },
     {
+        "bank": "Regional Australia Bank",
+        "product": "Internet Maximiser Account",
+        "rate_percentage": 3.5,
+        "conditions": "A minimum balance of $1 is required to earn interest on this product."
+    },
+    {
+        "bank": "Regional Australia Bank",
+        "product": "Savings Account",
+        "rate_percentage": 3.5,
+        "conditions": "\nA minimum balance of $1 is required to earn interest on this product."
+    },
+    {
+        "bank": "Regional Australia Bank",
+        "product": "Savings Booster Account",
+        "rate_percentage": 5.25,
+        "conditions": "Interest is per annum. Deposit at least $100 and don\u2019t make any withdrawals through the month to receive boosted interest for that month. Bonus interest paid on portion of account balance up to $250,000.  Interest payable reverts to Base Interest if interest conditions are not met. Base Interest applies on the whole balance."
+    },
+    {
         "bank": "Revolut",
         "product": "Revolut Instant Access Savings",
         "rate_percentage": 5.3,
@@ -316,6 +382,24 @@
         "product": "Revolut Kids & Teens Instant Access Savings",
         "rate_percentage": 5.3,
         "conditions": "Maximum total balance for the RKT Savings sub-account is A$699.00"
+    },
+    {
+        "bank": "The Capricornian",
+        "product": "Bonus Saver Account",
+        "rate_percentage": 5.0,
+        "conditions": "0.10% interest is applied to the entirety of the balance regardless of whether or not the bonus criteria is met."
+    },
+    {
+        "bank": "The Capricornian",
+        "product": "Everyday Saver Account",
+        "rate_percentage": 0.1,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "The Capricornian",
+        "product": "iSaver",
+        "rate_percentage": 0.6,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Up",
