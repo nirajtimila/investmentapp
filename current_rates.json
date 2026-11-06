@@ -181,6 +181,12 @@
     },
     {
         "bank": "Greater Bank",
+        "product": "Bonus Saver",
+        "rate_percentage": 4.25,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Greater Bank",
         "product": "Life Saver",
         "rate_percentage": 5.5,
         "conditions": "No specific prerequisites found."
