@@ -108,18 +108,6 @@
         "conditions": "No specific prerequisites found."
     },
     {
-        "bank": "Bank of Queensland Limited",
-        "product": "Kids Savings Account",
-        "rate_percentage": 1.3,
-        "conditions": "Calculated daily and paid monthly."
-    },
-    {
-        "bank": "Bank of Queensland Limited",
-        "product": "Simple Saver Account",
-        "rate_percentage": 5.0,
-        "conditions": "No specific prerequisites found."
-    },
-    {
         "bank": "Bank of Sydney",
         "product": "BOS Saver",
         "rate_percentage": 5.25,
