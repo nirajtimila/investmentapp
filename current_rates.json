@@ -336,36 +336,6 @@
         "conditions": "No specific prerequisites found."
     },
     {
-        "bank": "Rabobank",
-        "product": "High Interest Savings Account",
-        "rate_percentage": 4.15,
-        "conditions": "Funds can only be transferred externally to the nominated linked account."
-    },
-    {
-        "bank": "Rabobank",
-        "product": "High Interest Savings Account (SMSF)",
-        "rate_percentage": 3.6,
-        "conditions": "Funds can only be transferred externally to the nominated linked account."
-    },
-    {
-        "bank": "Rabobank",
-        "product": "High Interest Savings Account (Trust)",
-        "rate_percentage": 3.55,
-        "conditions": "Funds can only be transferred externally to the nominated linked account."
-    },
-    {
-        "bank": "Rabobank",
-        "product": "PremiumSaver",
-        "rate_percentage": 5.65,
-        "conditions": "Bonus Variable Rate"
-    },
-    {
-        "bank": "Rabobank",
-        "product": "PremiumSaver (SMSF)",
-        "rate_percentage": 4.85,
-        "conditions": "Bonus Variable Rate"
-    },
-    {
         "bank": "Regional Australia Bank",
         "product": "Internet Maximiser Account",
         "rate_percentage": 3.5,
