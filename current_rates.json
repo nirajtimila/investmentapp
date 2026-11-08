@@ -108,6 +108,18 @@
         "conditions": "No specific prerequisites found."
     },
     {
+        "bank": "Bank of Queensland Limited",
+        "product": "Kids Savings Account",
+        "rate_percentage": 1.3,
+        "conditions": "Calculated daily and paid monthly."
+    },
+    {
+        "bank": "Bank of Queensland Limited",
+        "product": "Simple Saver Account",
+        "rate_percentage": 5.0,
+        "conditions": "No specific prerequisites found."
+    },
+    {
         "bank": "Bank of Sydney",
         "product": "BOS Saver",
         "rate_percentage": 5.25,
@@ -123,6 +135,24 @@
         "bank": "BankVic",
         "product": "SMSF Saver",
         "rate_percentage": 4.9,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Cairns bank",
+        "product": "Childrens saver account",
+        "rate_percentage": 3.2,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Cairns bank",
+        "product": "Christmas Saver Account",
+        "rate_percentage": 2.25,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Cairns bank",
+        "product": "Online Saver account",
+        "rate_percentage": 3.0,
         "conditions": "No specific prerequisites found."
     },
     {
