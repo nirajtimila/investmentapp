@@ -126,18 +126,6 @@
         "conditions": "No specific prerequisites found."
     },
     {
-        "bank": "BankVic",
-        "product": "Bonus Saver",
-        "rate_percentage": 5.35,
-        "conditions": "Deposit $100 per month and make no withdrawals to earn bonus interest"
-    },
-    {
-        "bank": "BankVic",
-        "product": "SMSF Saver",
-        "rate_percentage": 4.9,
-        "conditions": "No specific prerequisites found."
-    },
-    {
         "bank": "Cairns bank",
         "product": "Childrens saver account",
         "rate_percentage": 3.2,
@@ -196,6 +184,18 @@
         "product": "iSaver",
         "rate_percentage": 5.75,
         "conditions": "Interest is calculated daily on the closing balance and credited on the last day of each month."
+    },
+    {
+        "bank": "Greater Bank",
+        "product": "Bonus Saver",
+        "rate_percentage": 4.25,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Greater Bank",
+        "product": "Life Saver",
+        "rate_percentage": 5.5,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Heartland",
@@ -362,13 +362,13 @@
     {
         "bank": "Revolut",
         "product": "Revolut Instant Access Savings",
-        "rate_percentage": 5.3,
+        "rate_percentage": 5.55,
         "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Revolut",
         "product": "Revolut Kids & Teens Instant Access Savings",
-        "rate_percentage": 5.3,
+        "rate_percentage": 5.55,
         "conditions": "Maximum total balance for the RKT Savings sub-account is A$699.00"
     },
     {
