@@ -108,21 +108,21 @@
         "conditions": "No specific prerequisites found."
     },
     {
-        "bank": "Bank of Queensland Limited",
-        "product": "Kids Savings Account",
-        "rate_percentage": 1.3,
-        "conditions": "Calculated daily and paid monthly."
-    },
-    {
-        "bank": "Bank of Queensland Limited",
-        "product": "Simple Saver Account",
-        "rate_percentage": 5.0,
-        "conditions": "No specific prerequisites found."
-    },
-    {
         "bank": "Bank of Sydney",
         "product": "BOS Saver",
         "rate_percentage": 5.25,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "BankVic",
+        "product": "Bonus Saver",
+        "rate_percentage": 5.35,
+        "conditions": "Deposit $100 per month and make no withdrawals to earn bonus interest"
+    },
+    {
+        "bank": "BankVic",
+        "product": "SMSF Saver",
+        "rate_percentage": 4.9,
         "conditions": "No specific prerequisites found."
     },
     {
@@ -146,13 +146,19 @@
     {
         "bank": "Credit Union SA",
         "product": "Bonus Savings Account",
-        "rate_percentage": 3.75,
+        "rate_percentage": 4.0,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Credit Union SA",
+        "product": "Bonus Savings Account",
+        "rate_percentage": 4.0,
         "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Credit Union SA",
         "product": "Children's Savings Account",
-        "rate_percentage": 4.6,
+        "rate_percentage": 4.85,
         "conditions": "No specific prerequisites found."
     },
     {
@@ -242,13 +248,13 @@
     {
         "bank": "MyState Bank",
         "product": "Bonus Saver",
-        "rate_percentage": 5.2,
+        "rate_percentage": 5.45,
         "conditions": "Eligible deposit and Visa transactions are described on our web site."
     },
     {
         "bank": "MyState Bank",
         "product": "Hello Saver account",
-        "rate_percentage": 5.25,
+        "rate_percentage": 5.5,
         "conditions": "No specific prerequisites found."
     },
     {
@@ -398,7 +404,7 @@
     {
         "bank": "Up",
         "product": "Up Saver",
-        "rate_percentage": 3.6,
+        "rate_percentage": 3.85,
         "conditions": "No specific prerequisites found."
     },
     {
@@ -418,35 +424,5 @@
         "product": "Bonus Saver Account",
         "rate_percentage": 4.9,
         "conditions": "Bonus Interest is capped on a max balance of $100,000"
-    },
-    {
-        "bank": "bankWAW",
-        "product": "Star Saver",
-        "rate_percentage": 5.1,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "bankWAW",
-        "product": "WAW Bonus Saver",
-        "rate_percentage": 5.2,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "bankWAW",
-        "product": "WAW Christmas Saver",
-        "rate_percentage": 2.9,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "bankWAW",
-        "product": "WAW Club Community Saver",
-        "rate_percentage": 2.9,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "bankWAW",
-        "product": "WAW Youth Saver",
-        "rate_percentage": 5.1,
-        "conditions": "No specific prerequisites found."
     }
 ]
