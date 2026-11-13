@@ -8,7 +8,7 @@
     {
         "bank": "ANZ Plus",
         "product": "ANZ Plus Growth Saver",
-        "rate_percentage": 5.35,
+        "rate_percentage": 5.6,
         "conditions": "Grow $100 by last business day of month"
     },
     {
@@ -108,6 +108,18 @@
         "conditions": "No specific prerequisites found."
     },
     {
+        "bank": "Bank of Queensland Limited",
+        "product": "Kids Savings Account",
+        "rate_percentage": 1.3,
+        "conditions": "Calculated daily and paid monthly."
+    },
+    {
+        "bank": "Bank of Queensland Limited",
+        "product": "Simple Saver Account",
+        "rate_percentage": 5.2,
+        "conditions": "No specific prerequisites found."
+    },
+    {
         "bank": "Bank of Sydney",
         "product": "BOS Saver",
         "rate_percentage": 5.25,
@@ -123,24 +135,6 @@
         "bank": "BankVic",
         "product": "SMSF Saver",
         "rate_percentage": 4.9,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Cairns bank",
-        "product": "Childrens saver account",
-        "rate_percentage": 3.2,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Cairns bank",
-        "product": "Christmas Saver Account",
-        "rate_percentage": 2.25,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Cairns bank",
-        "product": "Online Saver account",
-        "rate_percentage": 3.0,
         "conditions": "No specific prerequisites found."
     },
     {
@@ -194,13 +188,13 @@
     {
         "bank": "Greater Bank",
         "product": "Bonus Saver",
-        "rate_percentage": 4.25,
+        "rate_percentage": 4.5,
         "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Greater Bank",
         "product": "Life Saver",
-        "rate_percentage": 5.5,
+        "rate_percentage": 5.75,
         "conditions": "No specific prerequisites found."
     },
     {
@@ -212,13 +206,13 @@
     {
         "bank": "IMB Bank",
         "product": "Reward Saver Account",
-        "rate_percentage": 3.45,
+        "rate_percentage": 3.7,
         "conditions": "Maximum withdrawals permitted before Bonus Interest is forfeited for the month."
     },
     {
         "bank": "IMB Bank",
         "product": "Reward Saver Kick Start",
-        "rate_percentage": 3.45,
+        "rate_percentage": 3.7,
         "conditions": "Maximum withdrawals permitted before Bonus Interest is forfeited for the month."
     },
     {
@@ -285,30 +279,6 @@
         "bank": "Northern Inland Credit Union Limited",
         "product": "Ready Saver",
         "rate_percentage": 3.9,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "QBANK",
-        "product": "Bonus Saver",
-        "rate_percentage": 5.2,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "QBANK",
-        "product": "Intro Saver",
-        "rate_percentage": 5.6,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "QBANK",
-        "product": "Junior Saver",
-        "rate_percentage": 2.7,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "QBANK",
-        "product": "Teen Netlink Direct Savings",
-        "rate_percentage": 3.1,
         "conditions": "No specific prerequisites found."
     },
     {
@@ -410,13 +380,13 @@
     {
         "bank": "Virgin Money",
         "product": "Virgin Money Boost Saver",
-        "rate_percentage": 5.3,
+        "rate_percentage": 5.8,
         "conditions": "Additional variable interest rate earned on a Boost Saver where the optional Lock Saver Feature is enabled. Provide 32 days' advance notice to unlock your account or withdraw your money."
     },
     {
         "bank": "Virgin Money",
         "product": "Virgin Money Grow Saver",
-        "rate_percentage": 3.3,
+        "rate_percentage": 3.55,
         "conditions": "Additional variable interest rate earned on a Grow Saver where the optional Lock Saver Feature is enabled. Provide 32 days' advance notice to unlock your account or withdraw your money."
     },
     {
