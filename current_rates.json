@@ -254,13 +254,13 @@
     {
         "bank": "NATIONAL AUSTRALIA BANK",
         "product": "NAB Reward Saver",
-        "rate_percentage": 5.25,
+        "rate_percentage": 5.5,
         "conditions": "No specific prerequisites found."
     },
     {
         "bank": "NATIONAL AUSTRALIA BANK",
         "product": "NAB iSaver",
-        "rate_percentage": 3.65,
+        "rate_percentage": 3.9,
         "conditions": "No specific prerequisites found."
     },
     {
