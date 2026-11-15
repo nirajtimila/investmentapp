@@ -138,6 +138,24 @@
         "conditions": "No specific prerequisites found."
     },
     {
+        "bank": "Cairns bank",
+        "product": "Childrens saver account",
+        "rate_percentage": 3.2,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Cairns bank",
+        "product": "Christmas Saver Account",
+        "rate_percentage": 2.25,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Cairns bank",
+        "product": "Online Saver account",
+        "rate_percentage": 3.0,
+        "conditions": "No specific prerequisites found."
+    },
+    {
         "bank": "Credit Union SA",
         "product": "Bonus Savings Account",
         "rate_percentage": 4.0,
@@ -186,21 +204,9 @@
         "conditions": "Interest is calculated daily on the closing balance and credited on the last day of each month."
     },
     {
-        "bank": "Greater Bank",
-        "product": "Bonus Saver",
-        "rate_percentage": 4.5,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Greater Bank",
-        "product": "Life Saver",
-        "rate_percentage": 5.75,
-        "conditions": "No specific prerequisites found."
-    },
-    {
         "bank": "Heartland",
         "product": "MySavings account",
-        "rate_percentage": 4.55,
+        "rate_percentage": 5.0,
         "conditions": "No specific prerequisites found."
     },
     {
@@ -264,9 +270,21 @@
         "conditions": "No specific prerequisites found."
     },
     {
-        "bank": "People First and Heritage Bank",
-        "product": "Online Saver Account",
-        "rate_percentage": 3.45,
+        "bank": "Northern Inland Credit Union Limited",
+        "product": "Bonus Saver",
+        "rate_percentage": 4.4,
+        "conditions": "Variable Base rate plus Bonus Interest rate is paid if you make at least one deposit of at least $1.00 and no withdrawals each month."
+    },
+    {
+        "bank": "Northern Inland Credit Union Limited",
+        "product": "Internet Saver",
+        "rate_percentage": 2.4,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Northern Inland Credit Union Limited",
+        "product": "Ready Saver",
+        "rate_percentage": 3.9,
         "conditions": "No specific prerequisites found."
     },
     {
