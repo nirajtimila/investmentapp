@@ -109,6 +109,12 @@
     },
     {
         "bank": "Bank of Queensland Limited",
+        "product": "Future Saver Account",
+        "rate_percentage": 6.25,
+        "conditions": "No specific prerequisites found."
+    },
+    {
+        "bank": "Bank of Queensland Limited",
         "product": "Kids Savings Account",
         "rate_percentage": 1.3,
         "conditions": "Calculated daily and paid monthly."
@@ -120,9 +126,15 @@
         "conditions": "No specific prerequisites found."
     },
     {
+        "bank": "Bank of Queensland Limited",
+        "product": "Smart Saver Account",
+        "rate_percentage": 5.85,
+        "conditions": "Bonus rate applies if Bonus Criteria is met. Otherwise only base rate (0.05%) will apply"
+    },
+    {
         "bank": "Bank of Sydney",
         "product": "BOS Saver",
-        "rate_percentage": 5.25,
+        "rate_percentage": 5.4,
         "conditions": "No specific prerequisites found."
     },
     {
@@ -176,31 +188,31 @@
     {
         "bank": "Defence Bank",
         "product": "Cadet Saver",
-        "rate_percentage": 5.25,
+        "rate_percentage": 5.5,
         "conditions": "Available only for deposits up to $1 million."
     },
     {
         "bank": "Defence Bank",
         "product": "Kids Club Savings",
-        "rate_percentage": 5.25,
+        "rate_percentage": 5.5,
         "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Defence Bank",
         "product": "Max E Saver",
-        "rate_percentage": 5.3,
+        "rate_percentage": 5.55,
         "conditions": "Interest is calculated daily on the closing balance and credited on the last day of each month."
     },
     {
         "bank": "Defence Bank",
         "product": "Teen Saver",
-        "rate_percentage": 5.25,
+        "rate_percentage": 5.5,
         "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Defence Bank",
         "product": "iSaver",
-        "rate_percentage": 5.75,
+        "rate_percentage": 6.1,
         "conditions": "Interest is calculated daily on the closing balance and credited on the last day of each month."
     },
     {
@@ -318,12 +330,6 @@
         "conditions": "Refer to PDS for details"
     },
     {
-        "bank": "RACQ Bank",
-        "product": "Bonus Saver Account",
-        "rate_percentage": 6.01,
-        "conditions": "No specific prerequisites found."
-    },
-    {
         "bank": "Regional Australia Bank",
         "product": "Internet Maximiser Account",
         "rate_percentage": 3.5,
@@ -352,6 +358,12 @@
         "product": "Revolut Kids & Teens Instant Access Savings",
         "rate_percentage": 5.55,
         "conditions": "Maximum total balance for the RKT Savings sub-account is A$699.00"
+    },
+    {
+        "bank": "Royal Automobile Club of Queensland (RACQ)",
+        "product": "Bonus Saver Account",
+        "rate_percentage": 6.01,
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "The Capricornian",
