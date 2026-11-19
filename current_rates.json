@@ -38,7 +38,7 @@
     {
         "bank": "Bank Australia",
         "product": "Bonus Saver",
-        "rate_percentage": 5.35,
+        "rate_percentage": 5.6,
         "conditions": "Earn monthly bonus interest when $100 is deposited each month and there are no withdrawals in the month. If these conditions aren't met, you will only be eligible to receive the base variable interest rate."
     },
     {
@@ -50,19 +50,19 @@
     {
         "bank": "Bank Australia",
         "product": "Commercial Saver",
-        "rate_percentage": 1.95,
+        "rate_percentage": 2.2,
         "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Bank Australia",
         "product": "Online Saver",
-        "rate_percentage": 4.7,
+        "rate_percentage": 4.95,
         "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Bank Australia",
         "product": "mySaver",
-        "rate_percentage": 5.35,
+        "rate_percentage": 5.6,
         "conditions": "Earn monthly bonus interest when $10 is deposited each month and there are no withdrawals in the month. If these conditions aren't met, you will only be eligible to receive the base variable interest rate."
     },
     {
@@ -260,13 +260,13 @@
     {
         "bank": "Macquarie Bank Limited",
         "product": "Macquarie Cash Management Accelerator Account",
-        "rate_percentage": 4.9,
+        "rate_percentage": 5.15,
         "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Macquarie Bank Limited",
         "product": "Macquarie Savings Account",
-        "rate_percentage": 5.25,
+        "rate_percentage": 5.5,
         "conditions": "No specific prerequisites found."
     },
     {
@@ -320,7 +320,7 @@
     {
         "bank": "Qudos Bank",
         "product": "Bonus Saver",
-        "rate_percentage": 5.35,
+        "rate_percentage": 5.6,
         "conditions": "Deposit at least $100 and make no withdrawals in a calendar month to receive the bonus rate on your savings."
     },
     {
@@ -332,20 +332,14 @@
     {
         "bank": "Qudos Bank",
         "product": "Qantas Points Saver",
-        "rate_percentage": 4.5,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "Qudos Bank",
-        "product": "Qsaver",
         "rate_percentage": 4.7,
         "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Qudos Bank",
-        "product": "Retirement Savings Account",
+        "product": "Qsaver",
         "rate_percentage": 4.95,
-        "conditions": "Refer to PDS for details"
+        "conditions": "No specific prerequisites found."
     },
     {
         "bank": "Regional Australia Bank",
