@@ -186,6 +186,12 @@
         "conditions": "No specific prerequisites found."
     },
     {
+        "bank": "Credit Union SA",
+        "product": "Children's Savings Account",
+        "rate_percentage": 4.85,
+        "conditions": "No specific prerequisites found."
+    },
+    {
         "bank": "Defence Bank",
         "product": "Cadet Saver",
         "rate_percentage": 5.5,
@@ -309,12 +315,6 @@
         "bank": "Northern Inland Credit Union Limited",
         "product": "Ready Saver",
         "rate_percentage": 3.9,
-        "conditions": "No specific prerequisites found."
-    },
-    {
-        "bank": "People First and Heritage Bank",
-        "product": "Online Saver Account",
-        "rate_percentage": 3.45,
         "conditions": "No specific prerequisites found."
     },
     {
