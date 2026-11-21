@@ -186,12 +186,6 @@
         "conditions": "No specific prerequisites found."
     },
     {
-        "bank": "Credit Union SA",
-        "product": "Children's Savings Account",
-        "rate_percentage": 4.85,
-        "conditions": "No specific prerequisites found."
-    },
-    {
         "bank": "Defence Bank",
         "product": "Cadet Saver",
         "rate_percentage": 5.5,
